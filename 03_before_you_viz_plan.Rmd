@@ -4,6 +4,7 @@ Before You Viz, Make a Plan
 Before you fire up your computer and start plotting, **stop and think.** Write out your visualization plan. This will save you time in the long run, and result in a more robust data visualization. 
 
 Ask yourself:
+
 * Why am I making this visualization? (purpose)
 * Who am I making it for? (audience)
 * How will I use and share it? (medium)
@@ -19,7 +20,7 @@ Purpose
 
 First, identify **why** you are making a visualization. We use data visualizations in different ways across the iterative steps of the research data pipeline:
 
-* **Collection(* - plots can help us understand who, what, and where the data represent. It can help us track our progress, and help us project required effort to complete this phase of the project. 
+* **Collection** - plots can help us understand who, what, and where the data represent. It can help us track our progress, and help us project required effort to complete this phase of the project. 
 * **Cleaning** - plotting is a quick and effective way to spot errors in our data. It allows us to identify outliers (or inliers), to grasp the extent of issues such as missing data.
 * **Exploration** - plots are a powerful tool for exploratory data analysis (EDA). Plots help us identify patterns, summarize variables and relationships. TUKEY BOOK 1960
 * **Confirmation** - plots also help us conduct confirmatory data analysis (CDA). We can plot diagnostics like the model fit, residuals, and model comparisons that confirm whether a model is correct. CDA is an iterative cycle throughout the research process, one reason why we advocate for using scripting software that allows for generating reproducible graphics.

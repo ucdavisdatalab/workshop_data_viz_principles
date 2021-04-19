@@ -25,10 +25,25 @@ output:
 
 # Overview {-}
 
-# Introduction {-}
+Objectives for this Workshop
+----------------------------
 
-# Before You Viz, Make a Plan {-}
+By the end of this workshop, you should be able to:
 
-# Graphical Elements of a Plot  {-}
+* Explain when, and why, to use a data visualization.
+* Describe common features of "good" data visualizations.
+* Identify principles of visual perception that can be used to make effective and expressive plots.
+* Compare the features and utility of various plot types.
+* Know where to go for more resources on making accessible and equitable data visualizations.
 
-# Visual Perception {-}
+
+Prerequisites
+-------------
+
+This workshop is intended for researchers who are actively working with data. The material we'll discuss is largely 'software agnostic' and can be applied to virtually any plotting program. We will NOT be covering how to use specific computational tools for making plots. If you want to learn more, check out the [DataLab workshop archive](https://datalab.ucdavis.edu/archive/) for topics including ggplot for graphics in R, and our [research toolkits](https://datalab.ucdavis.edu/technologies/) for visualization library suggestions in Python and other programming languages.*
+
+
+About this Tutorial
+-------------------
+
+This online workshop "reader" provides additional background information as a reference for learners to better understand and practice the concepts introduced during the live workshop session. This reader will persist at this url after the workshop. 
