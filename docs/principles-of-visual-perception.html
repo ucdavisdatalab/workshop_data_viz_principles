@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>4 Principles of Visual Perception | Principles of Data Visualization</title>
+  <meta name="description" content="4 Principles of Visual Perception | Principles of Data Visualization" />
+  <meta name="generator" content="bookdown 0.21 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="4 Principles of Visual Perception | Principles of Data Visualization" />
+  <meta property="og:type" content="book" />
+  <meta property="og:url" content="https://ucdavisdatalab.github.io/workshop_data_viz_principles/" />
+  
+  
+  <meta name="github-repo" content="ucdavisdatalab/workshop_data_viz_principles" />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="4 Principles of Visual Perception | Principles of Data Visualization" />
+  
+  
+  
+
+<meta name="author" content="Dr. Pamela Reynolds" />
+
+
+<meta name="date" content="2021-04-19" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="before-you-viz-make-a-plan.html"/>
+<link rel="next" href="graphical-elements-of-a-plot.html"/>
+<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+
+<script src="libs/accessible-code-block-0.0.1/empty-anchor.js"></script>
+
+
+
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="https://datalab.ucdavis.edu/">
+  <img src="https://datalab.ucdavis.edu/wp-content/uploads/2019/07/datalab-logo-full-color-rgb-1.png" style="height: 100%; width: 100%; object-fit: contain" />
+</a></li>
+<li><a href="./" style="font-size: 18px">Principles of Data Visualization</a></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>Overview</a><ul>
+<li class="chapter" data-level="0.1" data-path="index.html"><a href="index.html#objectives-for-this-workshop"><i class="fa fa-check"></i><b>0.1</b> Objectives for this Workshop</a></li>
+<li class="chapter" data-level="0.2" data-path="index.html"><a href="index.html#prerequisites"><i class="fa fa-check"></i><b>0.2</b> Prerequisites</a></li>
+<li class="chapter" data-level="0.3" data-path="index.html"><a href="index.html#about-this-tutorial"><i class="fa fa-check"></i><b>0.3</b> About this Tutorial</a></li>
+</ul></li>
+<li class="chapter" data-level="1" data-path="introduction.html"><a href="introduction.html"><i class="fa fa-check"></i><b>1</b> Introduction</a><ul>
+<li class="chapter" data-level="1.1" data-path="introduction.html"><a href="introduction.html#a-brief-history-of-data-visualization"><i class="fa fa-check"></i><b>1.1</b> A Brief History of Data Visualization</a></li>
+</ul></li>
+<li class="chapter" data-level="2" data-path="what-is-data-visualization.html"><a href="what-is-data-visualization.html"><i class="fa fa-check"></i><b>2</b> What is Data Visualization?</a><ul>
+<li class="chapter" data-level="2.1" data-path="what-is-data-visualization.html"><a href="what-is-data-visualization.html#why-viz"><i class="fa fa-check"></i><b>2.1</b> Why viz?</a></li>
+<li class="chapter" data-level="2.2" data-path="what-is-data-visualization.html"><a href="what-is-data-visualization.html#the-good-bad-and-ugly-of-data-viz"><i class="fa fa-check"></i><b>2.2</b> The good, bad, and ugly of data viz</a></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="before-you-viz-make-a-plan.html"><a href="before-you-viz-make-a-plan.html"><i class="fa fa-check"></i><b>3</b> Before You Viz, Make a Plan</a><ul>
+<li class="chapter" data-level="3.1" data-path="before-you-viz-make-a-plan.html"><a href="before-you-viz-make-a-plan.html#purpose"><i class="fa fa-check"></i><b>3.1</b> Purpose</a></li>
+<li class="chapter" data-level="3.2" data-path="before-you-viz-make-a-plan.html"><a href="before-you-viz-make-a-plan.html#audience"><i class="fa fa-check"></i><b>3.2</b> Audience</a></li>
+<li class="chapter" data-level="3.3" data-path="before-you-viz-make-a-plan.html"><a href="before-you-viz-make-a-plan.html#medium"><i class="fa fa-check"></i><b>3.3</b> Medium</a></li>
+<li class="chapter" data-level="3.4" data-path="before-you-viz-make-a-plan.html"><a href="before-you-viz-make-a-plan.html#tools"><i class="fa fa-check"></i><b>3.4</b> Tools</a></li>
+<li class="chapter" data-level="3.5" data-path="before-you-viz-make-a-plan.html"><a href="before-you-viz-make-a-plan.html#message"><i class="fa fa-check"></i><b>3.5</b> Message</a></li>
+<li class="chapter" data-level="3.6" data-path="before-you-viz-make-a-plan.html"><a href="before-you-viz-make-a-plan.html#critical-approaches"><i class="fa fa-check"></i><b>3.6</b> Critical Approaches</a></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="principles-of-visual-perception.html"><a href="principles-of-visual-perception.html"><i class="fa fa-check"></i><b>4</b> Principles of Visual Perception</a><ul>
+<li class="chapter" data-level="4.1" data-path="principles-of-visual-perception.html"><a href="principles-of-visual-perception.html#visual-magic-tricks"><i class="fa fa-check"></i><b>4.1</b> Visual Magic Tricks</a></li>
+<li class="chapter" data-level="4.2" data-path="principles-of-visual-perception.html"><a href="principles-of-visual-perception.html#stevens-law-of-perception"><i class="fa fa-check"></i><b>4.2</b> Steven’s Law of Perception</a></li>
+<li class="chapter" data-level="4.3" data-path="principles-of-visual-perception.html"><a href="principles-of-visual-perception.html#visual-design-framework-gestalts-principles"><i class="fa fa-check"></i><b>4.3</b> Visual Design Framework: Gestalt’s Principles</a></li>
+</ul></li>
+<li class="chapter" data-level="5" data-path="graphical-elements-of-a-plot.html"><a href="graphical-elements-of-a-plot.html"><i class="fa fa-check"></i><b>5</b> Graphical Elements of a Plot</a></li>
+<li class="chapter" data-level="6" data-path="types-of-statistical-graphics.html"><a href="types-of-statistical-graphics.html"><i class="fa fa-check"></i><b>6</b> Types of Statistical Graphics</a><ul>
+<li class="chapter" data-level="6.1" data-path="types-of-statistical-graphics.html"><a href="types-of-statistical-graphics.html#header"><i class="fa fa-check"></i><b>6.1</b> Header</a></li>
+</ul></li>
+<li class="chapter" data-level="7" data-path="evaluating-graphics-expressiveness-and-effectiveness.html"><a href="evaluating-graphics-expressiveness-and-effectiveness.html"><i class="fa fa-check"></i><b>7</b> Evaluating Graphics: Expressiveness and Effectiveness</a><ul>
+<li class="chapter" data-level="7.1" data-path="evaluating-graphics-expressiveness-and-effectiveness.html"><a href="evaluating-graphics-expressiveness-and-effectiveness.html#header-1"><i class="fa fa-check"></i><b>7.1</b> Header</a></li>
+</ul></li>
+<li class="chapter" data-level="8" data-path="chartjunk-quick-tips-for-better-plots.html"><a href="chartjunk-quick-tips-for-better-plots.html"><i class="fa fa-check"></i><b>8</b> Chartjunk: Quick Tips for Better Plots</a><ul>
+<li class="chapter" data-level="8.1" data-path="chartjunk-quick-tips-for-better-plots.html"><a href="chartjunk-quick-tips-for-better-plots.html#header-2"><i class="fa fa-check"></i><b>8.1</b> Header</a></li>
+</ul></li>
+<li class="chapter" data-level="9" data-path="resources.html"><a href="resources.html"><i class="fa fa-check"></i><b>9</b> Resources</a><ul>
+<li class="chapter" data-level="9.1" data-path="resources.html"><a href="resources.html#header-3"><i class="fa fa-check"></i><b>9.1</b> Header</a></li>
+</ul></li>
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Principles of Data Visualization</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="principles-of-visual-perception" class="section level1">
+<h1><span class="header-section-number">4</span> Principles of Visual Perception</h1>
+<p>Before we next get to deciding what type of statistical graphic to create for our data story, we have to understand how we process visual information. Levergaing principles of visual perception - the ability to see and interpret surrounding visual information - will help us identify appropriate plot types and design better, more informative graphics.</p>
+<p>Humans are wired to look for structure, patterns, and logic. Our brains are amazing - they take ambiguous visual information and transform it into something organized, symmetrical, or familiar so we can understand it. But, we don’t process all visual information equally.</p>
+<div id="visual-magic-tricks" class="section level2">
+<h2><span class="header-section-number">4.1</span> Visual Magic Tricks</h2>
+<p>Take a look at the following questions and images.</p>
+<p>Which line is bigger?</p>
+<p><img src="img/whichisbigger.JPG" /></p>
+<p>Which inner circle is bigger?</p>
+<p><img src="img/workshop_data_visualization_tricks_circles_bw.png" /></p>
+<p>Do these lines connect?</p>
+<p><img src="img/whichlinesup1.JPG" /></p>
+<p>Is the center bar in this image by <a href="https://upload.wikimedia.org/wikipedia/commons/1/1e/Gradient-optical-illusion.svg">Dodek</a> a gradient?</p>
+<p><img src="img/gradient-optical-illusion_wikimedia.svg" /></p>
+<p>What shape(s) do you see in <a href="https://commons.wikimedia.org/w/index.php?curid=13901986">this image</a>?</p>
+<p><img src="img/Rubins_vase_wikipedia_bw.jpg" /></p>
+<p><em>Answers: a) Measure them - they’re the same length! b) The circles are the same size. c) The lines do NOT connect. Hold up a ruler or straight edge and prove it for yourself. d) Nope! It’s a solid color.</em> e) Did you see a vase or two faces?</p>
+</div>
+<div id="stevens-law-of-perception" class="section level2">
+<h2><span class="header-section-number">4.2</span> Steven’s Law of Perception</h2>
+<p>These images are confusing because they capitalize on innate biases of our visual processing and perception. For example, research studies show that humans perceive changes in the sensation of a physical shock to be greater than actual increase. Conversely, we’re also poor at perceiving changes in brightness but in the opposite manner, estimating the change to be less than actual.
+However, we have near perfect perception of unit changes in length, particularly if the lengths are aligned and on the same scale.</p>
+<p><img src="img/workshop_data_visualization_stevens_law_munzer_figure.PNG" />
+<a href="https://www.oreilly.com/library/view/visualization-analysis-and/9781466508910/">Figure 5.7 from Visualization Analysis and Design by Tamarna Munzner</a></p>
+</div>
+<div id="visual-design-framework-gestalts-principles" class="section level2">
+<h2><span class="header-section-number">4.3</span> Visual Design Framework: Gestalt’s Principles</h2>
+<p>The default ability of our brains to create structure is commonly referred to as the [Gestalt principles of visual perception]:</p>
+<ul>
+<li><strong>Similarity</strong> - objects with the same visual properties are assumed to be similar and are grouped together. <em>Example: Use design elements such as shape, color, and organization to indicate groupings of the data. In design theory these are called “preattentive features” because we actually see and perceive them before we really think about them. In some experiments it was found to take less than 0.5 seconds for the eye and brain to process a preattentive property of an image.</em><br />
+</li>
+<li><strong>Proximity</strong> - objects that are close together are perceived as a group. <em>Example: Since physical distance connotes similarity, grouping bars on a chart can indicate similarities among their data. Instead of listing it in a legend, directly label data groupings by adding informative text directly onto the graph.</em></li>
+<li><strong>Continuity</strong> - elements that are aligned (on the same line, curve, or plane) are perceived to be more closely related to each other than to other elements. <em>Example: It is often easier for us to perceive the groupings if the shapes are curves, rather than lines with sharp edges.</em></li>
+<li><strong>Enclosure</strong> - objects that appear to have a boundary around them (i.e., are found within the same common or enclosed region) are perceived as being related. <em>Example: Add line boundaries or shades to group objects.</em></li>
+<li><strong>Connection</strong> - objects that are connected, such as by a line, are perceived as a group. <em>Example: Connect different data together to indicate a relationship. This connectedness is highly effective as it often over-rules the other principles for group perception. Every line plot is an example of connectedness.</em></li>
+<li><strong>Closure</strong> - complex arrangements of visual elements are perceived as a single, recognizable pattern. <em>Example: Open structures are often perceived as closed, complete and regular.</em></li>
+<li><strong>Figure and Ground</strong> - objects are perceived as either standing out prominently in the foreground (or front figure) of an image, or recede into the background. <em>Example: Shading or color blocking can be employed to to distinguish between the more important figure and less important ground features of an image. Place elements of the most importance in the foreground figure.</em>
+** <strong>Focal Point</strong> - whatever stands out visually is perceived as the most important. It will grabs our attention first, and holds it for the longest. <em>Example: Use design elements selectively to draw attention to the most important features of the data.</em></li>
+</ul>
+
+</div>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="before-you-viz-make-a-plan.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="graphical-elements-of-a-plot.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": false,
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": "https://github.com/ucdavisdatalab/workshop_data_viz_principles/edit/master/04_visual_perception.Rmd",
+"text": "Edit"
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": "https://github.com/ucdavisdatalab/workshop_data_viz_principles/blob/master/04_visual_perception.Rmd",
+"text": null
+},
+"download": null,
+"toc": {
+"collapse": "section"
+}
+});
+});
+</script>
+
+</body>
+
+</html>

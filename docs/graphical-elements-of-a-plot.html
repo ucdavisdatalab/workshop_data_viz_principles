@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>5 Graphical Elements of a Plot | Principles of Data Visualization</title>
+  <meta name="description" content="5 Graphical Elements of a Plot | Principles of Data Visualization" />
+  <meta name="generator" content="bookdown 0.21 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="5 Graphical Elements of a Plot | Principles of Data Visualization" />
+  <meta property="og:type" content="book" />
+  <meta property="og:url" content="https://ucdavisdatalab.github.io/workshop_data_viz_principles/" />
+  
+  
+  <meta name="github-repo" content="ucdavisdatalab/workshop_data_viz_principles" />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="5 Graphical Elements of a Plot | Principles of Data Visualization" />
+  
+  
+  
+
+<meta name="author" content="Dr. Pamela Reynolds" />
+
+
+<meta name="date" content="2021-04-19" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="principles-of-visual-perception.html"/>
+<link rel="next" href="types-of-statistical-graphics.html"/>
+<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+
+<script src="libs/accessible-code-block-0.0.1/empty-anchor.js"></script>
+
+
+
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="https://datalab.ucdavis.edu/">
+  <img src="https://datalab.ucdavis.edu/wp-content/uploads/2019/07/datalab-logo-full-color-rgb-1.png" style="height: 100%; width: 100%; object-fit: contain" />
+</a></li>
+<li><a href="./" style="font-size: 18px">Principles of Data Visualization</a></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>Overview</a><ul>
+<li class="chapter" data-level="0.1" data-path="index.html"><a href="index.html#objectives-for-this-workshop"><i class="fa fa-check"></i><b>0.1</b> Objectives for this Workshop</a></li>
+<li class="chapter" data-level="0.2" data-path="index.html"><a href="index.html#prerequisites"><i class="fa fa-check"></i><b>0.2</b> Prerequisites</a></li>
+<li class="chapter" data-level="0.3" data-path="index.html"><a href="index.html#about-this-tutorial"><i class="fa fa-check"></i><b>0.3</b> About this Tutorial</a></li>
+</ul></li>
+<li class="chapter" data-level="1" data-path="introduction.html"><a href="introduction.html"><i class="fa fa-check"></i><b>1</b> Introduction</a><ul>
+<li class="chapter" data-level="1.1" data-path="introduction.html"><a href="introduction.html#a-brief-history-of-data-visualization"><i class="fa fa-check"></i><b>1.1</b> A Brief History of Data Visualization</a></li>
+</ul></li>
+<li class="chapter" data-level="2" data-path="what-is-data-visualization.html"><a href="what-is-data-visualization.html"><i class="fa fa-check"></i><b>2</b> What is Data Visualization?</a><ul>
+<li class="chapter" data-level="2.1" data-path="what-is-data-visualization.html"><a href="what-is-data-visualization.html#why-viz"><i class="fa fa-check"></i><b>2.1</b> Why viz?</a></li>
+<li class="chapter" data-level="2.2" data-path="what-is-data-visualization.html"><a href="what-is-data-visualization.html#the-good-bad-and-ugly-of-data-viz"><i class="fa fa-check"></i><b>2.2</b> The good, bad, and ugly of data viz</a></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="before-you-viz-make-a-plan.html"><a href="before-you-viz-make-a-plan.html"><i class="fa fa-check"></i><b>3</b> Before You Viz, Make a Plan</a><ul>
+<li class="chapter" data-level="3.1" data-path="before-you-viz-make-a-plan.html"><a href="before-you-viz-make-a-plan.html#purpose"><i class="fa fa-check"></i><b>3.1</b> Purpose</a></li>
+<li class="chapter" data-level="3.2" data-path="before-you-viz-make-a-plan.html"><a href="before-you-viz-make-a-plan.html#audience"><i class="fa fa-check"></i><b>3.2</b> Audience</a></li>
+<li class="chapter" data-level="3.3" data-path="before-you-viz-make-a-plan.html"><a href="before-you-viz-make-a-plan.html#medium"><i class="fa fa-check"></i><b>3.3</b> Medium</a></li>
+<li class="chapter" data-level="3.4" data-path="before-you-viz-make-a-plan.html"><a href="before-you-viz-make-a-plan.html#tools"><i class="fa fa-check"></i><b>3.4</b> Tools</a></li>
+<li class="chapter" data-level="3.5" data-path="before-you-viz-make-a-plan.html"><a href="before-you-viz-make-a-plan.html#message"><i class="fa fa-check"></i><b>3.5</b> Message</a></li>
+<li class="chapter" data-level="3.6" data-path="before-you-viz-make-a-plan.html"><a href="before-you-viz-make-a-plan.html#critical-approaches"><i class="fa fa-check"></i><b>3.6</b> Critical Approaches</a></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="principles-of-visual-perception.html"><a href="principles-of-visual-perception.html"><i class="fa fa-check"></i><b>4</b> Principles of Visual Perception</a><ul>
+<li class="chapter" data-level="4.1" data-path="principles-of-visual-perception.html"><a href="principles-of-visual-perception.html#visual-magic-tricks"><i class="fa fa-check"></i><b>4.1</b> Visual Magic Tricks</a></li>
+<li class="chapter" data-level="4.2" data-path="principles-of-visual-perception.html"><a href="principles-of-visual-perception.html#stevens-law-of-perception"><i class="fa fa-check"></i><b>4.2</b> Steven’s Law of Perception</a></li>
+<li class="chapter" data-level="4.3" data-path="principles-of-visual-perception.html"><a href="principles-of-visual-perception.html#visual-design-framework-gestalts-principles"><i class="fa fa-check"></i><b>4.3</b> Visual Design Framework: Gestalt’s Principles</a></li>
+</ul></li>
+<li class="chapter" data-level="5" data-path="graphical-elements-of-a-plot.html"><a href="graphical-elements-of-a-plot.html"><i class="fa fa-check"></i><b>5</b> Graphical Elements of a Plot</a></li>
+<li class="chapter" data-level="6" data-path="types-of-statistical-graphics.html"><a href="types-of-statistical-graphics.html"><i class="fa fa-check"></i><b>6</b> Types of Statistical Graphics</a><ul>
+<li class="chapter" data-level="6.1" data-path="types-of-statistical-graphics.html"><a href="types-of-statistical-graphics.html#header"><i class="fa fa-check"></i><b>6.1</b> Header</a></li>
+</ul></li>
+<li class="chapter" data-level="7" data-path="evaluating-graphics-expressiveness-and-effectiveness.html"><a href="evaluating-graphics-expressiveness-and-effectiveness.html"><i class="fa fa-check"></i><b>7</b> Evaluating Graphics: Expressiveness and Effectiveness</a><ul>
+<li class="chapter" data-level="7.1" data-path="evaluating-graphics-expressiveness-and-effectiveness.html"><a href="evaluating-graphics-expressiveness-and-effectiveness.html#header-1"><i class="fa fa-check"></i><b>7.1</b> Header</a></li>
+</ul></li>
+<li class="chapter" data-level="8" data-path="chartjunk-quick-tips-for-better-plots.html"><a href="chartjunk-quick-tips-for-better-plots.html"><i class="fa fa-check"></i><b>8</b> Chartjunk: Quick Tips for Better Plots</a><ul>
+<li class="chapter" data-level="8.1" data-path="chartjunk-quick-tips-for-better-plots.html"><a href="chartjunk-quick-tips-for-better-plots.html#header-2"><i class="fa fa-check"></i><b>8.1</b> Header</a></li>
+</ul></li>
+<li class="chapter" data-level="9" data-path="resources.html"><a href="resources.html"><i class="fa fa-check"></i><b>9</b> Resources</a><ul>
+<li class="chapter" data-level="9.1" data-path="resources.html"><a href="resources.html#header-3"><i class="fa fa-check"></i><b>9.1</b> Header</a></li>
+</ul></li>
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Principles of Data Visualization</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="graphical-elements-of-a-plot" class="section level1">
+<h1><span class="header-section-number">5</span> Graphical Elements of a Plot</h1>
+<p>A data visualization is useful only if it encodes information in a way that our eyes can perceive and our brain can understand. Marks and channels are the building blocks of all data visualizations and are employed to accomplish this encoding. By combining them we can create virtually any type of statistical graphic.</p>
+<p><strong>Marks</strong> are the the basic geometries, or graphical elements, in a plot that depict our data items or their linkages. Marks indicate “where” something is and include points (0d), lines (1d), areas (2d), and volumes (3d).</p>
+<p><strong>Channels</strong> are the attributes of that control how the marks appear. Channels are used to encode (or indicate) the values or meaning of our data. Common channels are position, size, shape, orientation, hue, saturation, lightness, etc..</p>
+<p>By understanding the nature of our data in combination with the principles of visual perception, we can identify which marks and channels will help us create effective and expressive data visualizations.</p>
+<p><img src="./img/workshop_data_visualization_marks_channels_munzer.png" />
+<em><a href="https://www.oreilly.com/library/view/visualization-analysis-and/9781466508910/K14708_C005.xhtml">Image from ‘Visualization Analysis and Design’ by Tamara Munzner</a></em></p>
+<p>Ordinal, interval, or ratio data are a good match for channels that effectivelly encode magnitude. Nominal data, which by nature is un-ordered, is a good match for identity channels.</p>
+
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="principles-of-visual-perception.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="types-of-statistical-graphics.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": false,
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": "https://github.com/ucdavisdatalab/workshop_data_viz_principles/edit/master/05_graphical_elements.Rmd",
+"text": "Edit"
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": "https://github.com/ucdavisdatalab/workshop_data_viz_principles/blob/master/05_graphical_elements.Rmd",
+"text": null
+},
+"download": null,
+"toc": {
+"collapse": "section"
+}
+});
+});
+</script>
+
+</body>
+
+</html>

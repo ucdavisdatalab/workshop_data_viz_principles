@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>2 What is Data Visualization? | Principles of Data Visualization</title>
+  <meta name="description" content="2 What is Data Visualization? | Principles of Data Visualization" />
+  <meta name="generator" content="bookdown 0.21 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="2 What is Data Visualization? | Principles of Data Visualization" />
+  <meta property="og:type" content="book" />
+  <meta property="og:url" content="https://ucdavisdatalab.github.io/workshop_data_viz_principles/" />
+  
+  
+  <meta name="github-repo" content="ucdavisdatalab/workshop_data_viz_principles" />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="2 What is Data Visualization? | Principles of Data Visualization" />
+  
+  
+  
+
+<meta name="author" content="Dr. Pamela Reynolds" />
+
+
+<meta name="date" content="2021-04-19" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="introduction.html"/>
+<link rel="next" href="before-you-viz-make-a-plan.html"/>
+<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+
+<script src="libs/accessible-code-block-0.0.1/empty-anchor.js"></script>
+
+
+
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="https://datalab.ucdavis.edu/">
+  <img src="https://datalab.ucdavis.edu/wp-content/uploads/2019/07/datalab-logo-full-color-rgb-1.png" style="height: 100%; width: 100%; object-fit: contain" />
+</a></li>
+<li><a href="./" style="font-size: 18px">Principles of Data Visualization</a></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>Overview</a><ul>
+<li class="chapter" data-level="0.1" data-path="index.html"><a href="index.html#objectives-for-this-workshop"><i class="fa fa-check"></i><b>0.1</b> Objectives for this Workshop</a></li>
+<li class="chapter" data-level="0.2" data-path="index.html"><a href="index.html#prerequisites"><i class="fa fa-check"></i><b>0.2</b> Prerequisites</a></li>
+<li class="chapter" data-level="0.3" data-path="index.html"><a href="index.html#about-this-tutorial"><i class="fa fa-check"></i><b>0.3</b> About this Tutorial</a></li>
+</ul></li>
+<li class="chapter" data-level="1" data-path="introduction.html"><a href="introduction.html"><i class="fa fa-check"></i><b>1</b> Introduction</a><ul>
+<li class="chapter" data-level="1.1" data-path="introduction.html"><a href="introduction.html#a-brief-history-of-data-visualization"><i class="fa fa-check"></i><b>1.1</b> A Brief History of Data Visualization</a></li>
+</ul></li>
+<li class="chapter" data-level="2" data-path="what-is-data-visualization.html"><a href="what-is-data-visualization.html"><i class="fa fa-check"></i><b>2</b> What is Data Visualization?</a><ul>
+<li class="chapter" data-level="2.1" data-path="what-is-data-visualization.html"><a href="what-is-data-visualization.html#why-viz"><i class="fa fa-check"></i><b>2.1</b> Why viz?</a></li>
+<li class="chapter" data-level="2.2" data-path="what-is-data-visualization.html"><a href="what-is-data-visualization.html#the-good-bad-and-ugly-of-data-viz"><i class="fa fa-check"></i><b>2.2</b> The good, bad, and ugly of data viz</a></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="before-you-viz-make-a-plan.html"><a href="before-you-viz-make-a-plan.html"><i class="fa fa-check"></i><b>3</b> Before You Viz, Make a Plan</a><ul>
+<li class="chapter" data-level="3.1" data-path="before-you-viz-make-a-plan.html"><a href="before-you-viz-make-a-plan.html#purpose"><i class="fa fa-check"></i><b>3.1</b> Purpose</a></li>
+<li class="chapter" data-level="3.2" data-path="before-you-viz-make-a-plan.html"><a href="before-you-viz-make-a-plan.html#audience"><i class="fa fa-check"></i><b>3.2</b> Audience</a></li>
+<li class="chapter" data-level="3.3" data-path="before-you-viz-make-a-plan.html"><a href="before-you-viz-make-a-plan.html#medium"><i class="fa fa-check"></i><b>3.3</b> Medium</a></li>
+<li class="chapter" data-level="3.4" data-path="before-you-viz-make-a-plan.html"><a href="before-you-viz-make-a-plan.html#tools"><i class="fa fa-check"></i><b>3.4</b> Tools</a></li>
+<li class="chapter" data-level="3.5" data-path="before-you-viz-make-a-plan.html"><a href="before-you-viz-make-a-plan.html#message"><i class="fa fa-check"></i><b>3.5</b> Message</a></li>
+<li class="chapter" data-level="3.6" data-path="before-you-viz-make-a-plan.html"><a href="before-you-viz-make-a-plan.html#critical-approaches"><i class="fa fa-check"></i><b>3.6</b> Critical Approaches</a></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="principles-of-visual-perception.html"><a href="principles-of-visual-perception.html"><i class="fa fa-check"></i><b>4</b> Principles of Visual Perception</a><ul>
+<li class="chapter" data-level="4.1" data-path="principles-of-visual-perception.html"><a href="principles-of-visual-perception.html#visual-magic-tricks"><i class="fa fa-check"></i><b>4.1</b> Visual Magic Tricks</a></li>
+<li class="chapter" data-level="4.2" data-path="principles-of-visual-perception.html"><a href="principles-of-visual-perception.html#stevens-law-of-perception"><i class="fa fa-check"></i><b>4.2</b> Steven’s Law of Perception</a></li>
+<li class="chapter" data-level="4.3" data-path="principles-of-visual-perception.html"><a href="principles-of-visual-perception.html#visual-design-framework-gestalts-principles"><i class="fa fa-check"></i><b>4.3</b> Visual Design Framework: Gestalt’s Principles</a></li>
+</ul></li>
+<li class="chapter" data-level="5" data-path="graphical-elements-of-a-plot.html"><a href="graphical-elements-of-a-plot.html"><i class="fa fa-check"></i><b>5</b> Graphical Elements of a Plot</a></li>
+<li class="chapter" data-level="6" data-path="types-of-statistical-graphics.html"><a href="types-of-statistical-graphics.html"><i class="fa fa-check"></i><b>6</b> Types of Statistical Graphics</a><ul>
+<li class="chapter" data-level="6.1" data-path="types-of-statistical-graphics.html"><a href="types-of-statistical-graphics.html#header"><i class="fa fa-check"></i><b>6.1</b> Header</a></li>
+</ul></li>
+<li class="chapter" data-level="7" data-path="evaluating-graphics-expressiveness-and-effectiveness.html"><a href="evaluating-graphics-expressiveness-and-effectiveness.html"><i class="fa fa-check"></i><b>7</b> Evaluating Graphics: Expressiveness and Effectiveness</a><ul>
+<li class="chapter" data-level="7.1" data-path="evaluating-graphics-expressiveness-and-effectiveness.html"><a href="evaluating-graphics-expressiveness-and-effectiveness.html#header-1"><i class="fa fa-check"></i><b>7.1</b> Header</a></li>
+</ul></li>
+<li class="chapter" data-level="8" data-path="chartjunk-quick-tips-for-better-plots.html"><a href="chartjunk-quick-tips-for-better-plots.html"><i class="fa fa-check"></i><b>8</b> Chartjunk: Quick Tips for Better Plots</a><ul>
+<li class="chapter" data-level="8.1" data-path="chartjunk-quick-tips-for-better-plots.html"><a href="chartjunk-quick-tips-for-better-plots.html#header-2"><i class="fa fa-check"></i><b>8.1</b> Header</a></li>
+</ul></li>
+<li class="chapter" data-level="9" data-path="resources.html"><a href="resources.html"><i class="fa fa-check"></i><b>9</b> Resources</a><ul>
+<li class="chapter" data-level="9.1" data-path="resources.html"><a href="resources.html#header-3"><i class="fa fa-check"></i><b>9.1</b> Header</a></li>
+</ul></li>
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Principles of Data Visualization</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="what-is-data-visualization" class="section level1">
+<h1><span class="header-section-number">2</span> What is Data Visualization?</h1>
+<p>At their core, data visualizations are products that:
+* Represent data.
+* Have a specific purpose.
+* Tell a data-driven story.</p>
+<div id="why-viz" class="section level2">
+<h2><span class="header-section-number">2.1</span> Why viz?</h2>
+<p>Tables are often the most common way to report data, and they are great at conveying exact values. But, interpretation of data displayed in a table is largely up to the viewer. It’s hard to perceive the overall summary of the data from a table, unless it’s really simple and, in that case, you often don’t even need a table and can just report those statistics.</p>
+<p>Data visualization, on the other hand, take advantage of our ability to process information by shifting the balance between our natural perceptive and cognitive abilities to convey a specific message. Most of the information that’s sent to our brains is visual. In fact, it’s been found that the human brain processes visual imagery 60,000 times faster than text! Data visualizations allow us to move from a predominantly thinking to a seeing perspective. The cerebral cortex, which primarily handles our cognition, is slow and less efficient than the visual cortex, which processes images. Thus, visual diagrams are often easier for us to process than pages of words describing our research. Absorbing information quickly allows us to uncover novel inferences, and make more productive and informed decisions. Not surprisingly, well composed data visualizations are the most effective type of scientific communication.</p>
+<p><em>For more guidance on how to convert a table into a plot, see <a href="http://www.stat.columbia.edu/~gelman/research/published/dodhia.pdf">this paper by Andrew Gelman</a>.</em></p>
+</div>
+<div id="the-good-bad-and-ugly-of-data-viz" class="section level2">
+<h2><span class="header-section-number">2.2</span> The good, bad, and ugly of data viz</h2>
+<p>The utility of a data visualization depends on how well it’s composed.</p>
+<p><strong>Good data visualizations</strong>
+* Provide rapid access to data.
+* Faithfully represent the data and tell a story.
+* Are expressive.
+* Are effective.</p>
+<p>Helpful data visualizations are intuitively, clearly, accurately, and efficiently explain complex ideas. The patterns and relationships presented must be valid, and the visual relevant to the data it presents. A data visualization cannot exist without a narrative, and good data visualizations always include context. Good plots also grab our attention and create a positive visual impact. This aids our ability to make connections and recall the features of the data. Good plots are accessible (not everyone perceives the visual world the same way). They leverage aspects of human perception to allow for intuitive inference of relationships between abstract concepts (our data).</p>
+<p><em>Want to feel inspired? Check out <a href="https://informationisbeautiful.net/">Information is Beautiful</a> and click around. Note: an infographic is NOT, by default, a data visualization.</em></p>
+<p><strong>Bad data visualizations</strong>
+* Have too much, or too little, information.
+* Are inconsistent.
+* Ignore limits of human perception.
+* Misrepresent the data.
+* Use inappropriate (or garbage) data.</p>
+<p><em>Have you ever seen a pie chart where the labeled slices add up to more than 100%? That’s a poorly executed data visualization. Goal: don’t end up on <a href="https://viz.wtf/">WTF Viz</a>.</em></p>
+
+</div>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="introduction.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="before-you-viz-make-a-plan.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": false,
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": "https://github.com/ucdavisdatalab/workshop_data_viz_principles/edit/master/02_what_is_data_viz.Rmd",
+"text": "Edit"
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": "https://github.com/ucdavisdatalab/workshop_data_viz_principles/blob/master/02_what_is_data_viz.Rmd",
+"text": null
+},
+"download": null,
+"toc": {
+"collapse": "section"
+}
+});
+});
+</script>
+
+</body>
+
+</html>

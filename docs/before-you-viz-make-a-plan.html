@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>3 Before You Viz, Make a Plan | Principles of Data Visualization</title>
+  <meta name="description" content="3 Before You Viz, Make a Plan | Principles of Data Visualization" />
+  <meta name="generator" content="bookdown 0.21 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="3 Before You Viz, Make a Plan | Principles of Data Visualization" />
+  <meta property="og:type" content="book" />
+  <meta property="og:url" content="https://ucdavisdatalab.github.io/workshop_data_viz_principles/" />
+  
+  
+  <meta name="github-repo" content="ucdavisdatalab/workshop_data_viz_principles" />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="3 Before You Viz, Make a Plan | Principles of Data Visualization" />
+  
+  
+  
+
+<meta name="author" content="Dr. Pamela Reynolds" />
+
+
+<meta name="date" content="2021-04-19" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="what-is-data-visualization.html"/>
+<link rel="next" href="principles-of-visual-perception.html"/>
+<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+
+<script src="libs/accessible-code-block-0.0.1/empty-anchor.js"></script>
+
+
+
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="https://datalab.ucdavis.edu/">
+  <img src="https://datalab.ucdavis.edu/wp-content/uploads/2019/07/datalab-logo-full-color-rgb-1.png" style="height: 100%; width: 100%; object-fit: contain" />
+</a></li>
+<li><a href="./" style="font-size: 18px">Principles of Data Visualization</a></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>Overview</a><ul>
+<li class="chapter" data-level="0.1" data-path="index.html"><a href="index.html#objectives-for-this-workshop"><i class="fa fa-check"></i><b>0.1</b> Objectives for this Workshop</a></li>
+<li class="chapter" data-level="0.2" data-path="index.html"><a href="index.html#prerequisites"><i class="fa fa-check"></i><b>0.2</b> Prerequisites</a></li>
+<li class="chapter" data-level="0.3" data-path="index.html"><a href="index.html#about-this-tutorial"><i class="fa fa-check"></i><b>0.3</b> About this Tutorial</a></li>
+</ul></li>
+<li class="chapter" data-level="1" data-path="introduction.html"><a href="introduction.html"><i class="fa fa-check"></i><b>1</b> Introduction</a><ul>
+<li class="chapter" data-level="1.1" data-path="introduction.html"><a href="introduction.html#a-brief-history-of-data-visualization"><i class="fa fa-check"></i><b>1.1</b> A Brief History of Data Visualization</a></li>
+</ul></li>
+<li class="chapter" data-level="2" data-path="what-is-data-visualization.html"><a href="what-is-data-visualization.html"><i class="fa fa-check"></i><b>2</b> What is Data Visualization?</a><ul>
+<li class="chapter" data-level="2.1" data-path="what-is-data-visualization.html"><a href="what-is-data-visualization.html#why-viz"><i class="fa fa-check"></i><b>2.1</b> Why viz?</a></li>
+<li class="chapter" data-level="2.2" data-path="what-is-data-visualization.html"><a href="what-is-data-visualization.html#the-good-bad-and-ugly-of-data-viz"><i class="fa fa-check"></i><b>2.2</b> The good, bad, and ugly of data viz</a></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="before-you-viz-make-a-plan.html"><a href="before-you-viz-make-a-plan.html"><i class="fa fa-check"></i><b>3</b> Before You Viz, Make a Plan</a><ul>
+<li class="chapter" data-level="3.1" data-path="before-you-viz-make-a-plan.html"><a href="before-you-viz-make-a-plan.html#purpose"><i class="fa fa-check"></i><b>3.1</b> Purpose</a></li>
+<li class="chapter" data-level="3.2" data-path="before-you-viz-make-a-plan.html"><a href="before-you-viz-make-a-plan.html#audience"><i class="fa fa-check"></i><b>3.2</b> Audience</a></li>
+<li class="chapter" data-level="3.3" data-path="before-you-viz-make-a-plan.html"><a href="before-you-viz-make-a-plan.html#medium"><i class="fa fa-check"></i><b>3.3</b> Medium</a></li>
+<li class="chapter" data-level="3.4" data-path="before-you-viz-make-a-plan.html"><a href="before-you-viz-make-a-plan.html#tools"><i class="fa fa-check"></i><b>3.4</b> Tools</a></li>
+<li class="chapter" data-level="3.5" data-path="before-you-viz-make-a-plan.html"><a href="before-you-viz-make-a-plan.html#message"><i class="fa fa-check"></i><b>3.5</b> Message</a></li>
+<li class="chapter" data-level="3.6" data-path="before-you-viz-make-a-plan.html"><a href="before-you-viz-make-a-plan.html#critical-approaches"><i class="fa fa-check"></i><b>3.6</b> Critical Approaches</a></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="principles-of-visual-perception.html"><a href="principles-of-visual-perception.html"><i class="fa fa-check"></i><b>4</b> Principles of Visual Perception</a><ul>
+<li class="chapter" data-level="4.1" data-path="principles-of-visual-perception.html"><a href="principles-of-visual-perception.html#visual-magic-tricks"><i class="fa fa-check"></i><b>4.1</b> Visual Magic Tricks</a></li>
+<li class="chapter" data-level="4.2" data-path="principles-of-visual-perception.html"><a href="principles-of-visual-perception.html#stevens-law-of-perception"><i class="fa fa-check"></i><b>4.2</b> Steven’s Law of Perception</a></li>
+<li class="chapter" data-level="4.3" data-path="principles-of-visual-perception.html"><a href="principles-of-visual-perception.html#visual-design-framework-gestalts-principles"><i class="fa fa-check"></i><b>4.3</b> Visual Design Framework: Gestalt’s Principles</a></li>
+</ul></li>
+<li class="chapter" data-level="5" data-path="graphical-elements-of-a-plot.html"><a href="graphical-elements-of-a-plot.html"><i class="fa fa-check"></i><b>5</b> Graphical Elements of a Plot</a></li>
+<li class="chapter" data-level="6" data-path="types-of-statistical-graphics.html"><a href="types-of-statistical-graphics.html"><i class="fa fa-check"></i><b>6</b> Types of Statistical Graphics</a><ul>
+<li class="chapter" data-level="6.1" data-path="types-of-statistical-graphics.html"><a href="types-of-statistical-graphics.html#header"><i class="fa fa-check"></i><b>6.1</b> Header</a></li>
+</ul></li>
+<li class="chapter" data-level="7" data-path="evaluating-graphics-expressiveness-and-effectiveness.html"><a href="evaluating-graphics-expressiveness-and-effectiveness.html"><i class="fa fa-check"></i><b>7</b> Evaluating Graphics: Expressiveness and Effectiveness</a><ul>
+<li class="chapter" data-level="7.1" data-path="evaluating-graphics-expressiveness-and-effectiveness.html"><a href="evaluating-graphics-expressiveness-and-effectiveness.html#header-1"><i class="fa fa-check"></i><b>7.1</b> Header</a></li>
+</ul></li>
+<li class="chapter" data-level="8" data-path="chartjunk-quick-tips-for-better-plots.html"><a href="chartjunk-quick-tips-for-better-plots.html"><i class="fa fa-check"></i><b>8</b> Chartjunk: Quick Tips for Better Plots</a><ul>
+<li class="chapter" data-level="8.1" data-path="chartjunk-quick-tips-for-better-plots.html"><a href="chartjunk-quick-tips-for-better-plots.html#header-2"><i class="fa fa-check"></i><b>8.1</b> Header</a></li>
+</ul></li>
+<li class="chapter" data-level="9" data-path="resources.html"><a href="resources.html"><i class="fa fa-check"></i><b>9</b> Resources</a><ul>
+<li class="chapter" data-level="9.1" data-path="resources.html"><a href="resources.html#header-3"><i class="fa fa-check"></i><b>9.1</b> Header</a></li>
+</ul></li>
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Principles of Data Visualization</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="before-you-viz-make-a-plan" class="section level1">
+<h1><span class="header-section-number">3</span> Before You Viz, Make a Plan</h1>
+<p>Before you fire up your computer and start plotting, <strong>stop and think.</strong> Write out your visualization plan. This will save you time in the long run, and result in a more robust data visualization.</p>
+<p>Ask yourself:</p>
+<ul>
+<li>Why am I making this visualization? (purpose)</li>
+<li>Who am I making it for? (audience)</li>
+<li>How will I use and share it? (medium)</li>
+<li>What can I use to make it? (tools)</li>
+<li>What story does it tell? (message)</li>
+<li>Who does it affect? Who is left out? (critical approach)</li>
+</ul>
+<p><em>How many plots you need is always the wrong question. You need exactly as many as you need to tell your story.</em></p>
+<div id="purpose" class="section level2">
+<h2><span class="header-section-number">3.1</span> Purpose</h2>
+<p>First, identify <strong>why</strong> you are making a visualization. We use data visualizations in different ways across the iterative steps of the research data pipeline:</p>
+<ul>
+<li><strong>Collection</strong> - plots can help us understand who, what, and where the data represent. It can help us track our progress, and help us project required effort to complete this phase of the project.</li>
+<li><strong>Cleaning</strong> - plotting is a quick and effective way to spot errors in our data. It allows us to identify outliers (or inliers), to grasp the extent of issues such as missing data.</li>
+<li><strong>Exploration</strong> - plots are a powerful tool for exploratory data analysis (EDA). Plots help us identify patterns, summarize variables and relationships. TUKEY BOOK 1960</li>
+<li><strong>Confirmation</strong> - plots also help us conduct confirmatory data analysis (CDA). We can plot diagnostics like the model fit, residuals, and model comparisons that confirm whether a model is correct. CDA is an iterative cycle throughout the research process, one reason why we advocate for using scripting software that allows for generating reproducible graphics.</li>
+<li><strong>Validation</strong> - plots also help us to debug and validate our code. We can visually inspect the results at each step of the code we are writing and verify whether it satisfies our expectations.</li>
+<li><strong>Communication</strong> - sharing the insights from our data with others is probably the most commonly understood and emphasized purpose of data visualizations. This is also often the hardest type of data visualization to “get right,” often because we don’t always remember to design the visual to speak specifically to who we are sharing it with.</li>
+</ul>
+</div>
+<div id="audience" class="section level2">
+<h2><span class="header-section-number">3.2</span> Audience</h2>
+<p>Who are you making the data visualization for? There is no such thing as a “generic” data visualization. Are you making the figure for <em>yourself</em> to help you clean or explore your data? For your <em>immediate colleagues or research team</em> to update them on your research progress? For <em>experts in your field</em> reading your publication or listening to your presentation? Is it for a <em>general audience</em> as part of your public outreach? What about <em>policy makers</em> who might not know all the details but might be making big decisions based on your results? Knowing who you’re making the visualization for will help you think through the following steps to create something of value for your intended purpose.</p>
+</div>
+<div id="medium" class="section level2">
+<h2><span class="header-section-number">3.3</span> Medium</h2>
+<p>There are always constraints when creating a data visualization. It’s best to discover these before you start, rather than after you’ve created a beautiful data visualization that’s completely inappropriate for your intended use. For example, if you are creating the visual to accompany a journal article, you probably need to use a static figure and not an interactive or dynamic dashboard. Does your journal allow for color figures? When in doubt, start with greyscale - it’s a lot easier to add color, rather than take it away, as you revise your figures. If you are showing the figure during a presentation, you probably want to simplify it - you audience will have 5 seconds max to read, understand, and interpret your visualization. A really complex figure that requires minutes to comprehend will just distract your audience away from what you - and your data -are saying. For a talk or presentation, it might be more effective to compose and display the same plot in different ways to best communicate your points. The opposite may be true for a poster presentation where your audience is expected to spend significant time pondering over your findings. In that case, you might want to have one very large, clear figure that disentangles the complexity of your project. If you’re creating a visual for a website, you might be able to go nuts - bring on the interactivity, the dynamic data display - until you crash the server because it requires too much compute time.</p>
+</div>
+<div id="tools" class="section level2">
+<h2><span class="header-section-number">3.4</span> Tools</h2>
+<p>At the UC Davis DataLab, we advocate the use of open source scripting software for data-driven research projects, including for generating data visualizations. Using scripting software makes it easy for you to reproduce your data visualizations. As you clean and update your data, you can re-create your visuals easily by re-running your code. You can also return to a figure later and know exactly what it represents and how you made it. You don’t have to worry about remembering what buttons you clicked, and in what order, like you might when using a GUI based software. Using open software also means that you can easily and freely share your data, code, and corresponding output figures with your collaborators, reducing the equity barriers posed by the use of proprietary software. Open source software that’s great for plotting - like R - also has amazing user communities and resources to help you learn the code and create your ideal visualization.</p>
+<p><em>But, be practical with yourself. If the conference talk is tomorrow you probably aren’t going to learn ggplot overnight. In these cases using common software like Excel for plotting can be fine, especially if you know some tricks to clean up and customize the appearance of your plots.</em></p>
+<p>Some open source tools we recommend for data visualization:
+* Static visualizations:
+* <a href="https://ggplot2.tidyverse.org/">Ggplot</a> for static visualizations
+* <a href="https://matplotlib.org/2.0.2/users/pyplot_tutorial.html">Matplotlib</a> in Python
+* Geospatial visualizations
+* <a href="https://qgis.org/">QGIS</a>
+* Dynamic and interactive visualizations:
+* <a href="https://leafletjs.com/">Leaflet</a> for mapping
+* <a href="https://d3js.org/">D3</a>
+* Plotly for <a href="https://plotly.com/r/">R</a>, <a href="https://plotly.com/python/">Python</a>, and <a href="https://plotly.com/julia/">Julia</a></p>
+</div>
+<div id="message" class="section level2">
+<h2><span class="header-section-number">3.5</span> Message</h2>
+<p>Research is storytelling with data. Every data visualization is an important piece of that story. It may help you confirm (or reject) a hypothesis, discover new correlations, or predict the likelihood of a future event. Creating statistical graphics is like writing a novel - you get to decide who and what will be featured in your data story. And, just like one page of a novel, your data visualization alone doesn’t tell the whole story. Every data visualization requires a narrative. Write out captions for each plot before you make it. What does the plot show? After creating the plot, update the caption with the take home points for your viewer. If you can’t articulate what the plot is about then you probably should rethink what you are choosing to display and how you are showing it.</p>
+</div>
+<div id="critical-approaches" class="section level2">
+<h2><span class="header-section-number">3.6</span> Critical Approaches</h2>
+<p><strong>Don’t skip this step.</strong> It’s last on this list but is the most important on your journey to making useful data visualizations. Data are information, and information is power. Use this power intentionally and mindfully throughout the process of creating and sharing your visualizations.</p>
+<p>As you reflect on your answers to the planning prompts above, critically review the features of your data:
+* <strong>What do the variables you’ve selected for your visualization mean?</strong> How are they defined? How did those definitions come to be? Why did you select them?
+* <strong>Who will your data visualizations affect? What groups are left out?</strong> How does this affect the story your data tells? How might someone misrepresent or misunderstand your story? <a href="https://mitpress.mit.edu/books/data-feminism">Bring back the bodies</a>.</p>
+<p>Conducting these connotative and denotative exploration of your research will not only result in a more robust data visualization, but will make you a better researcher and support a more inclusive and equitable society. To learn more and practice these steps on some case studies, check out our <a href="https://ucdavisdatalab.github.io/workshop_critical_data_viz/">Critical Approach to Data Visualization workshop</a> and <a href="https://datalab.ucdavis.edu/data-feminism/">Data Feminism research and learning cluster</a>.</p>
+
+</div>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="what-is-data-visualization.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="principles-of-visual-perception.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": false,
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": "https://github.com/ucdavisdatalab/workshop_data_viz_principles/edit/master/03_before_you_viz_plan.Rmd",
+"text": "Edit"
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": "https://github.com/ucdavisdatalab/workshop_data_viz_principles/blob/master/03_before_you_viz_plan.Rmd",
+"text": null
+},
+"download": null,
+"toc": {
+"collapse": "section"
+}
+});
+});
+</script>
+
+</body>
+
+</html>
