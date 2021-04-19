@@ -25,7 +25,7 @@ output:
 
 # Overview {-}
 
-Learning goals:
+After today's workshop, you should be able to:
 
 * Explain when, and why, to use a data visualization.
 * Describe common features of "good" data visualizations.
@@ -33,15 +33,18 @@ Learning goals:
 * Compare the features and utility of various plot types.
 * Know where to go for more resources on making accessible and equitable data visualizations.
 
+*What this workshop won’t cover: How to use specific software for making plots. If you want to learn that, check out the [DataLab workshop archive](https://datalab.ucdavis.edu/archive/) for topics including ggplot for graphics in R, and our [research toolkits](https://datalab.ucdavis.edu/technologies/) for visualization library suggestions in Python and other programming languages.*
+
 # Introduction {-}
 
 Data visualization is the graphical display of abstract information to help us make sense of phenomena and to communicate these findings. It is a powerful tool to help us uncover and share the stories of our data. Visualizations help us retain and analyze all the information in our data, uncover and share our insights, and describe our research in a useful way. *If a picture is worth a thousand words, then a good data visualization is worth millions.* 
 
 But, how many of us have ever taken a course explicitly on data visualization? It’s typically not taught in standard data analysis courses, yet it is a mainstay for nearly every sector in today’s data-driven world. Today we’ll dive into the what, how, and why of data visualization and describe some best practices that you can immediately implement into your research workflows. Along the way we’ll also focus on building up our collective data literacy skills, and employ critical approaches to produce science that is more robust, transparent, and equitable. 
 
-What this workshop won’t cover: How to use specific software for making plots. If you want to learn that, check out the [DataLab workshop archive](https://datalab.ucdavis.edu/archive/) for topics including ggplot for graphics in R, and our [research toolkits](https://datalab.ucdavis.edu/technologies/) for visualization library suggestions in Python and other programming languages.
-
 ## A Brief History of Data Visualization {-}
+
+
+*[Image by Jose Barcelona - Own work, CC BY-SA 4.0](https://commons.wikimedia.org/w/index.php?curid=96668758)*
 
 Data visualization is not a modern invention. Quantitative information display has been traced back to prehistory with the locations of stars mapped on the [Lasaux cave drawings](https://en.wikipedia.org/wiki/Lascaux). [Clay tokens](https://en.wikipedia.org/wiki/History_of_ancient_numeral_systems#/media/File:Accountancy_clay_envelope_Louvre_Sb1932.jpg), [quipu](https://en.wikipedia.org/wiki/Quipu#/media/File:Inca_Quipu.jpg), and [stick charts](https://en.wikipedia.org/wiki/Marshall_Islands_stick_chart#/media/File:Micronesian_navigational_chart.jpg) dating back as far as 5500 BC also illustrate our long history of creating shared representations of data. The oldest known data visualization dates to 1160 BC with the [Turin Papyrus Map](https://en.wikipedia.org/wiki/Turin_Papyrus_Map#/media/File:TurinPapyrus1.jpg), which accurately illustrates the distribution of geological resources in a region in Egypt. These earliest forms of data visualization served purposes of navigating culture and living within society - from accounting to agriculture, transportation, religion, and medicine. It was used to help us explore and understand natural phenomena and the workings of the universe. 
 
