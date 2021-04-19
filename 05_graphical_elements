@@ -1,6 +1,0 @@
-Graphical Elements of a Plot
-=============
-
-Marks and channels are the building blocks of all data visualizations. **Marks** are the grpahical elements in a plot - the bars, lines, and points. **Channels** are the attributes of these marks - their position, shape, size, color, etc. - that are controlled by the data and can be encoded to indicate their values or meaning. 
-
-How can we use marks and channels effectively to tell our data story? To address that we have to first understand how we process visual information.
