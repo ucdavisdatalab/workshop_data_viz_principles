@@ -46,7 +46,7 @@ The visual "magic tricks" above are confusing because they capitalize on psychop
 Gestalt’s Principles
 ----------------------------
 
-Our brains also have an amazing ability to create and perceive structure in visual objects. This is commonly referred to as the [Gestalt principles of visual perception]:
+Our brains also have an amazing ability to create and perceive structure in visual objects. This is commonly referred to as the Gestalt principles of visual perception:
 
 * **Similarity** - objects with the same visual properties are assumed to be similar and are grouped together. 
    * *Example:* Use design elements such as shape, color, and organization to indicate groupings of the data. In design theory these are called “preattentive features” because we actually see and perceive them before we really think about them. In some experiments it was found to take less than 0.5 seconds for the eye and brain to process a preattentive property of an image.
