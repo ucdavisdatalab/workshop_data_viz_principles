@@ -2,6 +2,7 @@ What is Data Visualization?
 =============
 
 At their core, data visualizations are products that:
+
 * Represent data.
 * Have a specific purpose.
 * Tell a data-driven story.
@@ -23,6 +24,7 @@ The good, bad, and ugly of data viz
 The utility of a data visualization depends on how well it's composed.
 
 **Good data visualizations**
+
 * Provide rapid access to data. 
 * Faithfully represent the data and tell a story.
 * Are expressive.
@@ -33,6 +35,7 @@ Helpful data visualizations are intuitively, clearly, accurately, and efficientl
 *Want to feel inspired? Check out [Information is Beautiful](https://informationisbeautiful.net/) and click around. Note: an infographic is NOT, by default, a data visualization.*
 
 **Bad data visualizations**
+
 * Have too much, or too little, information.
 * Are inconsistent.
 * Ignore limits of human perception.

@@ -9,7 +9,7 @@ A data visualization is useful only if it encodes information in a way that our 
 
 By understanding the nature of our data in combination with the principles of visual perception, we can identify which marks and channels will help us create effective and expressive data visualizations.
 
-![](./img/workshop_data_visualization_marks_channels_munzer.png)
+![](./img/workshop_data_visualization_munzer_marks_channels_figure.PNG)
 *[Image from 'Visualization Analysis and Design' by Tamara Munzner](https://www.oreilly.com/library/view/visualization-analysis-and/9781466508910/K14708_C005.xhtml)*
 
 Ordinal, interval, or ratio data are a good match for channels that effectivelly encode magnitude. Nominal data, which by nature is un-ordered, is a good match for identity channels.

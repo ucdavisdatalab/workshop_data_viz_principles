@@ -48,6 +48,7 @@ At the UC Davis DataLab, we advocate the use of open source scripting software f
 *But, be practical with yourself. If the conference talk is tomorrow you probably aren’t going to learn ggplot overnight. In these cases using common software like Excel for plotting can be fine, especially if you know some tricks to clean up and customize the appearance of your plots.*
 
 Some open source tools we recommend for data visualization:
+
 * Static visualizations:
    * [Ggplot](https://ggplot2.tidyverse.org/) for static visualizations
    * [Matplotlib](https://matplotlib.org/2.0.2/users/pyplot_tutorial.html) in Python
