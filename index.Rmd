@@ -25,4 +25,129 @@ output:
 
 # Overview {-}
 
-YOUR DESCRIPTION, LEARNING GOALS, PREREQUISITES, ETC
+Learning goals:
+
+* Explain when, and why, to use a data visualization.
+* Describe common features of "good" data visualizations.
+* Identify principles of visual perception that can be used to make effective and expressive plots.
+* Compare the features and utility of various plot types.
+* Know where to go for more resources on making accessible and equitable data visualizations.
+
+# Introduction {-}
+
+Data visualization is the graphical display of abstract information to help us make sense of phenomena and to communicate these findings. It is a powerful tool to help us uncover and share the stories of our data. Visualizations help us retain and analyze all the information in our data, uncover and share our insights, and describe our research in a useful way. *If a picture is worth a thousand words, then a good data visualization is worth millions.* 
+
+But, how many of us have ever taken a course explicitly on data visualization? It’s typically not taught in standard data analysis courses, yet it is a mainstay for nearly every sector in today’s data-driven world. Today we’ll dive into the what, how, and why of data visualization and describe some best practices that you can immediately implement into your research workflows. Along the way we’ll also focus on building up our collective data literacy skills, and employ critical approaches to produce science that is more robust, transparent, and equitable. 
+
+What this workshop won’t cover: How to use specific software for making plots. If you want to learn that, check out the [DataLab workshop archive](https://datalab.ucdavis.edu/archive/) for topics including ggplot for graphics in R, and our [research toolkits](https://datalab.ucdavis.edu/technologies/) for visualization library suggestions in Python and other programming languages.
+
+## A Brief History of Data Visualization {-}
+
+Data visualization is not a modern invention. Quantitative information display has been traced back to prehistory with the locations of stars mapped on the [Lasaux cave drawings](https://en.wikipedia.org/wiki/Lascaux). [Clay tokens](https://en.wikipedia.org/wiki/History_of_ancient_numeral_systems#/media/File:Accountancy_clay_envelope_Louvre_Sb1932.jpg), [quipu](https://en.wikipedia.org/wiki/Quipu#/media/File:Inca_Quipu.jpg), and [stick charts](https://en.wikipedia.org/wiki/Marshall_Islands_stick_chart#/media/File:Micronesian_navigational_chart.jpg) dating back as far as 5500 BC also illustrate our long history of creating shared representations of data. The oldest known data visualization dates to 1160 BC with the [Turin Papyrus Map](https://en.wikipedia.org/wiki/Turin_Papyrus_Map#/media/File:TurinPapyrus1.jpg), which accurately illustrates the distribution of geological resources in a region in Egypt. These earliest forms of data visualization served purposes of navigating culture and living within society - from accounting to agriculture, transportation, religion, and medicine. It was used to help us explore and understand natural phenomena and the workings of the universe. 
+
+The French philosopher Rene Descartes is attributed as developing the precursor to today’s modern plot in the 17th century - a two-dimensional coordinate system for displaying values. Later in the 18th century William Playfair began creating left to right oriented plots, allowing the viewer to explore how values change over time. He’s also attributed to inventing the bar graph and, unfortunately, the pie chart (we'll get to why that's unfortunate, later).
+
+Unsurprisingly, the invention of tools like paper and later computers have played a strong role in how we collect, analyze and store data as well as share and communicate it. These tools have also shaped our relationship with knowledge and information, and not always for the better - which we’ll touch upon briefly at the end. Today’s workshop is designed to be tool-agnostic, so you can apply these tips and theory to improve your data visualization regardless of the software you’re using.
+
+# What is Data Visualization?  {-}
+
+At their core, data visualizations are products that:
+* Represent data.
+* Have a specific purpose.
+* Tell a data-driven story.
+
+## Why Viz?  {-}
+
+Tables are often the most common way to report data, and they are great at conveying exact values. But, interpretation of data displayed in a table is largely up to the viewer. It’s hard to perceive the overall summary of the data from a table, unless it’s really simple and, in that case, you often don’t even need a table and can just report those statistics. 
+
+Data visualization, on the other hand, take advantage of our ability to process information by shifting the balance between our natural perceptive and cognitive abilities to convey a specific message. Most of the information that’s sent to our brains is visual. In fact, it’s been found that the human brain processes visual imagery 60,000 times faster than text! Data visualizations allow us to move from a predominantly thinking to a seeing perspective. The cerebral cortex, which primarily handles our cognition, is slow and less efficient than the visual cortex, which processes images. Thus, visual diagrams are often easier for us to process than pages of words describing our research. Absorbing information quickly allows us to uncover novel inferences, and make more productive and informed decisions. Not surprisingly, well composed data visualizations are the most effective type of scientific communication.
+
+*For more guidance on how to convert a table into a plot, see [this paper by Andrew Gelman](http://www.stat.columbia.edu/~gelman/research/published/dodhia.pdf).*
+
+## The good, bad, and ugly of data viz  {-}
+
+The utility of a data visualization depends on how well it's composed.
+
+**Good data visualizations**
+* Provide rapid access to data. 
+* Faithfully represent the data and tell a story.
+* Are expressive.
+* Are effective. 
+
+Helpful data visualizations are intuitively, clearly, accurately, and efficiently explain complex ideas. The patterns and relationships presented must be valid, and the visual relevant to the data it presents. A data visualization cannot exist without a narrative, and good data visualizations always include context. Good plots also grab our attention and create a positive visual impact. This aids our ability to make connections and recall the features of the data. Good plots are accessible (not everyone perceives the visual world the same way). They leverage aspects of human perception to allow for intuitive inference of relationships between abstract concepts (our data).
+
+*Want to feel inspired? Check out [Information is Beautiful](https://informationisbeautiful.net/) and click around.*
+
+**Bad data visualizations**
+* Have too much, or too little, information.
+* Are inconsistent.
+* Ignore limits of human perception.
+* Misrepresent the data.
+* Use inappropriate (or garbage) data.
+
+*Have you ever seen a pie chart where the labeled slices add up to more than 100%? That's a poorly executed data visualization. Goal: don't end up on [WTF Viz](https://viz.wtf/).*
+
+# Before You Viz  {-}
+
+Before you fire up your computer and start plotting, **stop and think.** Write out your visualization plan. This will save you time in the long run, and result in a more robust data visualization. 
+
+Ask yourself:
+* Why am I making this visualization? (purpose)
+* Who am I making it for? (audience)
+* How will I use and share it? (medium)
+* What can I use to make it? (tools)
+* What story does it tell? (message)
+* Who does it affect? Who is left out? (critical approach)
+
+*How many plots you need is always the wrong question. You need exactly as many as you need to tell your story.*
+
+## Purpose  {-}
+
+First, identify **why** you are making a visualization. We use data visualizations in different ways across the iterative steps of the research data pipeline:
+
+* **Collection(* - plots can help us understand who, what, and where the data represent. It can help us track our progress, and help us project required effort to complete this phase of the project. 
+* **Cleaning** - plotting is a quick and effective way to spot errors in our data. It allows us to identify outliers (or inliers), to grasp the extent of issues such as missing data.
+* **Exploration** - plots are a powerful tool for exploratory data analysis (EDA). Plots help us identify patterns, summarize variables and relationships. TUKEY BOOK 1960
+* **Confirmation** - plots also help us conduct confirmatory data analysis (CDA). We can plot diagnostics like the model fit, residuals, and model comparisons that confirm whether a model is correct. CDA is an iterative cycle throughout the research process, one reason why we advocate for using scripting software that allows for generating reproducible graphics.
+* **Validation** - plots also help us to debug and validate our code. We can visually inspect the results at each step of the code we are writing and verify whether it satisfies our expectations.
+* **Communication** - sharing the insights from our data with others is probably the most commonly understood and emphasized purpose of data visualizations. This is also often the hardest type of data visualization to “get right,” often because we don’t always remember to design the visual to speak specifically to who we are sharing it with.
+
+## Audience {-}
+
+Who are you making the data visualization for? There is no such thing as a “generic” data visualization. Are you making the figure for *yourself* to help you clean or explore your data? For your *immediate colleagues or research team* to update them on your research progress? For *experts in your field* reading your publication or listening to your presentation? Is it for a *general audience* as part of your public outreach? What about *policy makers* who might not know all the details but might be making big decisions based on your results? Knowing who you’re making the visualization for will help you think through the following steps to create something of value for your intended purpose.
+
+## Medium {-}
+
+There are always constraints when creating a data visualization. It’s best to discover these before you start, rather than after you’ve created a beautiful data visualization that’s completely inappropriate for your intended use. For example, if you are creating the visual to accompany a journal article, you probably need to use a static figure and not an interactive or dynamic dashboard. Does your journal allow for color figures? When in doubt, start with greyscale - it’s a lot easier to add color, rather than take it away, as you revise your figures. If you are showing the figure during a presentation, you probably want to simplify it - you audience will have 5 seconds max to read, understand, and interpret your visualization. A really complex figure that requires minutes to comprehend will just distract your audience away from what you - and your data -are saying. For a talk or presentation, it might be more effective to compose and display the same plot in different ways to best communicate your points. The opposite may be true for a poster presentation where your audience is expected to spend significant time pondering over your findings. In that case, you might want to have one very large, clear figure that disentangles the complexity of your project. If you’re creating a visual for a website, you might be able to go nuts - bring on the interactivity, the dynamic data display - until you crash the server because it requires too much compute time.
+
+## Tools {-}
+
+At the UC Davis DataLab, we advocate the use of open source scripting software for data-driven research projects, including for generating data visualizations. Using scripting software makes it easy for you to reproduce your data visualizations. As you clean and update your data, you can re-create your visuals easily by re-running your code. You can also return to a figure later and know exactly what it represents and how you made it. You don’t have to worry about remembering what buttons you clicked, and in what order, like you might when using a GUI based software. Using open software also means that you can easily and freely share your data, code, and corresponding output figures with your collaborators, reducing the equity barriers posed by the use of proprietary software. Open source software that’s great for plotting - like R - also has amazing user communities and resources to help you learn the code and create your ideal visualization.
+
+*But, be practical with yourself. If the conference talk is tomorrow you probably aren’t going to learn ggplot overnight. In these cases using common software like Excel for plotting can be fine, especially if you know some tricks to clean up and customize the appearance of your plots.*
+
+Some open source tools we recommend for data visualization:
+* Static visualizations:
+   * [Ggplot](https://ggplot2.tidyverse.org/) for static visualizations
+   * [Matplotlib](https://matplotlib.org/2.0.2/users/pyplot_tutorial.html) in Python
+* Geospatial visualizations
+   * [QGIS](https://qgis.org/) 
+* Dynamic and interactive visualizations:
+   * [Leaflet](https://leafletjs.com/) for mapping
+   * [D3](https://d3js.org/) 
+   * Plotly for [R](https://plotly.com/r/), [Python](https://plotly.com/python/), and [Julia](https://plotly.com/julia/)
+
+## Message {-}
+
+Research is storytelling with data. Every data visualization is an important piece of that story. It may help you confirm (or reject) a hypothesis, discover new correlations, or predict the likelihood of a future event. Creating statistical graphics is like writing a novel - you get to decide who and what will be featured in your data story. And, just like one page of a novel, your data visualization alone doesn’t tell the whole story. Every data visualization requires a narrative. Write out captions for each plot before you make it. What does the plot show? After creating the plot, update the caption with the take home points for your viewer. If you can’t articulate what the plot is about then you probably should rethink what you are choosing to display and how you are showing it.
+
+## Critical Approaches {-}
+
+**Don’t skip this step.** It’s last on this list but is the most important on your journey to making useful data visualizations. Data are information, and information is power. Use this power intentionally and mindfully throughout the process of creating and sharing your visualizations.
+
+As you reflect on your answers to the planning prompts above, critically review the features of your data: 
+* **What do the variables you've selected for your visualization mean?** How are they defined? How did those definitions come to be? Why did you select them?
+* **Who will your data visualizations affect? What groups are left out?** How does this affect the story your data tells? How might someone misrepresent or misunderstand your story? [Bring back the bodies](https://mitpress.mit.edu/books/data-feminism). 
+
+Conducting these connotative and denotative exploration of your research will not only result in a more robust data visualization, but will make you a better researcher and support a more inclusive and equitable society. To learn more and practice these steps on some case studies, check out our [Critical Approach to Data Visualization workshop](https://ucdavisdatalab.github.io/workshop_critical_data_viz/) and [Data Feminism research and learning cluster](https://datalab.ucdavis.edu/data-feminism/).
+
