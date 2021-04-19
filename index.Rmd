@@ -1,10 +1,10 @@
 ---
-title: YOUR WORKSHOP TITLE
-author: [YOUR NAME]
+title: Principles of Data Visualization
+author: Dr. Pamela Reynolds
 date: "`r Sys.Date()`"
 
-github-repo: ucdavisdatalab/YOUR_REPO
-url: "https://ucdavisdatalab.github.io/YOUR_REPO/"
+github-repo: ucdavisdatalab/workshop_data_viz_principles
+url: "https://ucdavisdatalab.github.io/workshop_data_viz_principles/"
 
 site: "bookdown::bookdown_site"
 knit: "bookdown::render_book"
@@ -16,11 +16,11 @@ output:
           <li><a href="https://datalab.ucdavis.edu/">
             <img src="https://datalab.ucdavis.edu/wp-content/uploads/2019/07/datalab-logo-full-color-rgb-1.png" style="height: 100%; width: 100%; object-fit: contain" />
           </a></li>
-          <li><a href="./" style="font-size: 18px">YOUR WORKSHOP TITLE</a></li>
+          <li><a href="./" style="font-size: 18px">Principles of Data Visualization</a></li>
         collapse: section
       sharing: no
-      view: https://github.com/ucdavisdatalab/YOUR_REPO/blob/master/%s
-      edit: https://github.com/ucdavisdatalab/YOUR_REPO/edit/master/%s
+      view: https://github.com/ucdavisdatalab/workshop_data_viz_principles/blob/master/%s
+      edit: https://github.com/ucdavisdatalab/workshop_data_viz_principles/edit/master/%s
 ---
 
 # Overview {-}
