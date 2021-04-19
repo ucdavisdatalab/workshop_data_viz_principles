@@ -20,6 +20,8 @@ Purpose
 
 First, identify **why** you are making a visualization. We use data visualizations in different ways across the iterative steps of the research data pipeline:
 
+![](./img/research_data_pipeline.png.png)
+
 * **Collection** - plots can help us understand who, what, and where the data represent. It can help us track our progress, and help us project required effort to complete this phase of the project. 
 * **Cleaning** - plotting is a quick and effective way to spot errors in our data. It allows us to identify outliers (or inliers), to grasp the extent of issues such as missing data.
 * **Exploration** - plots are a powerful tool for exploratory data analysis (EDA). Plots help us identify patterns, summarize variables and relationships. TUKEY BOOK 1960
