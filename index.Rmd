@@ -48,9 +48,9 @@ But, how many of us have ever taken a course explicitly on data visualization? I
 
 Data visualization is not a modern invention. Quantitative information display has been traced back to prehistory with the locations of stars mapped on the [Lasaux cave drawings](https://en.wikipedia.org/wiki/Lascaux). [Clay tokens](https://en.wikipedia.org/wiki/History_of_ancient_numeral_systems#/media/File:Accountancy_clay_envelope_Louvre_Sb1932.jpg), [quipu](https://en.wikipedia.org/wiki/Quipu#/media/File:Inca_Quipu.jpg), and [stick charts](https://en.wikipedia.org/wiki/Marshall_Islands_stick_chart#/media/File:Micronesian_navigational_chart.jpg) dating back as far as 5500 BC also illustrate our long history of creating shared representations of data. The oldest known data visualization dates to 1160 BC with the [Turin Papyrus Map](https://en.wikipedia.org/wiki/Turin_Papyrus_Map#/media/File:TurinPapyrus1.jpg), which accurately illustrates the distribution of geological resources in a region in Egypt. These earliest forms of data visualization served purposes of navigating culture and living within society - from accounting to agriculture, transportation, religion, and medicine. It was used to help us explore and understand natural phenomena and the workings of the universe. 
 
-The French philosopher Rene Descartes is attributed as developing the precursor to today’s modern plot in the 17th century - a two-dimensional coordinate system for displaying values. Later in the 18th century William Playfair began creating left to right oriented plots, allowing the viewer to explore how values change over time. He’s also attributed to inventing the bar graph and, unfortunately, the pie chart (we'll get to why that's unfortunate, later).
+The French philosopher Rene Descartes is attributed as developing the precursor to today’s modern plot in the 17th century - a two-dimensional coordinate system for displaying values. Later in the 18th century William Playfair began creating left to right oriented plots, allowing the viewer to explore how values change over time. He’s also attributed to inventing the bar graph and, unfortunately, the pie chart (we'll get to why that's unfortunate, later). For a more complete history of data visualization, check out the chapter by M. Friendly on ["Milestones in the history of thematic cartography, statistical graphics, and data visualization"](https://link.springer.com/chapter/10.1007/978-3-540-33037-0_2).
 
-Unsurprisingly, the invention of tools like paper and later computers have played a strong role in how we collect, analyze and store data as well as share and communicate it. These tools have also shaped our relationship with knowledge and information, and not always for the better - which we’ll touch upon briefly at the end. Today’s workshop is designed to be tool-agnostic, so you can apply these tips and theory to improve your data visualization regardless of the software you’re using.
+Unsurprisingly, the invention of tools like paper and computers have played a strong role in how we collect, analyze and store data as well as share and communicate it. These tools have also shaped our relationship with knowledge and information, and not always for the better - which we’ll touch upon briefly at the end. Today’s workshop is designed to be tool-agnostic, so you can apply these tips and theory to improve your data visualization regardless of the software you’re using.
 
 # What is Data Visualization?  {-}
 
@@ -79,7 +79,7 @@ The utility of a data visualization depends on how well it's composed.
 
 Helpful data visualizations are intuitively, clearly, accurately, and efficiently explain complex ideas. The patterns and relationships presented must be valid, and the visual relevant to the data it presents. A data visualization cannot exist without a narrative, and good data visualizations always include context. Good plots also grab our attention and create a positive visual impact. This aids our ability to make connections and recall the features of the data. Good plots are accessible (not everyone perceives the visual world the same way). They leverage aspects of human perception to allow for intuitive inference of relationships between abstract concepts (our data).
 
-*Want to feel inspired? Check out [Information is Beautiful](https://informationisbeautiful.net/) and click around.*
+*Want to feel inspired? Check out [Information is Beautiful](https://informationisbeautiful.net/) and click around. Note: an infographic is NOT, by default, a data visualization.*
 
 **Bad data visualizations**
 * Have too much, or too little, information.
@@ -90,7 +90,7 @@ Helpful data visualizations are intuitively, clearly, accurately, and efficientl
 
 *Have you ever seen a pie chart where the labeled slices add up to more than 100%? That's a poorly executed data visualization. Goal: don't end up on [WTF Viz](https://viz.wtf/).*
 
-# Before You Viz  {-}
+# Before You Viz, Make a Plan  {-}
 
 Before you fire up your computer and start plotting, **stop and think.** Write out your visualization plan. This will save you time in the long run, and result in a more robust data visualization. 
 
@@ -153,4 +153,33 @@ As you reflect on your answers to the planning prompts above, critically review 
 * **Who will your data visualizations affect? What groups are left out?** How does this affect the story your data tells? How might someone misrepresent or misunderstand your story? [Bring back the bodies](https://mitpress.mit.edu/books/data-feminism). 
 
 Conducting these connotative and denotative exploration of your research will not only result in a more robust data visualization, but will make you a better researcher and support a more inclusive and equitable society. To learn more and practice these steps on some case studies, check out our [Critical Approach to Data Visualization workshop](https://ucdavisdatalab.github.io/workshop_critical_data_viz/) and [Data Feminism research and learning cluster](https://datalab.ucdavis.edu/data-feminism/).
+
+# Graphical Elements and Principles of Perception {-}
+
+Now that you have a plan, let's dive into how we can leverage graphical elements to create effective visualizations based on how we see and think.
+
+## Graphical Elements {-}
+
+Marks and channels are the building blocks of all data visualizations. **Marks** are the grpahical elements in a plot - the bars, lines, and points. **Channels** are the attributes of these marks - their position, shape, size, color, etc. - that are controlled by the data and can be encoded to indicate their values or meaning. 
+
+How can we use marks and channels effectively to tell our data story? To address that we have to first discuss how we process visual information. 
+
+## Visual Perception {-}
+
+Humans are wired to look for structure, patterns, and logic. Our brains are amazing - they take ambiguous visual information and transform it into something organized, symmetrical, or familiar so we can understand it. A data visualization is useful only if it encodes information in a way that our eyes can perceive and our brain can understand. Understanding our visual perception - the ability to see and interpret the surrounding visual information - helps us design better, more informative graphics.
+
+## Gestalt’s Principles
+
+In design, the default ability of our brains to create structure is commonly referred to as the [Gestalt principles of visual perception]:
+
+* **Similarity** - objects with the same visual properties are assumed to be similar and are grouped together. *Example: Use design elements such as shape, color, and organization to indicate groupings of the data. In design theory these are called “preattentive features” because we actually see and perceive them before we really think about them. In some experiments it was found to take less than 0.5 seconds for the eye and brain to process a preattentive property of an image.*   
+* **Proximity** - objects that are close together are perceived as a group. *Example: Since physical distance connotes similarity, grouping bars on a chart can indicate similarities among their data. Instead of listing it in a legend, directly label data groupings by adding informative text directly onto the graph.*
+* **Continuity** - elements that are aligned (on the same line, curve, or plane) are perceived to be more closely related to each other than to other elements. *Example: It is often easier for us to perceive the groupings if the shapes are curves, rather than lines with sharp edges.*
+* **Enclosure** - objects that appear to have a boundary around them (i.e., are found within the same common or enclosed region) are perceived as being related. *Example: Add line boundaries or shades to group objects.* 
+* **Connection** - objects that are connected, such as by a line, are perceived as a group. *Example: Connect different data together to indicate a relationship. This connectedness is highly effective as it often over-rules the other principles for group perception. Every line plot is an example of connectedness.*
+* **Closure** - complex arrangements of visual elements are perceived as a single, recognizable pattern.  *Example: Open structures are often perceived as closed, complete and regular.*
+* **Figure and Ground** - objects are perceived as either standing out prominently in the foreground (or front figure) of an image, or recede into the background. *Example:  Shading or color blocking can be employed to to distinguish between the more important figure and less important ground features of an image. Place elements of the most importance in the foreground figure.*
+** **Focal Point** - whatever stands out visually is perceived as the most important. It will grabs our attention first, and holds it for the longest. *Example: Use design elements selectively to draw attention to the most important features of the data.*
+
+
 
