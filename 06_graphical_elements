@@ -1,7 +1,7 @@
 Graphical Elements of a Plot
 =============
 
-Marks and channels are the building blocks of all data visualizations. By combining them we can create virtually any type of statistical graphic.
+A data visualization is useful only if it encodes information in a way that our eyes can perceive and our brain can understand. Marks and channels are the building blocks of all data visualizations and are employed to accomplish this encoding. By combining them we can create virtually any type of statistical graphic.
 
 **Marks** are the the basic geometries, or graphical elements, in a plot that depict our data items or their linkages. Marks indicate "where" something is and include points (0d), lines (1d), areas (2d), and volumes (3d).
 
