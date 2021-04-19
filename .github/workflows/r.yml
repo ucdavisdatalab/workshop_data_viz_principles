@@ -15,7 +15,7 @@ jobs:
       - name: Install bookdown
         run: Rscript -e 'install.packages("bookdown")'
       - name: Render site
-        run: Rscript -e 'bookdown::render_book("index.Rmd")'
+        run: Rscript knit.R
       - name: Commit results
         run: |
           git commit docs -m 'Re-build site' || echo "No changes to commit"
