@@ -60,7 +60,7 @@ repo:
 
 _[UC Davis DataLab](https://datalab.ucdavis.edu/)_  
 _Spring 2021_  
-_Instructor: Dr. Pamela Reynolds <<Yplreynolds@ucdavis.edu>>_  
+_Instructor: Dr. Pamela Reynolds <<plreynolds@ucdavis.edu>>_  
 
 * [Reader](https://ucdavisdatalab.github.io/workshop_data_viz_principles/)
 * [Event Page](https://datalab.ucdavis.edu/eventscalendar/YOUR_EVENT/)
