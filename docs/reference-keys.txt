@@ -16,7 +16,7 @@ critical-approaches
 principles-of-visual-perception
 visual-magic-tricks
 stevens-law-of-perception
-visual-design-framework-gestalts-principles
+gestalts-principles
 graphical-elements-of-a-plot
 types-of-statistical-graphics
 header

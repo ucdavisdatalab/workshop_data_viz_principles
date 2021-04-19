@@ -95,7 +95,7 @@
 <li class="chapter" data-level="4" data-path="principles-of-visual-perception.html"><a href="principles-of-visual-perception.html"><i class="fa fa-check"></i><b>4</b> Principles of Visual Perception</a><ul>
 <li class="chapter" data-level="4.1" data-path="principles-of-visual-perception.html"><a href="principles-of-visual-perception.html#visual-magic-tricks"><i class="fa fa-check"></i><b>4.1</b> Visual Magic Tricks</a></li>
 <li class="chapter" data-level="4.2" data-path="principles-of-visual-perception.html"><a href="principles-of-visual-perception.html#stevens-law-of-perception"><i class="fa fa-check"></i><b>4.2</b> Steven’s Law of Perception</a></li>
-<li class="chapter" data-level="4.3" data-path="principles-of-visual-perception.html"><a href="principles-of-visual-perception.html#visual-design-framework-gestalts-principles"><i class="fa fa-check"></i><b>4.3</b> Visual Design Framework: Gestalt’s Principles</a></li>
+<li class="chapter" data-level="4.3" data-path="principles-of-visual-perception.html"><a href="principles-of-visual-perception.html#gestalts-principles"><i class="fa fa-check"></i><b>4.3</b> Gestalt’s Principles</a></li>
 </ul></li>
 <li class="chapter" data-level="5" data-path="graphical-elements-of-a-plot.html"><a href="graphical-elements-of-a-plot.html"><i class="fa fa-check"></i><b>5</b> Graphical Elements of a Plot</a></li>
 <li class="chapter" data-level="6" data-path="types-of-statistical-graphics.html"><a href="types-of-statistical-graphics.html"><i class="fa fa-check"></i><b>6</b> Types of Statistical Graphics</a><ul>
@@ -148,25 +148,50 @@
 </div>
 <div id="stevens-law-of-perception" class="section level2">
 <h2><span class="header-section-number">4.2</span> Steven’s Law of Perception</h2>
-<p>These images are confusing because they capitalize on innate biases of our visual processing and perception. For example, research studies show that humans perceive changes in the sensation of a physical shock to be greater than actual increase. Conversely, we’re also poor at perceiving changes in brightness but in the opposite manner, estimating the change to be less than actual.
-However, we have near perfect perception of unit changes in length, particularly if the lengths are aligned and on the same scale.</p>
+<p>The visual “magic tricks” above are confusing because they capitalize on psychophysics. For example, research studies by Stanley Smith Stevens and others have shown that humans exhibit innate biases in how we perceive magnitudes of change in a stimuli. For example, we perceive changes in the sensation of a physical shock to be greater than the actual increase. Conversely, we’re also poor at accurately perceiving changes in brightness and estimate that change to be less than actual. However, we have near perfect perception of unit changes in length, particularly if lengths are aligned and on the same scale. Knowing this can help us design more useful plots.</p>
 <p><img src="img/workshop_data_visualization_stevens_law_munzer_figure.PNG" />
 <a href="https://www.oreilly.com/library/view/visualization-analysis-and/9781466508910/">Figure 5.7 from Visualization Analysis and Design by Tamarna Munzner</a></p>
 </div>
-<div id="visual-design-framework-gestalts-principles" class="section level2">
-<h2><span class="header-section-number">4.3</span> Visual Design Framework: Gestalt’s Principles</h2>
-<p>The default ability of our brains to create structure is commonly referred to as the [Gestalt principles of visual perception]:</p>
+<div id="gestalts-principles" class="section level2">
+<h2><span class="header-section-number">4.3</span> Gestalt’s Principles</h2>
+<p>Our brains also have an amazing ability to create and perceive structure in visual objects. This is commonly referred to as the Gestalt principles of visual perception:</p>
 <ul>
-<li><strong>Similarity</strong> - objects with the same visual properties are assumed to be similar and are grouped together. <em>Example: Use design elements such as shape, color, and organization to indicate groupings of the data. In design theory these are called “preattentive features” because we actually see and perceive them before we really think about them. In some experiments it was found to take less than 0.5 seconds for the eye and brain to process a preattentive property of an image.</em><br />
-</li>
-<li><strong>Proximity</strong> - objects that are close together are perceived as a group. <em>Example: Since physical distance connotes similarity, grouping bars on a chart can indicate similarities among their data. Instead of listing it in a legend, directly label data groupings by adding informative text directly onto the graph.</em></li>
-<li><strong>Continuity</strong> - elements that are aligned (on the same line, curve, or plane) are perceived to be more closely related to each other than to other elements. <em>Example: It is often easier for us to perceive the groupings if the shapes are curves, rather than lines with sharp edges.</em></li>
-<li><strong>Enclosure</strong> - objects that appear to have a boundary around them (i.e., are found within the same common or enclosed region) are perceived as being related. <em>Example: Add line boundaries or shades to group objects.</em></li>
-<li><strong>Connection</strong> - objects that are connected, such as by a line, are perceived as a group. <em>Example: Connect different data together to indicate a relationship. This connectedness is highly effective as it often over-rules the other principles for group perception. Every line plot is an example of connectedness.</em></li>
-<li><strong>Closure</strong> - complex arrangements of visual elements are perceived as a single, recognizable pattern. <em>Example: Open structures are often perceived as closed, complete and regular.</em></li>
-<li><strong>Figure and Ground</strong> - objects are perceived as either standing out prominently in the foreground (or front figure) of an image, or recede into the background. <em>Example: Shading or color blocking can be employed to to distinguish between the more important figure and less important ground features of an image. Place elements of the most importance in the foreground figure.</em>
-** <strong>Focal Point</strong> - whatever stands out visually is perceived as the most important. It will grabs our attention first, and holds it for the longest. <em>Example: Use design elements selectively to draw attention to the most important features of the data.</em></li>
+<li><strong>Similarity</strong> - objects with the same visual properties are assumed to be similar and are grouped together.
+<ul>
+<li><em>Example:</em> Use design elements such as shape, color, and organization to indicate groupings of the data. In design theory these are called “preattentive features” because we actually see and perceive them before we really think about them. In some experiments it was found to take less than 0.5 seconds for the eye and brain to process a preattentive property of an image.</li>
+</ul></li>
+<li><strong>Proximity</strong> - objects that are close together are perceived as a group.
+<ul>
+<li><em>Example:</em> Since physical distance connotes similarity, grouping bars on a chart can indicate similarities among their data. Instead of listing it in a legend, directly label data groupings by adding informative text directly onto the graph.</li>
+</ul></li>
+<li><strong>Continuity</strong> - elements that are aligned (on the same line, curve, or plane) are perceived to be more closely related to each other than to other elements.
+<ul>
+<li><em>Example:</em> It is often easier for us to perceive the groupings if the shapes are curves, rather than lines with sharp edges.</li>
+</ul></li>
+<li><strong>Enclosure</strong> - objects that appear to have a boundary around them (i.e., are found within the same common or enclosed region) are perceived as being related.
+<ul>
+<li><em>Example:</em> Add line boundaries or shades to group objects.</li>
+</ul></li>
+<li><strong>Connection</strong> - objects that are connected, such as by a line, are perceived as a group.
+<ul>
+<li><em>Example:</em> Connect different data together to indicate a relationship. This connectedness is highly effective as it often over-rules the other principles for group perception. Every line plot is an example of connectedness.</li>
+</ul></li>
+<li><strong>Closure</strong> - complex arrangements of visual elements are perceived as a single, recognizable pattern.
+<ul>
+<li><em>Example:</em> Open structures are often perceived as closed, complete and regular.</li>
+</ul></li>
+<li><strong>Figure and Ground</strong> - objects are perceived as either standing out prominently in the foreground (or front figure) of an image, or recede into the background.
+<ul>
+<li><em>Example:</em> Shading or color blocking can be employed to to distinguish between the more important figure and less important ground features of an image. Place elements of the most importance in the foreground figure.</li>
+</ul></li>
+<li><strong>Focal Point</strong> - whatever stands out visually is perceived as the most important. It will grabs our attention first, and holds it for the longest.
+<ul>
+<li><em>Example:</em> Use design elements selectively to draw attention to the most important features of the data.</li>
+</ul></li>
 </ul>
+<p><img src="img/gestalt_principles.PNG" />
+<em>Gestalt principles for perpetual grouping and figure-ground segregation. From ‘Gestalt Principles for Attention and Segmentation in Natural and Artificial Vision Systems’ by
+G. Kootstra, N. Bergstrom, D. Kragic (2011).</em></p>
 
 </div>
 </div>
