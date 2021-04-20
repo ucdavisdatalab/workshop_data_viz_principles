@@ -52,7 +52,12 @@ Other complex plot types you may encounter that layer additional marks and chann
 * **Radar plots / star chart** - line plots where each variable has its own axis and all axes are joined at the center of the figure.
 * **Network diagrams** - also called graphs, these plots show connections (edges) between entities (nodes). To learn more about network diagrams, check out DataLab's [network toolkit](https://datalab.ucdavis.edu/networks/) and [network analysis workshop](https://www.youtube.com/watch?v=H6IkFnykX1s&feature=youtu.be).
 
-But what about **maps**?! [Geospatial data visualization by its nature encodes a lot of attributes - and it has its own workshop.](https://datalab.ucdavis.edu/eventscalendar/dsi-workshop-geospatial-data-visualization/)
+But remember, some encodings are more difficult to accurately decode. When in doubt, stick to simple figures with points and lines.
+
+Aside - What About Maps?!
+-------------------------
+
+Geospatial data visualization by its nature encodes a lot of attributes - and [it has its own workshop.](https://datalab.ucdavis.edu/eventscalendar/dsi-workshop-geospatial-data-visualization/)
 
 Step 4: Iterate
 -----------
