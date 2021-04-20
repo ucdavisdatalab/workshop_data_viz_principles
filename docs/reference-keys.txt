@@ -1,4 +1,4 @@
-objectives-for-this-workshop
+objectives
 prerequisites
 about-this-tutorial
 introduction
