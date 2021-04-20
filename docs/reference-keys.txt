@@ -28,10 +28,11 @@ step-2-determine-your-functional-approach
 step-3-select-a-plot-type
 aside---what-about-maps
 step-4-iterate
-chartjunk-quick-tips-for-better-plots
-clean-up-your-charts
-text-is-your-key-to-information-rich-plots
-good-plot-making-practice
+quick-tips-for-better-plots
+get-rid-of-chartjunk
+facilitate-comparisons
+create-information-rich-plots
+practice
 references-and-additional-resources
 articles
 websites
