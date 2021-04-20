@@ -3,6 +3,7 @@ prerequisites
 about-this-tutorial
 introduction
 a-brief-history-of-data-visualization
+famous-data-viz
 what-is-data-visualization
 why-viz
 good-data-visualizations
