@@ -27,6 +27,7 @@ types-of-statistical-graphics
 step-1-identify-your-data-type
 step-2-determine-your-functional-approach
 step-3-select-a-plot-type
+common-plot-types
 aside---what-about-maps
 step-4-iterate
 quick-tips-for-better-plots
