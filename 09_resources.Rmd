@@ -1,7 +1,28 @@
-Resources
+References and Additional Resources
 =============
 
- 
+Articles
+-------------------
 
-Header
+
+Websites
+-------------------
+
+
+
+Books
+-------------------
+
+Cleveland, The elements of graphing data
+Tufte, The visual display of quantiative information
+Wainer, Graphic discovery: a trout in the milk and other visual adventures
+Wilkinson, The grammar of graphics
+Yau, Visualize this: The flowing data guide to design, visualization, and statistics
+
+
+R Graphics References
 ----------------------------
+Murrell, R Graphics
+Sarkar, Multivariate data visualization with R
+Wickham, ggplot2 - Elegant graphics for data analysis
+
