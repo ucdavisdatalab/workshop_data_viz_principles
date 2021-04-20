@@ -60,15 +60,22 @@ At the [UC Davis DataLab](https://datalab.ucdavis.edu), we advocate for the use 
 Here is a non-exhaustive list of open source tools we recommend for data visualization:
 
 * Static visualizations:
-   * [Ggplot](https://ggplot2.tidyverse.org/) in R
-   * [Matplotlib](https://matplotlib.org/2.0.2/users/pyplot_tutorial.html) in Python
-* Geospatial visualizations
-   * [QGIS](https://qgis.org/) 
+    * ggplot for [R][ggplot2], [Python][plotnine], and [Julia][gadfly]
+    * [Seaborn][] for Python
+* Geospatial visualizations:
+    * [QGIS](https://qgis.org/) 
 * Dynamic and interactive visualizations:
-   * [Leaflet](https://leafletjs.com/) for mapping
-   * [D3](https://d3js.org/) 
-   * Plotly for [R](https://plotly.com/r/), [Python](https://plotly.com/python/), and [Julia](https://plotly.com/julia/)
+    * [Leaflet](https://leafletjs.com/) for mapping
+    * [D3](https://d3js.org/) 
+    * Plotly for [R](https://plotly.com/r/), [Python](https://plotly.com/python/), and [Julia](https://plotly.com/julia/)
+    * Bokeh for [R][rbokeh] and [Python][bokeh]
 
+[ggplot2]: https://ggplot2.tidyverse.org/
+[plotnine]: https://plotnine.readthedocs.io/en/latest/
+[gadfly]: http://gadflyjl.org/stable/
+[seaborn]: https://seaborn.pydata.org/
+[rbokeh]: https://hafen.github.io/rbokeh/
+[bokeh]: https://docs.bokeh.org/en/latest/
 
 Message
 ----------------------------
