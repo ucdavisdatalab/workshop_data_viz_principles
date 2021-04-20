@@ -22,7 +22,7 @@ visual-magic-tricks
 stevens-psychophysical-power-law
 perception-and-encodings
 evaluating-graphics
-gestalts-principles
+gestalt-principles
 accessible-data-visualizations
 color
 types-of-statistical-graphics
