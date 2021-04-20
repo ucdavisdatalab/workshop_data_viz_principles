@@ -28,7 +28,9 @@ step-3-select-a-plot-type
 aside---what-about-maps
 step-4-iterate
 chartjunk-quick-tips-for-better-plots
-header
+clean-up-your-charts
+text-is-your-key-to-information-rich-plots
+good-plot-making-practice
 evaluating-graphics-expressiveness-and-effectiveness
 resources
-header-1
+header

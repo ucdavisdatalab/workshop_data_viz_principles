@@ -4,11 +4,11 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>7 Chartjunk: Quick Tips for Better Plots | Principles of Data Visualization</title>
-  <meta name="description" content="7 Chartjunk: Quick Tips for Better Plots | Principles of Data Visualization" />
+  <title>7 Chartjunk &amp; Quick Tips for Better Plots | Principles of Data Visualization</title>
+  <meta name="description" content="7 Chartjunk &amp; Quick Tips for Better Plots | Principles of Data Visualization" />
   <meta name="generator" content="bookdown 0.21 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="7 Chartjunk: Quick Tips for Better Plots | Principles of Data Visualization" />
+  <meta property="og:title" content="7 Chartjunk &amp; Quick Tips for Better Plots | Principles of Data Visualization" />
   <meta property="og:type" content="book" />
   <meta property="og:url" content="https://ucdavisdatalab.github.io/workshop_data_viz_principles/" />
   
@@ -16,7 +16,7 @@
   <meta name="github-repo" content="ucdavisdatalab/workshop_data_viz_principles" />
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="7 Chartjunk: Quick Tips for Better Plots | Principles of Data Visualization" />
+  <meta name="twitter:title" content="7 Chartjunk &amp; Quick Tips for Better Plots | Principles of Data Visualization" />
   
   
   
@@ -109,12 +109,14 @@
 <li class="chapter" data-level="6.4" data-path="types-of-statistical-graphics.html"><a href="types-of-statistical-graphics.html#aside---what-about-maps"><i class="fa fa-check"></i><b>6.4</b> Aside - What About Maps?!</a></li>
 <li class="chapter" data-level="6.5" data-path="types-of-statistical-graphics.html"><a href="types-of-statistical-graphics.html#step-4-iterate"><i class="fa fa-check"></i><b>6.5</b> Step 4: Iterate</a></li>
 </ul></li>
-<li class="chapter" data-level="7" data-path="chartjunk-quick-tips-for-better-plots.html"><a href="chartjunk-quick-tips-for-better-plots.html"><i class="fa fa-check"></i><b>7</b> Chartjunk: Quick Tips for Better Plots</a><ul>
-<li class="chapter" data-level="7.1" data-path="chartjunk-quick-tips-for-better-plots.html"><a href="chartjunk-quick-tips-for-better-plots.html#header"><i class="fa fa-check"></i><b>7.1</b> Header</a></li>
+<li class="chapter" data-level="7" data-path="chartjunk-quick-tips-for-better-plots.html"><a href="chartjunk-quick-tips-for-better-plots.html"><i class="fa fa-check"></i><b>7</b> Chartjunk &amp; Quick Tips for Better Plots</a><ul>
+<li class="chapter" data-level="7.1" data-path="chartjunk-quick-tips-for-better-plots.html"><a href="chartjunk-quick-tips-for-better-plots.html#clean-up-your-charts"><i class="fa fa-check"></i><b>7.1</b> Clean up your charts</a></li>
+<li class="chapter" data-level="7.2" data-path="chartjunk-quick-tips-for-better-plots.html"><a href="chartjunk-quick-tips-for-better-plots.html#text-is-your-key-to-information-rich-plots"><i class="fa fa-check"></i><b>7.2</b> Text is Your Key to Information Rich Plots</a></li>
+<li class="chapter" data-level="7.3" data-path="chartjunk-quick-tips-for-better-plots.html"><a href="chartjunk-quick-tips-for-better-plots.html#good-plot-making-practice"><i class="fa fa-check"></i><b>7.3</b> Good Plot Making Practice</a></li>
 </ul></li>
 <li class="chapter" data-level="8" data-path="evaluating-graphics-expressiveness-and-effectiveness.html"><a href="evaluating-graphics-expressiveness-and-effectiveness.html"><i class="fa fa-check"></i><b>8</b> Evaluating Graphics: Expressiveness and Effectiveness</a></li>
 <li class="chapter" data-level="9" data-path="resources.html"><a href="resources.html"><i class="fa fa-check"></i><b>9</b> Resources</a><ul>
-<li class="chapter" data-level="9.1" data-path="resources.html"><a href="resources.html#header-1"><i class="fa fa-check"></i><b>9.1</b> Header</a></li>
+<li class="chapter" data-level="9.1" data-path="resources.html"><a href="resources.html#header"><i class="fa fa-check"></i><b>9.1</b> Header</a></li>
 </ul></li>
 </ul>
 
@@ -134,9 +136,46 @@
 
             <section class="normal" id="section-">
 <div id="chartjunk-quick-tips-for-better-plots" class="section level1">
-<h1><span class="header-section-number">7</span> Chartjunk: Quick Tips for Better Plots</h1>
-<div id="header" class="section level2">
-<h2><span class="header-section-number">7.1</span> Header</h2>
+<h1><span class="header-section-number">7</span> Chartjunk &amp; Quick Tips for Better Plots</h1>
+<div id="clean-up-your-charts" class="section level2">
+<h2><span class="header-section-number">7.1</span> Clean up your charts</h2>
+<p>A quick way to instantly improve your plots is to eliminate suprefluous material. Extra tick marks and grid lines. Unnecessary text and arrows. Decimal places beyond the measreument error of the level of difference. Cute little butterfly clipart. This <strong>chartjunk</strong> has no meaning, and clutters up a chart making it hard for your viewer to see what’s most important - your data.</p>
+<p>Try these decluttering steps on a standard template generated chart and revel in the difference:</p>
+<ul>
+<li>Shift from center to left-justified text</li>
+<li>Retain whitespace</li>
+<li>Clear contrasts</li>
+<li>Remove chart borders</li>
+<li>Remove (or strongly mute) gridlines</li>
+<li>Remove data markers and point labels (unless they are important)</li>
+<li>Remove unnecessary polygon filling.</li>
+<li>Cleanup and rename axis labels to be intuitive</li>
+<li>Replace the title with something informative</li>
+<li>Label the data directly using the principle of proximity</li>
+<li>Leverage consistent color and other aesthetics</li>
+</ul>
+<p>Creating visual order and reducing chartjunk will dramatically improve your graphic.</p>
+</div>
+<div id="text-is-your-key-to-information-rich-plots" class="section level2">
+<h2><span class="header-section-number">7.2</span> Text is Your Key to Information Rich Plots</h2>
+<p>Data visualizations cannot exist without text. They require context to infer meaning. Ask yourself:</p>
+<ul>
+<li>Does the caption describe what has been graphed? Does it draw attention to the imporant features? Describe the conclusions drawn by the graph?</li>
+<li>Are the legends and labels clear and intuitive?</li>
+<li>Are important reference lines and points labeled?</li>
+</ul>
+<p>Avoid having the graph elements interfere with the data.
+Use visulally prominent symbols.
+Avoid over-plotting. (Try jittering the values!)
+Never red-green.</p>
+</div>
+<div id="good-plot-making-practice" class="section level2">
+<h2><span class="header-section-number">7.3</span> Good Plot Making Practice</h2>
+<p>Just as an author edits before the novel and an artist sketches before the masterpiece, plotting is an iterative process.</p>
+<p>Proofread for clarity and consistency.
+Does it pass expressiveness and effectiveness tests?
+Use shape and color hue to identify the <em>what</em> categories (nominal data). Use length and area to encode <em>how much</em> values (ordinal data).</p>
+<p>Make plots data, and information, rich.</p>
 
 </div>
 </div>
