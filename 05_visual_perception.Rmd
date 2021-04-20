@@ -1,9 +1,7 @@
 Principles of Visual Perception
 =============
 
-Before we next get to deciding what type of statistical graphic to create for our data story, we have to understand how we process visual information. Levergaing principles of visual perception - the ability to see and interpret  surrounding visual information - will help us identify appropriate plot types and design better, more informative graphics.
-
-Humans are wired to look for structure, patterns, and logic. Our brains are amazing - they take ambiguous visual information and transform it into something organized, symmetrical, or familiar so we can understand it. But, we don't process all visual information equally.
+Levergaing principles of visual perception - the ability to see and interpret  surrounding visual information - will help us identify appropriate plot types and design better, more informative graphics. Humans are wired to look for structure, patterns, and logic. Our brains are amazing - they take ambiguous visual information and transform it into something organized, symmetrical, or familiar so we can understand it. But, we don't process all visual information equally.
 
 
 Visual Magic Tricks
