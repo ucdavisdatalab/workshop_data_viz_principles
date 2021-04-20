@@ -86,7 +86,7 @@ Taking these principles together, when we want to compare magnitudes of **ordina
 
 Combining channels can result in integral or separable coding pairs, respectively allowing attributes to be perceived holistically or with separate judgements regarding their graphical dimension.
 
-![](./img/ware_information_visualization)
+![](./img/ware_information_visualization.PNG)
 *[Colin Ware (2019) "Information Visualization" (2019)](https://www.elsevier.com/books/information-visualization/ware/978-0-12-812875-6)*
 
 
