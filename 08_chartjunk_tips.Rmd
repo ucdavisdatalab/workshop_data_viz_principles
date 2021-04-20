@@ -39,7 +39,7 @@ Facilitate Comparisons
 * Use only one scale on one axis
 * Use color, judiciously
 * Avoid jiggling the baseline
-* Take care when selecting the encodings
+* Don't distort the data; take care when selecting the encodings
 
 A common mistake is to use more encodings than there are dimensions of the data. If you data only has two dimensions (say number of students in STEM by gender identity), your figure could reasonably use points, rarely area, and never volume. (I'm looking at you, 3D pie chart.)
 
