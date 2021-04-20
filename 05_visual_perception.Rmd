@@ -33,20 +33,42 @@ What shape(s) do you see in [this image](https://commons.wikimedia.org/w/index.p
 
 *Answers: a) Measure them - they're the same length! b) The circles are the same size. c) The lines do NOT connect. Hold up a ruler or straight edge and prove it for yourself. d) Nope! It's a solid color.* e) Did you see a vase or two faces?
 
+Thes visual "magic tricks" work because they capitalize on innate weaknesses in our visual perception.
 
-Steven's Law of Perception
-----------------------------
 
-The visual "magic tricks" above are confusing because they capitalize on psychophysics. For example, research studies by Stanley Smith Stevens and others have shown that humans exhibit innate biases in how we perceive magnitudes of change in a stimuli. For example, we perceive changes in the sensation of a physical shock to be greater than the actual increase. Conversely, we're also poor at accurately perceiving changes in brightness and estimate that change to be less than actual. However, we have near perfect perception of unit changes in length, particularly if lengths are aligned and on the same scale. Knowing this can help us design more useful plots.
+Steven’s Psychophysical Power Law
+-------------------------------
+
+Research studies by Stanley Smith Stevens and others have shown that we exhibit innate biases in how we perceive magnitude changes in the intensity of various types of stimuli. For example, we perceive an electric shock to increasing in intensity greater than it actually does. We're also poor at accurately perceiving changes in brightness and estimate it to increasing less than it actually does. However, we have near perfect perception of length proporitional to its actual increase. This is especially true if lengths are aligned and on the same scale. Knowing this can help us design more intuitively useful plots.
 
 ![](./img/workshop_data_visualization_stevens_law_munzer_figure.png)
 [Figure 5.7 from Visualization Analysis and Design by Tamarna Munzner](https://www.oreilly.com/library/view/visualization-analysis-and/9781466508910/)
 
 
+Perception and Encodings
+------------------------------
+
+Based on Steven's law, we can order encodings to help us identify which ones will more accurately allow us to judge relative magnitudes:
+
+
+
+
+Evaluating Graphics
+----------------------------
+
+
+Expressiveness is violated when we use the encodings on the wrong side of the diagram for our data type.
+Effectiveness means we should look look at the channels at the top of the list to encode the variables that are the most important to communicating our data story.
+
+
+“No matter how clever the choice of the information, and no matter how technologically impressive the encoding, a visualization fails if the decoding fails” (Cleveland 1983).
+
+
+
 Gestalt’s Principles
 ----------------------------
 
-Our brains also have an amazing ability to create and perceive structure in visual objects. This is commonly referred to as the Gestalt principles of visual perception:
+Our brains have an amazing ability to create and perceive structure in visual objects. This is commonly referred to as the Gestalt principles of visual perception. This framework combined with Steven's Law can help us think through how to use marks and channels expressive and effective data visualizations:
 
 * **Similarity** - objects with the same visual properties are assumed to be similar and are grouped together. 
    * *Example:* Use design elements such as shape, color, and organization to indicate groupings of the data. In design theory these are called “preattentive features” because we actually see and perceive them before we really think about them. In some experiments it was found to take less than 0.5 seconds for the eye and brain to process a preattentive property of an image.
