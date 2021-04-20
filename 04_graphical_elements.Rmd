@@ -1,0 +1,16 @@
+Graphical Elements of a Plot
+=============
+
+Marks and Channels
+----------------
+
+A data visualization is useful only if it encodes information in a way that our eyes can perceive and our brain can understand. Marks and channels are the building blocks of all data visualizations and are employed to accomplish this encoding. 
+
+**Marks** are the the basic geometries, or graphical elements, in a plot that depict our data items or their linkages. Marks indicate "where" something is and include points (0d), lines (1d), areas (2d), and volumes (3d).
+
+**Channels** are the attributes of that control how the marks appear. Channels are used to encode (or indicate) the values or meaning of our data. Common channels are position, size, shape, orientation, hue, saturation, lightness, etc..
+
+By understanding the nature of our data in combination with the principles of visual perception, we can use marks and channels to create effective and expressive data visualizations.
+
+![](./img/workshop_data_visualization_munzer_marks_channels_figure.PNG)
+*[Image from 'Visualization Analysis and Design' by Tamara Munzner](https://www.oreilly.com/library/view/visualization-analysis-and/9781466508910/K14708_C005.xhtml)*
