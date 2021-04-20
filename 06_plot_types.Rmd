@@ -1,75 +1,64 @@
 Types of Statistical Graphics
 =============
 
-You are now ready to make your plot! There are many types of statistical graphics that you can choose from to showcase your data. Each type has its benefits, and drawbacks, based on how it combines marks and channels to encode your data. Match the chart type to your data, and not the other way around.
+You are now ready to make your plot! There are many types of statistical graphics that you can choose from to showcase your data. Each type has its benefits, and drawbacks, based on how it combines marks and channels to encode your data. Match the chart type to your data - and what you want it to show - and not the other way around.
 
-Identify Your Data Type
+Step 1: Identify Your Data Type
 -------------------
 
 Data can be quantiative or qualitative. Quantitative data is either continuous (numerical data like height and weight), or discrete (constrained values, such as the number of children in a family). Qualitative data can be ordered (categories that have a relationship but no meaningful distance between them, such as movie star ratings), or nominal (categories that have no meaningful order, such as gender).
 
-from Data to Viz
--------------------
-
-Now that you've identified the types of the data you want to show in your visualization, explore different chart type options using this nifty tool by [from Data to Viz](https://www.data-to-viz.com/).
-
-
-
-
-
-Here's a static, text-heavy overview:
-
-**Single quantitative variables** are plotted to show the frequency distribution of the data. While historgrams are the most common density plots, a single quantiative variable can also be plotted using a rug plot/strip chart, boxplot, or violin plot (described below, where they're most commonly employed).
-
-**Two quantiative variables** can be plotted using a:
-* Scatterplot (or dot chart) - each axis encodes the values of a different quantitative variable, and individual data are represented as points (or dots) on the chart.
-* Line plot - data points are connected by straight lines. Line-scatter plots are are common for time series or trend data.
-
-**One quantitative + one qualitative variable** are suitable for a:
-* Bar chart - bars represent the amount of data in different categories of a variable. One axis encodes the frequencies of the quantitative data, and the other axis the categories of the qualitative data.
-* Lollipop chart - a barplot with the bar transformed to a line and a dot.
-* Boxplot - shows the median, quartiles, and bounds of your data.
-* Violin plot - in essence a boxplot that also shows the distribution of the quantiative variable.
-* Multiple density plot - two density plots (or histograms) overlaid on the same axes.
-* Pie chart, which uses relative frequencies to show how large each category is in relation to the whole. *Pie charts are grudgingly listed here because you will see them in the wild, but resist the temptation to use them!* Based on our visual perception, pie charts are inherently problematic because they encode values as visual attributes. Pie charts encode data as the area of each slice, as well as the angle that it forms in the center of the pie, making it difficult to easily perceive and compare differences. Almost any other chart type is better than a pie chart.
-* Word cloud - these eyecatching visualizations display a list of words with their font size corresponding to their importance. But, they're not very useful and often distort reality. For example, long words will look more prominent just because they have more letters and cover more area - our eyes don't intuitively parse out word height from length. Wordclouds also require a huge sample size.
-
-**Two qualitative variables** can be plotted using a moasic plot, side-by-side barplots, or line plots.
-
-
-Relationships between more than two variables are conveyed using a chart type above with a combination of channels (for example, plotting sympols) and/or juxtaposed panels. 
-
-Other complex plot types you may encounter:
-* bubble plots
-* radar plots / star chart - plot one or more qualitative values over multiple quantitative values, where each variable has its own axis and all axes are joined at the center of the figure. A bar or lollipop plot is often a better alternative. [Check out some great examples at data-to-viz](https://www.data-to-viz.com/caveat/spider.html).
-* stem and leaf plots - basically a table
-
-
-
-
-
-**Pie chart** - 
-
-**
-
-Using a Functional Approach
+Step 2: Determine Your Functional Approach
 -------------------------
 
-Not sure which chart type to use? Ask ask yourself:
+Ask ask yourself:
 
 * What are the tasks you want the visual to support?
    * Showing how values compare to each other?
    * Showing how the data are distributed?
    * Showing how the data are composed?
    * Showing how values relate to one another?
-* What specific visual best supports those tasks?
+* What specific visual that best supports those tasks?
 * What do we expect people to do in their visual queries?
-* How can we support the queries to be fast(er)?
-* What visual queries are easily executed?
-* How can we use graphical marks and channels to efficiently serve those queries?
+* How can we use graphical marks and channels to support the queries to be faster?
+
+Step 3: Select a Plot Type
+-------------------
+
+Now that you've identified your data types and what you need your visualization to show, explore different chart type options using this nifty tool by [from Data to Viz](https://www.data-to-viz.com/). Click through the plot thumbnails to learn about their pros, cons, and alternate options.
+
+![](./img/from_data_to_viz_screengrab.PNG)
+
+For example, if you want to enable comparing individual quantitative values and their relationships, try a dot or scatter plot. When you want to make accurate comparisons, try a chart with lines or bars sitting on a single axis.
+
+Here's an overview of some of the most common plot type you'll encounter:
+
+**Single quantitative variables** are plotted to show the frequency distribution of the data. While **historgrams** are the most common density plots, a single quantiative variable can also be plotted using a rug plot/strip chart, boxplot, or violin plot (described below, where they're most commonly employed).
+
+**Two quantiative variables** can be plotted using a:
+* **Scatterplot** - each axis encodes the values of a different quantitative variable, and individual data are represented as points (or dots) on the chart.
+* **Line plot** - data points are connected by straight lines. Line-scatter plots are are common for time series or trend data.
+
+**One quantitative + one qualitative variable** are suitable for a:
+* **Bar chart** - bars represent the amount of data in different categories of a variable. One axis encodes the frequencies of the quantitative data, and the other axis the categories of the qualitative data.
+* **Boxplot** - shows the median, quartiles, and bounds of your data.
+* **Violin plot** - in essence a boxplot that also shows the distribution of your quantiative variable.
+* **Word cloud** - these eyecatching visualizations display a list of words with their font size corresponding to their importance. But, they require huge sample sizes and are not very useful as they often distort reality. For example, long words will look more prominent just because they have more letters and cover more area - our eyes don't intuitively parse out word height from length.
+* **Pie chart** - uses relative frequencies to show how large each category is in relation to the whole. 
  
-Create your visual, and run through the list again keeping in mind the principles of visual perception, effectiveness and efficiency. Does it meet your needs? If not, try a different type. **Graphing, like writing, requires continuous editing.**
+*Pie charts are grudgingly listed here because you will see them in the wild, but resist the temptation to use them!* Based on our visual perception, pie charts are inherently problematic because they encode values as visual attributes. Pie charts encode data as the area of each slice, as well as the angle that it forms in the center of the pie, making it difficult to easily perceive and compare differences. Almost any other chart type is better than a pie chart.
 
-For example, if you want to enable comparing values and their relationships, use a bar or dot plot. When you want to make accurate comparisons, try a chart with lines or bars sitting on a single axis.
+Other complex plot types you may encounter that layer additional marks and channels on the above chart types are:
 
+* **Lollipop chart** - a dot chart where the dots are connected by lines to an axis.
+* **Moasic plot** - also called a treemap, these plots display hierarchical data as sets of nested rectangles sized proportionately to their values.
+* **Bubble plots** - scatterplots where the size of a dot corresponds to a third numerical or ordered categorical value.
+* **Radar plots / star chart** - line plots where each variable has its own axis and all axes are joined at the center of the figure.
+* **Network diagrams** - also called graphs, these plots show connections (edges) between entities (nodes). To learn more about network diagrams, check out DataLab's [network toolkit](https://datalab.ucdavis.edu/networks/) and [network analysis workshop](https://www.youtube.com/watch?v=H6IkFnykX1s&feature=youtu.be).
 
+But what about maps?! [Geospatial data visualization is complex and has its own workshop.](https://datalab.ucdavis.edu/eventscalendar/dsi-workshop-geospatial-data-visualization/)
+
+Step 4: Iterate
+-----------
+
+Create your visual, and run through step 2 again keeping in mind the principles of visual perception, effectiveness and efficiency. Does it meet your needs? If not, try a different type. **Graphing, like writing, requires continuous editing.**
