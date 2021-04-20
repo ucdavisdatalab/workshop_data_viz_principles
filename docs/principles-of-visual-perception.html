@@ -164,17 +164,36 @@
 </div>
 <div id="perception-and-encodings" class="section level2">
 <h2><span class="header-section-number">5.3</span> Perception and Encodings</h2>
-<p>Based on Steven’s law, we can order encodings to help us identify which ones will more accurately allow us to judge relative magnitudes:</p>
+<p>Based on psychophysics, we can rank encodings to help us identify which ones will more accurately allow us to judge differences in relative magnitudes, which is important when working with ordinal, interval or ratio data.</p>
+<p>Most to least accurate magnitude encodings:</p>
+<ul>
+<li><strong>Position along a common scale.</strong> Spatial position is the easiest feature for us to recognize and evaluate, and unsurprisingly is used in the most common plot types: bar charts, scatterplots.</li>
+<li><strong>Positions along identical but nonaligned scales.</strong> Small multiples, grid, lattice, panel, and Rellis charts.</li>
+<li><strong>Length.</strong> We can easily recognize proportions and evaluate lengths, especially when they are aligned, such as in bar charts.</li>
+<li><strong>Direction.</strong> We recognize directionality fairly easily. Trend charts utilize this to demonstrate changes over time.</li>
+<li><strong>Angle, slope.</strong> It’s harder to evaluate angles than length or position. Pie charts can be as efficient as stacked bar charts, unless there are more than 3 parts to the whole. But ask yourself - if there are fewer than 3 or fewer parts, do you really need a visualization?</li>
+<li><strong>Area.</strong> Determining the relative magnitude of areas is much harder compared to lengths, and should be used (like in bubble charts) for indicating the relative importance, and not absolute magnitude changes.</li>
+<li><strong>Volume.</strong> 3D objects as represented in 2-D space are hard to evaluate. Avoid them. I’m looking at you exploding 3D pie chart.</li>
+<li><strong>Curvature</strong> Perceiving changes in the degree of a curve magnifies the difficulties in detecting direction, angle, and non-aligned lengths.</li>
+<li><strong>Density, color saturation and shading.</strong> Color is the least accurate way to convey patterns. Saturation is the intensity of a single hue, and increasing color intensity is intuitively perceived as correlating to an increasing value. But, individual hues are hard to compare to one another. Heatmaps along the same color gradient can be a good way to convey an overall picture of change in values over a range. We’ll talk more about color later on.</li>
+<li><strong>Color hue.</strong> For data visualizations, color hue is the most challenging encoding to detect changes in magnitude.</li>
+</ul>
 </div>
 <div id="evaluating-graphics" class="section level2">
 <h2><span class="header-section-number">5.4</span> Evaluating Graphics</h2>
-<p>Expressiveness is violated when we use the encodings on the wrong side of the diagram for our data type.
-Effectiveness means we should look look at the channels at the top of the list to encode the variables that are the most important to communicating our data story.</p>
 <p>“No matter how clever the choice of the information, and no matter how technologically impressive the encoding, a visualization fails if the decoding fails” (Cleveland 1983).</p>
+<p>Munzner uses the principles of expressiveness and effectiveness to evaluate data visualizations.</p>
+<p><strong>Expressiveness</strong> says that the “visual encoding should express all of, and only, the information in the dataset attributes.” It is violated when we use encodings that do not match our data type or our visualization goals. <strong>Effectiveness</strong> says the “importance of the attribute should match the salience of the channel,” meaning we should look look at the channels at the top of the list to encode the variables that are the most important to communicating our data story.</p>
+<p>Taking these principles together, when we want to compare magnitudes of <strong>ordinal data</strong> (numeric, continuous, or ordered qualitative data - like heigh, weight, number of children in a family, or likert rating scale), we should use encodings at the top of the list. Conversely, for <strong>nominal data</strong> (categorical or un-ordered qualitative data - like gender), use these identity channels:</p>
+<ul>
+<li><strong>Shape.</strong> Glyphs are effective at grouping categorical attributes together. But, be mindful that the more shapes you use, the harder it will be for a viewer to remember what corresponds to which specific data attribute.</li>
+<li><strong>Color.</strong> While color can be very effective in data visualizations (see Gestalt’s principles, below) typically less is more. Apply contrasting colors only to differences in meanings in the data, or to emphasize the main elements. Start with grey, and add color only as necessary. And, be mindful when defining your color palette. <a href="https://colorbrewer2.org/">Color brewer</a> and <a href="https://projects.susielu.com/viz-palette">Viz Palette</a> provide palettes that optimize our perceptive abilities and design for accessibility. Do a color check - how will a person with colorblindness perceive your graphics?</li>
+<li><strong>Texture.</strong> Similar to shape and color, texture can be useful for differentiating between categories or separate areas. Textures can be particularly effective at replacing colors, such as in black and white figures, and for increasing accessiblity by reinforcing a color encoding.</li>
+</ul>
 </div>
 <div id="gestalts-principles" class="section level2">
 <h2><span class="header-section-number">5.5</span> Gestalt’s Principles</h2>
-<p>Our brains have an amazing ability to create and perceive structure in visual objects. This is commonly referred to as the Gestalt principles of visual perception. This framework combined with Steven’s Law can help us think through how to use marks and channels expressive and effective data visualizations:</p>
+<p>In addition to decoding specific elements, our brains have an amazing ability to create and perceive structure along visual objects. This is commonly referred to as the Gestalt principles of visual perception. This framework, combined with Steven’s Law, can help us think through how to use marks and channels to create expressive and effective data visualizations:</p>
 <ul>
 <li><strong>Similarity</strong> - objects with the same visual properties are assumed to be similar and are grouped together.
 <ul>
