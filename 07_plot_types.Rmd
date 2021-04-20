@@ -22,13 +22,18 @@ Ask ask yourself:
 Step 3: Select a Plot Type
 -------------------
 
-Now that you've identified your data types and what you need your visualization to show, explore different chart type options using this nifty tool by [from Data to Viz](https://www.data-to-viz.com/). Select your data type(s) and click through for the pros, cons, and alternate options for a bevy of charts.
+Now that you've identified your data types and what you need your visualization to show, explore your different chart type options!
+
+using this nifty tool by [from Data to Viz](https://www.data-to-viz.com/). Select your data type(s) and click through for the pros, cons, and alternate options for a bevy of charts.
 
 ![](./img/from_data_to_viz_screengrab.PNG)
 
 For example, if you want to enable acurate comparisons of individual quantitative values and their relationships, try a scatterplot or a chart with lines or bars sitting aligned on a single axis.
 
-The following list contains an overview of some of the most common plot type you may encounter. ([This post](https://stats.stackexchange.com/questions/78844/a-gallery-of-charts-diagrams-and-plot-types) also has a lot of examples.)
+Google also has an [interactive plot gallery](https://developers.google.com/chart/interactive/docs/gallery?csw=1
+And [this Stack Exchange post](https://stats.stackexchange.com/questions/78844/a-gallery-of-charts-diagrams-and-plot-types) has even more chart type resources.
+
+The following list contains an overview of some of the most common plot type you may encounter. 
 
 **Single quantitative variables** are plotted to show the frequency distribution of the data. While **historgrams** are the most common density plots, a single quantiative variable can also be plotted using a rug plot/strip chart, boxplot, or violin plot (described below, where they're most commonly employed).
 
