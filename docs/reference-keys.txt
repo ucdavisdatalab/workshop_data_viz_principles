@@ -5,7 +5,8 @@ introduction
 a-brief-history-of-data-visualization
 what-is-data-visualization
 why-viz
-the-good-bad-and-ugly-of-data-viz
+good-data-visualizations
+bad-data-visualizations
 before-you-viz-make-a-plan
 purpose
 audience
