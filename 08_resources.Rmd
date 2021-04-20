@@ -4,25 +4,44 @@ References and Additional Resources
 Articles
 -------------------
 
+Mickinlay, Jock. 1986. Automating the design of graphical presentations of relational information. ACM Transactions on Graphics. https://doi.org/10.1145/22949.22950
+Cleveland, William S. & Kleiner, Beat. 1975. A Graphical Technique for Enhancing Scatterpiots with Moving Statistics. In Proceedings of the Annual Meeting. Atlanta, GA. 
+Fisher, Ronald Alymer. (1915). Theory of Statistical Estimation. Proceedings of the Cambridge Philosophical Society. 22. 700-725.
 
 Websites
 -------------------
 
+[Milestones in the history of thematic cartography, statistical graphics, and data visualization](https://www.datavis.ca/milestones/)
+from data to viz
+Data is beautiful
+Flowing data
+WTF data viz
 
 
-Books
+Books and Chapters
 -------------------
 
-Cleveland, The elements of graphing data
-Tufte, The visual display of quantiative information
-Wainer, Graphic discovery: a trout in the milk and other visual adventures
-Wilkinson, The grammar of graphics
+Cleveland, William. 1994. The elements of graphing data 2nd edition.
+Friendly, M. 2007. A Brief History of Data Visualization. In Handbook of Computational Statistics: Data Visualization. III. Springer-Verlag. Heidelberg. 1-34. Munzner, Tamara.2014. [Visualization analysis and design](https://www.oreilly.com/library/view/visualization-analysis-and/9781466508910/)
+Tufte, Edward R. 1983. The Visual Display of Quantitative Information. Graphics Press. Cheshire, CT.
+Wainer, Howard. 2007. [Graphic discovery: a trout in the milk and other visual adventures](https://press.princeton.edu/books/paperback/9780691134055/graphic-discovery)
+Wilkinson, Leland. 2005. The Grammar of Graphics, 2nd ed.. Springer. New York.
 Yau, Visualize this: The flowing data guide to design, visualization, and statistics
+
+
+Historical Books
+-----------------
+Bertin, Jacques. 1983. Semiology of Graphics. University of Wisconsin Press. Madison, WI. (trans. W. Berg) 1967
+Descartes, Réne. 1637. La Géométrie. In Discours de la Méthode. Essellier. Paris. 
+Minard, Charles Joseph. 1861. Des Tableaux Graphiques et des Cartes Figuratives. E. Thunot et Cie. Paris.
+Playfair, William. 1786. Commercial and Political Atlas: Representing, by Copper-Plate Charts, the Progress of the Commerce, Revenues, Expenditure, and Debts of England, during the Whole of the Eighteenth Century. Corry. London.
+Snow, John. 1855. On the Mode of Communication of Cholera. (n.p.). London. 
+Tukey, John Wilder. 1977. Exploratory Data Analysis. Addison-Wesley. Reading, MA.
 
 
 R Graphics References
 ----------------------------
 Murrell, R Graphics
 Sarkar, Multivariate data visualization with R
-Wickham, ggplot2 - Elegant graphics for data analysis
+Wickham, Hadley. (2009). ggplot2: Elegant graphics for data analysis. Springer. 
 
