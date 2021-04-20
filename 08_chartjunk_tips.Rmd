@@ -9,9 +9,9 @@ Tell the truth – don’t distort the data.
 Get Rid of Chartjunk
 --------------------
 
-An easy way to instantly improve your plots is to eliminate suprefluous material. Extra tick marks and grid lines. Unnecessary text and arrows. Decimal places beyond the measreument error of the level of difference. Cute little butterfly clipart. This **chartjunk** has no meaning, and clutters up a chart making it hard for your viewer to see what's most important - your data. The amount of 'ink' on your figure should directly correspond with the amount of data you present. If it doesn't, you have a lot of chartjunk. (Evidence #10298 that pie charts are never a good choice.)
+An easy way to instantly improve your plots is to eliminate superfluous material. Extra tick marks and grid lines; unnecessary text and arrows; decimal places beyond the measurement error of the level of difference; cute little butterfly clipart: this **chartjunk** has no meaning and it clutters up a chart, making it hard for your viewer to see what's most important - your data. The amount of 'ink' on your figure should directly correspond with the amount of data you present. If it doesn't, you have a lot of chartjunk. (Evidence #10298 that pie charts are never a good choice.)
 
-Try these decluttering steps to improve your charts:
+Try these de-cluttering steps to improve your charts:
 
 * Shift from center to left-justified text
 * Retain whitespace
@@ -44,7 +44,7 @@ Facilitate Comparisons
 A common mistake is to use more encodings than there are dimensions of the data. If you data only has two dimensions (say number of students in STEM by gender identity), your figure could reasonably use points, rarely area, and never volume. (I'm looking at you, 3D pie chart.)
 
 
-Create Information Rich Plots
+Create Information-Rich Plots
 ---------------------------
 
 Data visualizations cannot exist without text. They require context to infer meaning. Ask yourself:
@@ -57,6 +57,6 @@ Data visualizations cannot exist without text. They require context to infer mea
 Practice
 -------------------------
 
-Just as an author edits before the novel, and an artist sketches before the masterpiece, plotting is an iterative process. Proofread for clarity and consistency. Check whether your plots pass the expressiveness and effectiveness tests. Does a viewer draw the same conclusions from the figure that you do?
+Just as an author edits before publishing the novel, and an artist sketches before making the masterpiece, plotting is an iterative process. Proofread for clarity and consistency. Check whether your plots pass the expressiveness and effectiveness tests. Does a viewer draw the same conclusions from the figure that you do?
 
 Here's a ![cheatsheet summary of this reader](./datalab_worskhop_data_viz_cheatsheet.docx) to help you design and improve your data visualizations. Happy plotting!

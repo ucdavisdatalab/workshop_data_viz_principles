@@ -7,7 +7,7 @@ At their core, data visualizations are products that:
 * Have a specific purpose.
 * Tell a data-driven story.
 
-There are two main types of data visualizations. Information visualizations (aka infographics or infoviz) tend to be visually striking, dramatizing a problem with unique and visually appealing imagry that draws the casual viewer in. In contrast, statistical graphics aim to make comparisons, to reveal patterns and discrepancies. We use statistical graphs to communicate our research results, often for viewers who are already immersed or interested in the problem. While many topics within this reader will apply to infoviz as well, our emphasis is on creating judicious and accurate statistical graphics. *(For more info comparing infoviz and statistical graphs, see [Gelman and Unwin 2013](https://www.jstor.org/stable/43304809?seq=1).)*
+There are two main types of data visualizations. **Information visualizations** (aka infographics or infoviz) tend to be visually striking, dramatizing a problem with unique and visually appealing imagery that draws the casual viewer in. In contrast, **statistical graphics** aim to make comparisons, to reveal patterns and discrepancies. We use statistical graphs to communicate our research results, often for viewers who are already immersed or interested in the problem. While many topics within this reader will apply to infoviz as well, our emphasis is on creating judicious and accurate statistical graphics. *(For more info comparing infoviz and statistical graphs, see [Gelman and Unwin 2013](https://www.jstor.org/stable/43304809?seq=1).)*
 
 
 Why viz?
@@ -29,12 +29,14 @@ Good data visualizations
 * Are expressive.
 * Are effective.
 
-Helpful data visualizations are intuitively, clearly, accurately, and efficiently explain complex ideas. The patterns and relationships presented must be valid, and the visual relevant to the data it presents. A data visualization cannot exist without a narrative, and good data visualizations always include context. Good plots grab our attention and create a positive visual impact. This aids our ability to make connections and recall the features of the data. They can be aesthetically pleasing, but that's not the end goal. Good plots are accessible (not everyone perceives the visual world the same way). They leverage aspects of human perception to allow for intuitive inference of relationships between abstract concepts (our data).
+Helpful data visualizations intuitively, clearly, accurately, and efficiently explain complex ideas. The patterns and relationships presented must be valid, and the visual relevant to the data it presents. A data visualization cannot exist without a narrative, and good data visualizations always include context. Good plots grab our attention and create a positive visual impact. This aids our ability to make connections and recall the features of the data. They can be aesthetically pleasing but that's not the end goal. Good plots are accessible (not everyone perceives the visual world the same way). They leverage aspects of human perception to allow for intuitive inference of relationships between abstract concepts (our data).
 
 Want to feel inspired? Check out [Information is Beautiful](https://informationisbeautiful.net/) and [Flowing Data](https://flowingdata.com/).
 
 ![](./img/IIB_Best-In-Show_1276x2.png)
-[source](https://informationisbeautiful.net/visualizations/best-in-show-whats-the-top-data-dog/)
+<center>
+[Source](https://informationisbeautiful.net/visualizations/best-in-show-whats-the-top-data-dog/)
+</center>
 
 Bad data visualizations
 ------------------
@@ -48,4 +50,6 @@ Bad data visualizations
 Have you ever seen a pie chart where the labeled slices add up to something other than 100%? That's a poorly executed data visualization. Goal: don't end up on [WTF Viz](https://viz.wtf/).
 
 ![](./img/wtf_viz_tumblr_qqfe5kmQze1sgh0voo1_1280.jpg)
-*[source](https://viz.wtf/post/646651837987061760/the-star-herald-starherald-has-a-daily-poll)*
+<center>
+[Source](https://viz.wtf/post/646651837987061760/the-star-herald-starherald-has-a-daily-poll)
+</center>
