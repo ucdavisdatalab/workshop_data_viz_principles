@@ -1,7 +1,52 @@
-Chartjunk: Quick Tips for Better Plots
+Chartjunk & Quick Tips for Better Plots
 =============
 
- 
+Clean up your charts
+--------------------
 
-Header
-----------------------------
+A quick way to instantly improve your plots is to eliminate suprefluous material. Extra tick marks and grid lines. Unnecessary text and arrows. Decimal places beyond the measreument error of the level of difference. Cute little butterfly clipart. This **chartjunk** has no meaning, and clutters up a chart making it hard for your viewer to see what's most important - your data.
+
+Try these decluttering steps on a standard template generated chart and revel in the difference:
+
+* Shift from center to left-justified text
+* Retain whitespace
+* Clear contrasts
+* Remove chart borders
+* Remove (or strongly mute) gridlines
+* Remove data markers and point labels (unless they are important)
+* Remove unnecessary polygon filling.
+* Cleanup and rename axis labels to be intuitive
+* Replace the title with something informative
+* Label the data directly using the principle of proximity
+* Leverage consistent color and other aesthetics 
+
+Creating visual order and reducing chartjunk will dramatically improve your graphic. 
+
+Text is Your Key to Information Rich Plots
+---------------------------
+
+Data visualizations cannot exist without text. They require context to infer meaning. Ask yourself:
+
+* Does the caption describe what has been graphed? Does it draw attention to the imporant features? Describe the conclusions drawn by the graph?
+* Are the legends and labels clear and intuitive?
+* Are important reference lines and points labeled?
+
+
+
+
+
+Avoid having the graph elements interfere with the data.
+Use visulally prominent symbols.
+Avoid over-plotting. (Try jittering the values!)
+Never red-green.
+
+Good Plot Making Practice
+-------------------------
+
+Just as an author edits before the novel and an artist sketches before the masterpiece, plotting is an iterative process.
+
+Proofread for clarity and consistency. 
+Does it pass expressiveness and effectiveness tests? 
+Use shape and color hue to identify the *what* categories (nominal data). Use length and area to encode *how much* values (ordinal data).
+
+Make plots data, and information, rich.
