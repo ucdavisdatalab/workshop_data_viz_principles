@@ -1,4 +1,0 @@
-Evaluating Graphics: Expressiveness and Effectiveness
-=============
-
-Use shape and color hue to identify the *what* categories (nominal data). Use length and area to encode *how much* values (ordinal data).
