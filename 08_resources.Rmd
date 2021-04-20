@@ -13,9 +13,9 @@ Websites
 
 [Milestones in the history of thematic cartography, statistical graphics, and data visualization](https://www.datavis.ca/milestones/)
 from data to viz
-Data is beautiful
-Flowing data
-WTF data viz
+[Information is beautiful](https://informationisbeautiful.net/)
+[Flowing data](https://flowingdata.com/)
+[WTF data viz](https://viz.wtf/)
 
 
 Books and Chapters
