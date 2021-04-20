@@ -1,12 +1,17 @@
-Chartjunk & Quick Tips for Better Plots
+Quick Tips for Better Plots
 =============
 
-Clean up your charts
+If the “story” is simple, keep it simple. 
+If the “story” is complex, make it look simple. 
+Tell the truth – don’t distort the data.
+
+
+Get Rid of Chartjunk
 --------------------
 
-A quick way to instantly improve your plots is to eliminate suprefluous material. Extra tick marks and grid lines. Unnecessary text and arrows. Decimal places beyond the measreument error of the level of difference. Cute little butterfly clipart. This **chartjunk** has no meaning, and clutters up a chart making it hard for your viewer to see what's most important - your data.
+An easy way to instantly improve your plots is to eliminate suprefluous material. Extra tick marks and grid lines. Unnecessary text and arrows. Decimal places beyond the measreument error of the level of difference. Cute little butterfly clipart. This **chartjunk** has no meaning, and clutters up a chart making it hard for your viewer to see what's most important - your data. The amount of 'ink' on your figure should directly correspond with the amount of data you present. If it doesn't, you have a lot of chartjunk. (Evidence #10298 that pie charts are never a good choice.)
 
-Try these decluttering steps on a standard template generated chart and revel in the difference:
+Try these decluttering steps to improve your charts:
 
 * Shift from center to left-justified text
 * Retain whitespace
@@ -14,15 +19,32 @@ Try these decluttering steps on a standard template generated chart and revel in
 * Remove chart borders
 * Remove (or strongly mute) gridlines
 * Remove data markers and point labels (unless they are important)
-* Remove unnecessary polygon filling.
+* Remove unnecessary polygon filling
 * Cleanup and rename axis labels to be intuitive
 * Replace the title with something informative
 * Label the data directly using the principle of proximity
 * Leverage consistent color and other aesthetics 
 
-Creating visual order and reducing chartjunk will dramatically improve your graphic. 
+Creating visual order and reducing chartjunk will dramatically improve your graphic by helping your data stand out. 
 
-Text is Your Key to Information Rich Plots
+
+Facilitate Comparisons
+-------------------------
+
+* Avoid having the graph elements interfere with the data
+* Juxtapose or supepose plots (using the same scales)
+* Use visulally prominent symbols
+* Avoid over-plotting; try jittering, or smooththing
+* Don't change a scale mid-axis
+* Use only one scale on one axis
+* Use color, judiciously
+* Avoid jiggling the baseline
+* Take care when selecting the encodings
+
+A common mistake is to use more encodings than there are dimensions of the data. If you data only has two dimensions (say number of students in STEM by gender identity), your figure could reasonably use points, rarely area, and never volume. (I'm looking at you, 3D pie chart.)
+
+
+Create Information Rich Plots
 ---------------------------
 
 Data visualizations cannot exist without text. They require context to infer meaning. Ask yourself:
@@ -32,22 +54,7 @@ Data visualizations cannot exist without text. They require context to infer mea
 * Are important reference lines and points labeled?
 
 
-If the “story” is simple, keep it simple. If the “story” is complex, make it look simple. Tell the truth – don’t distort the data.
-
-
-
-Avoid having the graph elements interfere with the data.
-Use visulally prominent symbols.
-Avoid over-plotting. (Try jittering the values!)
-Never red-green.
-
-Good Plot Making Practice
+Practice
 -------------------------
 
-Just as an author edits before the novel and an artist sketches before the masterpiece, plotting is an iterative process.
-
-Proofread for clarity and consistency. 
-Does it pass expressiveness and effectiveness tests? 
-Use shape and color hue to identify the *what* categories (nominal data). Use length and area to encode *how much* values (ordinal data).
-
-Make plots data, and information, rich.
+Just as an author edits before the novel, and an artist sketches before the masterpiece, plotting is an iterative process. Proofread for clarity and consistency. Check whether your plots pass the expressiveness and effectiveness tests. Does a viewer draw the same conclusions from the figure that you do? Iterate, iterate, iterate.
