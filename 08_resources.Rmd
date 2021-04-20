@@ -18,6 +18,7 @@ from data to viz
 [Flowing data](https://flowingdata.com/)
 [WTF data viz](https://viz.wtf/)
 
+[Perception in data viz, a CS viewpoint](https://www.csc2.ncsu.edu/faculty/healey/PP/)
 
 Books and Chapters
 -------------------
