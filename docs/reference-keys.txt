@@ -18,6 +18,7 @@ visual-magic-tricks
 stevens-law-of-perception
 gestalts-principles
 graphical-elements-of-a-plot
+marks-and-channels
 types-of-statistical-graphics
 header
 evaluating-graphics-expressiveness-and-effectiveness

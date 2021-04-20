@@ -24,7 +24,7 @@
 <meta name="author" content="Dr. Pamela Reynolds" />
 
 
-<meta name="date" content="2021-04-19" />
+<meta name="date" content="2021-04-20" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -97,7 +97,9 @@
 <li class="chapter" data-level="4.2" data-path="principles-of-visual-perception.html"><a href="principles-of-visual-perception.html#stevens-law-of-perception"><i class="fa fa-check"></i><b>4.2</b> Steven’s Law of Perception</a></li>
 <li class="chapter" data-level="4.3" data-path="principles-of-visual-perception.html"><a href="principles-of-visual-perception.html#gestalts-principles"><i class="fa fa-check"></i><b>4.3</b> Gestalt’s Principles</a></li>
 </ul></li>
-<li class="chapter" data-level="5" data-path="graphical-elements-of-a-plot.html"><a href="graphical-elements-of-a-plot.html"><i class="fa fa-check"></i><b>5</b> Graphical Elements of a Plot</a></li>
+<li class="chapter" data-level="5" data-path="graphical-elements-of-a-plot.html"><a href="graphical-elements-of-a-plot.html"><i class="fa fa-check"></i><b>5</b> Graphical Elements of a Plot</a><ul>
+<li class="chapter" data-level="5.1" data-path="graphical-elements-of-a-plot.html"><a href="graphical-elements-of-a-plot.html#marks-and-channels"><i class="fa fa-check"></i><b>5.1</b> Marks and Channels</a></li>
+</ul></li>
 <li class="chapter" data-level="6" data-path="types-of-statistical-graphics.html"><a href="types-of-statistical-graphics.html"><i class="fa fa-check"></i><b>6</b> Types of Statistical Graphics</a><ul>
 <li class="chapter" data-level="6.1" data-path="types-of-statistical-graphics.html"><a href="types-of-statistical-graphics.html#header"><i class="fa fa-check"></i><b>6.1</b> Header</a></li>
 </ul></li>
@@ -129,14 +131,34 @@
             <section class="normal" id="section-">
 <div id="graphical-elements-of-a-plot" class="section level1">
 <h1><span class="header-section-number">5</span> Graphical Elements of a Plot</h1>
-<p>A data visualization is useful only if it encodes information in a way that our eyes can perceive and our brain can understand. Marks and channels are the building blocks of all data visualizations and are employed to accomplish this encoding. By combining them we can create virtually any type of statistical graphic.</p>
+<div id="marks-and-channels" class="section level2">
+<h2><span class="header-section-number">5.1</span> Marks and Channels</h2>
+<p>A data visualization is useful only if it encodes information in a way that our eyes can perceive and our brain can understand. Marks and channels are the building blocks of all data visualizations and are employed to accomplish this encoding.</p>
 <p><strong>Marks</strong> are the the basic geometries, or graphical elements, in a plot that depict our data items or their linkages. Marks indicate “where” something is and include points (0d), lines (1d), areas (2d), and volumes (3d).</p>
 <p><strong>Channels</strong> are the attributes of that control how the marks appear. Channels are used to encode (or indicate) the values or meaning of our data. Common channels are position, size, shape, orientation, hue, saturation, lightness, etc..</p>
-<p>By understanding the nature of our data in combination with the principles of visual perception, we can identify which marks and channels will help us create effective and expressive data visualizations.</p>
+<p>By understanding the nature of our data in combination with the principles of visual perception, we can use marks and channels to create effective and expressive data visualizations.</p>
 <p><img src="img/workshop_data_visualization_munzer_marks_channels_figure.PNG" />
 <em><a href="https://www.oreilly.com/library/view/visualization-analysis-and/9781466508910/K14708_C005.xhtml">Image from ‘Visualization Analysis and Design’ by Tamara Munzner</a></em></p>
-<p>Ordinal, interval, or ratio data are a good match for channels that effectivelly encode magnitude. Nominal data, which by nature is un-ordered, is a good match for identity channels.</p>
+<p><strong>Ordinal, interval, or ratio data</strong> are a good match for channels that effectivelly encode magnitude:</p>
+<ul>
+<li><strong>Position along a common scale.</strong> Spatial position is the easiest feature for us to recognize and evaluate, and unsurprisingly is used in the most common plot types: bar charts, scatterplots.</li>
+<li><strong>Positions along nonaligned, identical scales.</strong> Small multiples, grid, lattice, panel, and Rellis charts.</li>
+<li><strong>Length.</strong> We can easily recognize proportions and evaluate lengths, especially when they are aligned, such as in bar charts.</li>
+<li><strong>Direction.</strong> We recognize directionality fairly easily. Trend charts utilize this to demonstrate changes over time.</li>
+<li><strong>Angle.</strong> It’s harder to evaluate angles than length or position. Pie charts can be as efficient as stacked bar charts, unless there are more than 3 parts to the whole. But ask yourself - if there are fewer than 3 or fewer parts, do you really need a visualization?</li>
+<li><strong>Area.</strong> Determining the relative magnitude of areas is much harder compared to lengths, and should be used (like in bubble charts) for indicating the relative importance, and not absolute magnitude changes.</li>
+<li><strong>Volume.</strong> 3D objects as represented in 2-D space are hard to evaluate. Avoid them. I’m looking at you exploding 3D pie chart.</li>
+<li><strong>Curvature</strong> Perceiving changes in the degree of a curve magnifies the difficulties in detecting direction, angle, and non-aligned lengths.</li>
+<li><strong>Color saturation and shading.</strong> Color is the least accurate way to convey patterns. Saturation is the intensity of a single hue, and increasing color intensity is intuitively perceived as correlating to an increasing value. But, individual hues are hard to compare to one another. Heatmaps along the same color gradient can be a good way to convey an overall picture of change in values over a range. We’ll talk more about color later on.</li>
+</ul>
+<p><strong>Nominal data</strong>, often called categorical data, is inherently un-ordered and is a good match for identity channels:</p>
+<ul>
+<li><strong>Shape.</strong> Glyphs are effective at grouping categorical attributes together. But, be mindful that the more shapes you use, the harder it will be for a viewer to remember what corresponds to which specific data attribute.</li>
+<li><strong>Color.</strong> While color can be very effective in data visualizations according to Gestalt’s principles, typically less is more. Apply contrasting colors only to differences in meanings in the data, or to emphasize the main elements. Start with grey, and add color only as necessary. And, be mindful when defining your color palette. <a href="https://colorbrewer2.org/">Color brewer</a> and <a href="https://projects.susielu.com/viz-palette">Viz Palette</a> provide palettes that optimize our perceptive abilities and design for accessibility. Do a color check - how will a person with colorblindness perceive your graphics?</li>
+<li><strong>Texture.</strong> Similar to shape and color, texture can be useful for differentiating between categories or separate areas. Textures can be particularly effective at replacing colors, such as in black and white figures, or for increasing accessiblity.</li>
+</ul>
 
+</div>
 </div>
             </section>
 
