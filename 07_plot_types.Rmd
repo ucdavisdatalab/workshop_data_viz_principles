@@ -65,7 +65,7 @@ But remember, some encodings are more difficult to accurately decode. When in do
 Aside - What About Maps?!
 -------------------------
 
-Geospatial data visualization by its nature encodes a lot of attributes - and [it has its own workshop.](https://datalab.ucdavis.edu/eventscalendar/dsi-workshop-geospatial-data-visualization/)
+Geospatial data visualization by nature is complex and encodes a lot of attributes - and [it has its own workshop.](https://datalab.ucdavis.edu/eventscalendar/dsi-workshop-geospatial-data-visualization/)
 
 
 Step 4: Iterate
