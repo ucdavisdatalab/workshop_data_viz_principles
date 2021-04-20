@@ -25,7 +25,7 @@ output:
 
 # Overview {-}
 
-Objectives for this Workshop
+Objectives
 ----------------------------
 
 By the end of this workshop, you should be able to:
@@ -40,7 +40,7 @@ By the end of this workshop, you should be able to:
 Prerequisites
 -------------
 
-This workshop is intended for researchers who are actively working with data. The material we'll discuss is largely 'software agnostic' and can be applied to virtually any plotting program. We will NOT be covering how to use specific computational tools for making plots. If you want to learn more, check out the [DataLab workshop archive](https://datalab.ucdavis.edu/archive/) for topics including ggplot for graphics in R, and our [research toolkits](https://datalab.ucdavis.edu/technologies/) for visualization library suggestions in Python and other programming languages.*
+This workshop is intended for researchers who are actively working with data. The material herein is designed to be tool-agnostic so you can apply these tips and theory to improve your data visualizations regardless of the software you’re using. While we will not be covering how to use specific computational tools for making plots, if you want to learn more about plotting sofware, check out the [DataLab workshop archive](https://datalab.ucdavis.edu/archive/) for topics including ggplot for graphics in R, and our [research toolkits](https://datalab.ucdavis.edu/technologies/) for visualization library suggestions in Python and other programming languages.
 
 
 About this Tutorial
