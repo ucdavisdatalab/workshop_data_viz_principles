@@ -32,6 +32,7 @@ Data visualizations cannot exist without text. They require context to infer mea
 * Are important reference lines and points labeled?
 
 
+If the “story” is simple, keep it simple. If the “story” is complex, make it look simple. Tell the truth – don’t distort the data.
 
 
 
