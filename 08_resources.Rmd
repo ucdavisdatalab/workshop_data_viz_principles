@@ -8,6 +8,7 @@ Mickinlay, Jock. 1986. Automating the design of graphical presentations of relat
 Cleveland, William S. & Kleiner, Beat. 1975. A Graphical Technique for Enhancing Scatterpiots with Moving Statistics. In Proceedings of the Annual Meeting. Atlanta, GA. 
 Fisher, Ronald Alymer. (1915). Theory of Statistical Estimation. Proceedings of the Cambridge Philosophical Society. 22. 700-725.
 
+
 Websites
 -------------------
 
@@ -37,7 +38,7 @@ Minard, Charles Joseph. 1861. Des Tableaux Graphiques et des Cartes Figuratives.
 Playfair, William. 1786. Commercial and Political Atlas: Representing, by Copper-Plate Charts, the Progress of the Commerce, Revenues, Expenditure, and Debts of England, during the Whole of the Eighteenth Century. Corry. London.
 Snow, John. 1855. On the Mode of Communication of Cholera. (n.p.). London. 
 Tukey, John Wilder. 1977. Exploratory Data Analysis. Addison-Wesley. Reading, MA.
-
+Tukey, John Wilder. 1960. [A survey of sampling from contaminated distributions. In Contributions to Probability and Statistics: Essays in Honor of Harold Hotelling](https://www.jstor.org/stable/1558734?seq=1) (I. Olkin et al., eds.) 448–485. Stanford Univ. Press.
 
 R Graphics References
 ----------------------------
