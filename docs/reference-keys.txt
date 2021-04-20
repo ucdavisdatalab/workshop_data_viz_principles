@@ -20,10 +20,12 @@ gestalts-principles
 graphical-elements-of-a-plot
 marks-and-channels
 types-of-statistical-graphics
-header
+identify-your-data-type
+from-data-to-viz
+using-a-functional-approach
 evaluating-graphics-expressiveness-and-effectiveness
-header-1
+header
 chartjunk-quick-tips-for-better-plots
-header-2
+header-1
 resources
-header-3
+header-2
