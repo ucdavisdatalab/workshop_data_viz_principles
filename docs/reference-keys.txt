@@ -25,6 +25,8 @@ step-2-determine-your-functional-approach
 step-3-select-a-plot-type
 step-4-iterate
 evaluating-graphics-expressiveness-and-effectiveness
+expressive-graphics
+effective-graphics
 header
 chartjunk-quick-tips-for-better-plots
 header-1
