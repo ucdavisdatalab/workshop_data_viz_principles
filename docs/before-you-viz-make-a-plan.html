@@ -156,11 +156,11 @@
 <div id="purpose" class="section level2">
 <h2><span class="header-section-number">3.1</span> Purpose</h2>
 <p>First, identify <strong>why</strong> you are making a visualization. We use data visualizations in different ways across the iterative steps of the research data pipeline:</p>
-<p><img src="./img/research_data_pipeline.png.png" /></p>
+<p><img src="img/research_data_pipeline.png" /></p>
 <ul>
 <li><strong>Collection</strong> - plots can help us understand who, what, and where the data represent. It can help us track our progress, and help us project required effort to complete this phase of the project.</li>
 <li><strong>Cleaning</strong> - plotting is a quick and effective way to spot errors in our data. It allows us to identify outliers (or inliers), to grasp the extent of issues such as missing data.</li>
-<li><strong>Exploration</strong> - plots are a powerful tool for exploratory data analysis (EDA). Plots help us identify patterns, summarize variables and relationships. TUKEY BOOK 1960</li>
+<li><strong>Exploration</strong> - plots are a powerful tool for exploratory data analysis (EDA). Plots help us identify patterns, summarize variables and relationships. (see <a href="https://www.jstor.org/stable/1558734?seq=1">Tukey 1960</a>)</li>
 <li><strong>Confirmation</strong> - plots also help us conduct confirmatory data analysis (CDA). We can plot diagnostics like the model fit, residuals, and model comparisons that confirm whether a model is correct. CDA is an iterative cycle throughout the research process, one reason why we advocate for using scripting software that allows for generating reproducible graphics.</li>
 <li><strong>Validation</strong> - plots also help us to debug and validate our code. We can visually inspect the results at each step of the code we are writing and verify whether it satisfies our expectations.</li>
 <li><strong>Communication</strong> - sharing the insights from our data with others is probably the most commonly understood and emphasized purpose of data visualizations. This is also often the hardest type of data visualization to “get right,” often because we don’t always remember to design the visual to speak specifically to who we are sharing it with.</li>
@@ -168,7 +168,7 @@
 </div>
 <div id="audience" class="section level2">
 <h2><span class="header-section-number">3.2</span> Audience</h2>
-<p>Who are you making the data visualization for? There is no such thing as a “generic” data visualization. Are you making the figure for <em>yourself</em> to help you clean or explore your data? For your <em>immediate colleagues or research team</em> to update them on your research progress? For <em>experts in your field</em> reading your publication or listening to your presentation? Is it for a <em>general audience</em> as part of your public outreach? What about <em>policy makers</em> who might not know all the details but might be making big decisions based on your results? Knowing who you’re making the visualization for will help you think through the following steps to create something of value for your intended purpose.</p>
+<p>Who are you making the data visualization for? There is no such thing as a “generic” data visualization. Are you making the figure for <strong>yourself</strong> to help you clean or explore your data? For your <strong>immediate colleagues or research team</strong> to update them on your research progress? For <strong>experts in your field</strong> reading your publication or listening to your presentation? Is it for a <strong>general audience</strong> as part of your public outreach? What about <strong>policy makers</strong> who might not know all the details but might be making big decisions based on your results? Knowing who you’re making the visualization for will help you think through the following steps to create something of value for your intended purpose. It will also help you determine how effort is needed to compose a plot to achieve your goal.</p>
 </div>
 <div id="medium" class="section level2">
 <h2><span class="header-section-number">3.3</span> Medium</h2>
@@ -176,13 +176,13 @@
 </div>
 <div id="tools" class="section level2">
 <h2><span class="header-section-number">3.4</span> Tools</h2>
-<p>At the UC Davis DataLab, we advocate the use of open source scripting software for data-driven research projects, including for generating data visualizations. Using scripting software makes it easy for you to reproduce your data visualizations. As you clean and update your data, you can re-create your visuals easily by re-running your code. You can also return to a figure later and know exactly what it represents and how you made it. You don’t have to worry about remembering what buttons you clicked, and in what order, like you might when using a GUI based software. Using open software also means that you can easily and freely share your data, code, and corresponding output figures with your collaborators, reducing the equity barriers posed by the use of proprietary software. Open source software that’s great for plotting - like R - also has amazing user communities and resources to help you learn the code and create your ideal visualization.</p>
+<p>At the UC Davis DataLab, we advocate for the use of open source scripting software for data-driven research projects, including for generating data visualizations. Using scripting software makes it easy for you to reproduce your data visualizations. As you clean and update your data, you can re-create your visuals easily by re-running your code. You can also return to a figure later and know exactly what it represents and how you made it. You don’t have to worry about remembering what buttons you clicked, and in what order, like you might when using a GUI based software. Using open software also means that you can easily and freely share your data, code, and corresponding output figures with your collaborators, reducing the equity barriers posed by the use of proprietary software. Open source software that’s great for plotting - like R - also has amazing user communities and resources to help you learn the code and create your ideal visualization.</p>
 <p><em>But, be practical with yourself. If the conference talk is tomorrow you probably aren’t going to learn ggplot overnight. In these cases using common software like Excel for plotting can be fine, especially if you know some tricks to clean up and customize the appearance of your plots.</em></p>
-<p>Some open source tools we recommend for data visualization:</p>
+<p>Here is a non-exhaustive list of open source tools we recommend for data visualization:</p>
 <ul>
 <li>Static visualizations:
 <ul>
-<li><a href="https://ggplot2.tidyverse.org/">Ggplot</a> for static visualizations</li>
+<li><a href="https://ggplot2.tidyverse.org/">Ggplot</a> in R</li>
 <li><a href="https://matplotlib.org/2.0.2/users/pyplot_tutorial.html">Matplotlib</a> in Python</li>
 </ul></li>
 <li>Geospatial visualizations
@@ -207,9 +207,7 @@
 <p>As you reflect on your answers to the planning prompts above, critically review the features of your data:</p>
 <ul>
 <li><strong>What do the variables you’ve selected for your visualization mean?</strong> How are they defined? How did those definitions come to be? Why did you select them?</li>
-<li><ul>
 <li><strong>Who will your data visualizations affect? What groups are left out?</strong> How does this affect the story your data tells? How might someone misrepresent or misunderstand your story? <a href="https://mitpress.mit.edu/books/data-feminism">Bring back the bodies</a>.</li>
-</ul></li>
 </ul>
 <p>Conducting these connotative and denotative exploration of your research will not only result in a more robust data visualization, but will make you a better researcher and support a more inclusive and equitable society. To learn more and practice these steps on some case studies, check out our <a href="https://ucdavisdatalab.github.io/workshop_critical_data_viz/">Critical Approach to Data Visualization workshop</a> and <a href="https://datalab.ucdavis.edu/data-feminism/">Data Feminism research and learning cluster</a>.</p>
 
