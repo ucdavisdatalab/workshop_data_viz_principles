@@ -59,4 +59,4 @@ Practice
 
 Just as an author edits before publishing the novel, and an artist sketches before making the masterpiece, plotting is an iterative process. Proofread for clarity and consistency. Check whether your plots pass the expressiveness and effectiveness tests. Does a viewer draw the same conclusions from the figure that you do?
 
-Here's a ![cheatsheet summary of this reader](./datalab_worskhop_data_viz_cheatsheet.docx) to help you design and improve your data visualizations. Happy plotting!
+Here's a [cheatsheet checklist from this reader](https://docs.google.com/document/d/1rwoa8XPgvTKHE5Weh9RhrO8igfJ6E8bqyZtddZpwomc/edit?usp=sharing] to help you design and improve your data visualizations. Happy plotting!
