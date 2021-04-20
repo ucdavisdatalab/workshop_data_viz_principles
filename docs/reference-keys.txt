@@ -25,6 +25,7 @@ types-of-statistical-graphics
 step-1-identify-your-data-type
 step-2-determine-your-functional-approach
 step-3-select-a-plot-type
+aside---what-about-maps
 step-4-iterate
 evaluating-graphics-expressiveness-and-effectiveness
 expressive-graphics
