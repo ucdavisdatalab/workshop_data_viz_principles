@@ -23,6 +23,8 @@ stevens-psychophysical-power-law
 perception-and-encodings
 evaluating-graphics
 gestalts-principles
+accessible-data-visualizations
+color
 types-of-statistical-graphics
 step-1-identify-your-data-type
 step-2-determine-your-functional-approach
