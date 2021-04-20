@@ -31,6 +31,9 @@ chartjunk-quick-tips-for-better-plots
 clean-up-your-charts
 text-is-your-key-to-information-rich-plots
 good-plot-making-practice
+references-and-additional-resources
+articles
+websites
+books
+r-graphics-references
 evaluating-graphics-expressiveness-and-effectiveness
-resources
-header
