@@ -28,7 +28,7 @@ Now that you've identified your data types and what you need your visualization 
 
 For example, if you want to enable acurate comparisons of individual quantitative values and their relationships, try a scatterplot or a chart with lines or bars sitting aligned on a single axis.
 
-Here's an overview of some of the most common plot type you may encounter:
+The following list contains an overview of some of the most common plot type you may encounter. ([This post](https://stats.stackexchange.com/questions/78844/a-gallery-of-charts-diagrams-and-plot-types) also has a lot of examples.)
 
 **Single quantitative variables** are plotted to show the frequency distribution of the data. While **historgrams** are the most common density plots, a single quantiative variable can also be plotted using a rug plot/strip chart, boxplot, or violin plot (described below, where they're most commonly employed).
 
