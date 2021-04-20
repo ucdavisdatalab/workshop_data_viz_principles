@@ -36,4 +36,4 @@ articles
 websites
 books
 r-graphics-references
-evaluating-graphics-expressiveness-and-effectiveness
+acknowledgments
