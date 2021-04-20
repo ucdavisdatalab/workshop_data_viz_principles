@@ -1,4 +1,0 @@
-Acknowledgments
-=============
-
-Many thanks to Duncan Temple Lang and Deb Nolan, who taught DataLab's (then the Data Science Initiative) first Data Visualization workshop in April 2015. Additional resources by Torsten Moller enhanced this material. Tyler Shoemaker assisted with the Bookdown template for this reader.
