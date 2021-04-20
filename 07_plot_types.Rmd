@@ -22,9 +22,7 @@ Ask ask yourself:
 Step 3: Select a Plot Type
 -------------------
 
-Now that you've identified your data types and what you need your visualization to show, explore your different chart type options!
-
-using this nifty tool by [from Data to Viz](https://www.data-to-viz.com/). Select your data type(s) and click through for the pros, cons, and alternate options for a bevy of charts.
+Now that you've identified your data types and what you need your visualization to show, explore your different chart type options! Start with this nifty tool by [from Data to Viz](https://www.data-to-viz.com/). Select your data type(s) and click through for the pros, cons, and alternate options for a bevy of charts.
 
 ![](./img/from_data_to_viz_screengrab.PNG)
 
