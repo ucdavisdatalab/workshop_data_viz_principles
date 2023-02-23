@@ -1,6 +1,6 @@
 ---
 title: Principles of Data Visualization
-author: Dr. Pamela Reynolds
+author: [Pamela Reynolds, Tyler Shoemaker]
 date: "`r Sys.Date()`"
 
 github-repo: ucdavisdatalab/workshop_data_viz_principles
@@ -19,8 +19,8 @@ output:
           <li><a href="./" style="font-size: 18px">Principles of Data Visualization</a></li>
         collapse: section
       sharing: no
-      view: https://github.com/ucdavisdatalab/workshop_data_viz_principles/blob/master/%s
-      edit: https://github.com/ucdavisdatalab/workshop_data_viz_principles/edit/master/%s
+      view: https://github.com/ucdavisdatalab/workshop_data_viz_principles/blob/main/%s
+      edit: https://github.com/ucdavisdatalab/workshop_data_viz_principles/edit/main/%s
 ---
 
 # Overview {-}
@@ -30,20 +30,33 @@ Objectives
 
 By the end of this workshop, you should be able to:
 
-* Explain when, and why, to use a data visualization.
-* Describe common features of "good" data visualizations.
-* Identify principles of visual perception that can be used to make effective and expressive plots.
-* Compare the features and utility of various plot types.
-* Know where to go for more resources on making accessible and equitable data visualizations.
-
+* Explain when, and why, to use a data visualization
+* Describe common features of “good” data visualizations
+* Identify principles of visual perception and aesthetics that can be used to
+  make effective and expressive plots
+* Compare the features and utility of various plot types
+* Critically review a plot to meet responsible data science standards
+* Know where to go for more resources on making accessible and equitable data
+  visualizations
 
 Prerequisites
 -------------
 
-This workshop is intended for researchers who are actively working with data. The material herein is designed to be tool-agnostic so you can apply these tips and theory to improve your data visualizations regardless of the software you’re using. While we will not be covering how to use specific computational tools for making plots, if you want to learn more about plotting sofware, check out the [DataLab workshop archive](https://datalab.ucdavis.edu/archive/) for topics including ggplot for graphics in R, and our [research toolkits](https://datalab.ucdavis.edu/technologies/) for visualization library suggestions in Python and other programming languages.
+This workshop is intended for researchers who are actively working with data.
+The material herein is designed to be tool-agnostic so you can apply these tips
+and theory to improve your data visualizations regardless of the software
+you’re using. While we will not be covering how to use specific computational
+tools for making plots, if you want to learn more about plotting sofware, check
+out the [DataLab workshop archive](https://datalab.ucdavis.edu/archive/) for
+topics including ggplot for graphics in R, and our [research
+toolkits](https://datalab.ucdavis.edu/technologies/) for visualization library
+suggestions in Python and other programming languages.
 
 
 About this Tutorial
 -------------------
 
-This online workshop "reader" provides additional background information as a reference for learners to better understand and practice the concepts introduced during the live workshop session. This reader will persist at this url after the workshop. 
+This online workshop "reader" provides additional background information as a
+reference for learners to better understand and practice the concepts
+introduced during the live workshop session. This reader will persist at this
+URL after the workshop. 
