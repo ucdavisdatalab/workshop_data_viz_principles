@@ -5,7 +5,7 @@ introduction
 a-brief-history-of-data-visualization
 famous-data-viz
 what-is-data-visualization
-why-viz
+why-visualization
 good-data-visualizations
 bad-data-visualizations
 before-you-viz-make-a-plan

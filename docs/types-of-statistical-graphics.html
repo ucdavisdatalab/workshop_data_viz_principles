@@ -6,11 +6,10 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <title>7 Types of Statistical Graphics | Principles of Data Visualization</title>
   <meta name="description" content="7 Types of Statistical Graphics | Principles of Data Visualization" />
-  <meta name="generator" content="bookdown 0.21 and GitBook 2.6.7" />
+  <meta name="generator" content="bookdown 0.31 and GitBook 2.6.7" />
 
   <meta property="og:title" content="7 Types of Statistical Graphics | Principles of Data Visualization" />
   <meta property="og:type" content="book" />
-  <meta property="og:url" content="https://ucdavisdatalab.github.io/workshop_data_viz_principles/" />
   
   
   <meta name="github-repo" content="ucdavisdatalab/workshop_data_viz_principles" />
@@ -21,10 +20,11 @@
   
   
 
-<meta name="author" content="Dr. Pamela Reynolds" />
+<meta name="author" content="Pamela Reynolds" />
+<meta name="author" content="Tyler Shoemaker" />
 
 
-<meta name="date" content="2021-04-21" />
+<meta name="date" content="2023-02-23" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -33,7 +33,8 @@
   
 <link rel="prev" href="accessible-data-visualizations.html"/>
 <link rel="next" href="quick-tips-for-better-plots.html"/>
-<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
@@ -49,8 +50,10 @@
 
 
 
+<link href="libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
+<link href="libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
 
-<script src="libs/accessible-code-block-0.0.1/empty-anchor.js"></script>
 
 
 
@@ -72,21 +75,25 @@
 <li><a href="./" style="font-size: 18px">Principles of Data Visualization</a></li>
 
 <li class="divider"></li>
-<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>Overview</a><ul>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>Overview</a>
+<ul>
 <li class="chapter" data-level="0.1" data-path="index.html"><a href="index.html#objectives"><i class="fa fa-check"></i><b>0.1</b> Objectives</a></li>
 <li class="chapter" data-level="0.2" data-path="index.html"><a href="index.html#prerequisites"><i class="fa fa-check"></i><b>0.2</b> Prerequisites</a></li>
 <li class="chapter" data-level="0.3" data-path="index.html"><a href="index.html#about-this-tutorial"><i class="fa fa-check"></i><b>0.3</b> About this Tutorial</a></li>
 </ul></li>
-<li class="chapter" data-level="1" data-path="introduction.html"><a href="introduction.html"><i class="fa fa-check"></i><b>1</b> Introduction</a><ul>
+<li class="chapter" data-level="1" data-path="introduction.html"><a href="introduction.html"><i class="fa fa-check"></i><b>1</b> Introduction</a>
+<ul>
 <li class="chapter" data-level="1.1" data-path="introduction.html"><a href="introduction.html#a-brief-history-of-data-visualization"><i class="fa fa-check"></i><b>1.1</b> A Brief History of Data Visualization</a></li>
 <li class="chapter" data-level="1.2" data-path="introduction.html"><a href="introduction.html#famous-data-viz"><i class="fa fa-check"></i><b>1.2</b> Famous Data Viz</a></li>
 </ul></li>
-<li class="chapter" data-level="2" data-path="what-is-data-visualization.html"><a href="what-is-data-visualization.html"><i class="fa fa-check"></i><b>2</b> What is Data Visualization?</a><ul>
-<li class="chapter" data-level="2.1" data-path="what-is-data-visualization.html"><a href="what-is-data-visualization.html#why-viz"><i class="fa fa-check"></i><b>2.1</b> Why viz?</a></li>
+<li class="chapter" data-level="2" data-path="what-is-data-visualization.html"><a href="what-is-data-visualization.html"><i class="fa fa-check"></i><b>2</b> What is Data Visualization?</a>
+<ul>
+<li class="chapter" data-level="2.1" data-path="what-is-data-visualization.html"><a href="what-is-data-visualization.html#why-visualization"><i class="fa fa-check"></i><b>2.1</b> Why visualization?</a></li>
 <li class="chapter" data-level="2.2" data-path="what-is-data-visualization.html"><a href="what-is-data-visualization.html#good-data-visualizations"><i class="fa fa-check"></i><b>2.2</b> Good data visualizations</a></li>
 <li class="chapter" data-level="2.3" data-path="what-is-data-visualization.html"><a href="what-is-data-visualization.html#bad-data-visualizations"><i class="fa fa-check"></i><b>2.3</b> Bad data visualizations</a></li>
 </ul></li>
-<li class="chapter" data-level="3" data-path="before-you-viz-make-a-plan.html"><a href="before-you-viz-make-a-plan.html"><i class="fa fa-check"></i><b>3</b> Before You Viz, Make a Plan</a><ul>
+<li class="chapter" data-level="3" data-path="before-you-viz-make-a-plan.html"><a href="before-you-viz-make-a-plan.html"><i class="fa fa-check"></i><b>3</b> Before You Viz, Make a Plan</a>
+<ul>
 <li class="chapter" data-level="3.1" data-path="before-you-viz-make-a-plan.html"><a href="before-you-viz-make-a-plan.html#purpose"><i class="fa fa-check"></i><b>3.1</b> Purpose</a></li>
 <li class="chapter" data-level="3.2" data-path="before-you-viz-make-a-plan.html"><a href="before-you-viz-make-a-plan.html#audience"><i class="fa fa-check"></i><b>3.2</b> Audience</a></li>
 <li class="chapter" data-level="3.3" data-path="before-you-viz-make-a-plan.html"><a href="before-you-viz-make-a-plan.html#medium"><i class="fa fa-check"></i><b>3.3</b> Medium</a></li>
@@ -94,35 +101,42 @@
 <li class="chapter" data-level="3.5" data-path="before-you-viz-make-a-plan.html"><a href="before-you-viz-make-a-plan.html#message"><i class="fa fa-check"></i><b>3.5</b> Message</a></li>
 <li class="chapter" data-level="3.6" data-path="before-you-viz-make-a-plan.html"><a href="before-you-viz-make-a-plan.html#critical-approaches"><i class="fa fa-check"></i><b>3.6</b> Critical Approaches</a></li>
 </ul></li>
-<li class="chapter" data-level="4" data-path="graphical-elements-of-a-plot.html"><a href="graphical-elements-of-a-plot.html"><i class="fa fa-check"></i><b>4</b> Graphical Elements of a Plot</a><ul>
+<li class="chapter" data-level="4" data-path="graphical-elements-of-a-plot.html"><a href="graphical-elements-of-a-plot.html"><i class="fa fa-check"></i><b>4</b> Graphical Elements of a Plot</a>
+<ul>
 <li class="chapter" data-level="4.1" data-path="graphical-elements-of-a-plot.html"><a href="graphical-elements-of-a-plot.html#marks-and-channels"><i class="fa fa-check"></i><b>4.1</b> Marks and Channels</a></li>
 </ul></li>
-<li class="chapter" data-level="5" data-path="principles-of-visual-perception.html"><a href="principles-of-visual-perception.html"><i class="fa fa-check"></i><b>5</b> Principles of Visual Perception</a><ul>
+<li class="chapter" data-level="5" data-path="principles-of-visual-perception.html"><a href="principles-of-visual-perception.html"><i class="fa fa-check"></i><b>5</b> Principles of Visual Perception</a>
+<ul>
 <li class="chapter" data-level="5.1" data-path="principles-of-visual-perception.html"><a href="principles-of-visual-perception.html#visual-magic-tricks"><i class="fa fa-check"></i><b>5.1</b> Visual Magic Tricks</a></li>
 <li class="chapter" data-level="5.2" data-path="principles-of-visual-perception.html"><a href="principles-of-visual-perception.html#stevens-psychophysical-power-law"><i class="fa fa-check"></i><b>5.2</b> Steven’s Psychophysical Power Law</a></li>
 <li class="chapter" data-level="5.3" data-path="principles-of-visual-perception.html"><a href="principles-of-visual-perception.html#perception-and-encodings"><i class="fa fa-check"></i><b>5.3</b> Perception and Encodings</a></li>
 <li class="chapter" data-level="5.4" data-path="principles-of-visual-perception.html"><a href="principles-of-visual-perception.html#evaluating-graphics"><i class="fa fa-check"></i><b>5.4</b> Evaluating Graphics</a></li>
 <li class="chapter" data-level="5.5" data-path="principles-of-visual-perception.html"><a href="principles-of-visual-perception.html#gestalt-principles"><i class="fa fa-check"></i><b>5.5</b> Gestalt Principles</a></li>
 </ul></li>
-<li class="chapter" data-level="6" data-path="accessible-data-visualizations.html"><a href="accessible-data-visualizations.html"><i class="fa fa-check"></i><b>6</b> Accessible Data Visualizations</a><ul>
+<li class="chapter" data-level="6" data-path="accessible-data-visualizations.html"><a href="accessible-data-visualizations.html"><i class="fa fa-check"></i><b>6</b> Accessible Data Visualizations</a>
+<ul>
 <li class="chapter" data-level="6.1" data-path="accessible-data-visualizations.html"><a href="accessible-data-visualizations.html#color"><i class="fa fa-check"></i><b>6.1</b> Color</a></li>
 </ul></li>
-<li class="chapter" data-level="7" data-path="types-of-statistical-graphics.html"><a href="types-of-statistical-graphics.html"><i class="fa fa-check"></i><b>7</b> Types of Statistical Graphics</a><ul>
+<li class="chapter" data-level="7" data-path="types-of-statistical-graphics.html"><a href="types-of-statistical-graphics.html"><i class="fa fa-check"></i><b>7</b> Types of Statistical Graphics</a>
+<ul>
 <li class="chapter" data-level="7.1" data-path="types-of-statistical-graphics.html"><a href="types-of-statistical-graphics.html#step-1-identify-your-data-type"><i class="fa fa-check"></i><b>7.1</b> Step 1: Identify Your Data Type</a></li>
 <li class="chapter" data-level="7.2" data-path="types-of-statistical-graphics.html"><a href="types-of-statistical-graphics.html#step-2-determine-your-functional-approach"><i class="fa fa-check"></i><b>7.2</b> Step 2: Determine Your Functional Approach</a></li>
-<li class="chapter" data-level="7.3" data-path="types-of-statistical-graphics.html"><a href="types-of-statistical-graphics.html#step-3-select-a-plot-type"><i class="fa fa-check"></i><b>7.3</b> Step 3: Select a Plot Type</a><ul>
+<li class="chapter" data-level="7.3" data-path="types-of-statistical-graphics.html"><a href="types-of-statistical-graphics.html#step-3-select-a-plot-type"><i class="fa fa-check"></i><b>7.3</b> Step 3: Select a Plot Type</a>
+<ul>
 <li class="chapter" data-level="7.3.1" data-path="types-of-statistical-graphics.html"><a href="types-of-statistical-graphics.html#common-plot-types"><i class="fa fa-check"></i><b>7.3.1</b> Common Plot Types</a></li>
 <li class="chapter" data-level="7.3.2" data-path="types-of-statistical-graphics.html"><a href="types-of-statistical-graphics.html#aside---what-about-maps"><i class="fa fa-check"></i><b>7.3.2</b> Aside - What About Maps?!</a></li>
 </ul></li>
 <li class="chapter" data-level="7.4" data-path="types-of-statistical-graphics.html"><a href="types-of-statistical-graphics.html#step-4-iterate"><i class="fa fa-check"></i><b>7.4</b> Step 4: Iterate</a></li>
 </ul></li>
-<li class="chapter" data-level="8" data-path="quick-tips-for-better-plots.html"><a href="quick-tips-for-better-plots.html"><i class="fa fa-check"></i><b>8</b> Quick Tips for Better Plots</a><ul>
+<li class="chapter" data-level="8" data-path="quick-tips-for-better-plots.html"><a href="quick-tips-for-better-plots.html"><i class="fa fa-check"></i><b>8</b> Quick Tips for Better Plots</a>
+<ul>
 <li class="chapter" data-level="8.1" data-path="quick-tips-for-better-plots.html"><a href="quick-tips-for-better-plots.html#get-rid-of-chartjunk"><i class="fa fa-check"></i><b>8.1</b> Get Rid of Chartjunk</a></li>
 <li class="chapter" data-level="8.2" data-path="quick-tips-for-better-plots.html"><a href="quick-tips-for-better-plots.html#facilitate-comparisons"><i class="fa fa-check"></i><b>8.2</b> Facilitate Comparisons</a></li>
 <li class="chapter" data-level="8.3" data-path="quick-tips-for-better-plots.html"><a href="quick-tips-for-better-plots.html#create-information-rich-plots"><i class="fa fa-check"></i><b>8.3</b> Create Information-Rich Plots</a></li>
 <li class="chapter" data-level="8.4" data-path="quick-tips-for-better-plots.html"><a href="quick-tips-for-better-plots.html#practice"><i class="fa fa-check"></i><b>8.4</b> Practice</a></li>
 </ul></li>
-<li class="chapter" data-level="9" data-path="references-and-additional-resources.html"><a href="references-and-additional-resources.html"><i class="fa fa-check"></i><b>9</b> References and Additional Resources</a><ul>
+<li class="chapter" data-level="9" data-path="references-and-additional-resources.html"><a href="references-and-additional-resources.html"><i class="fa fa-check"></i><b>9</b> References and Additional Resources</a>
+<ul>
 <li class="chapter" data-level="9.1" data-path="references-and-additional-resources.html"><a href="references-and-additional-resources.html#articles"><i class="fa fa-check"></i><b>9.1</b> Articles</a></li>
 <li class="chapter" data-level="9.2" data-path="references-and-additional-resources.html"><a href="references-and-additional-resources.html#websites"><i class="fa fa-check"></i><b>9.2</b> Websites</a></li>
 <li class="chapter" data-level="9.3" data-path="references-and-additional-resources.html"><a href="references-and-additional-resources.html#books-and-chapters"><i class="fa fa-check"></i><b>9.3</b> Books and Chapters</a></li>
@@ -147,68 +161,130 @@
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="types-of-statistical-graphics" class="section level1">
-<h1><span class="header-section-number">7</span> Types of Statistical Graphics</h1>
-<p>You are now ready to make your plot! You can combine marks and channels to create nearly any plot type, and there are many established types of statistical graphics that you can choose from to showcase your data. Each type has its benefits, and drawbacks, based on how it encodes your data. <em>Match the chart type to your data - and what you want it to show - and not the other way around.</em></p>
-<div id="step-1-identify-your-data-type" class="section level2">
-<h2><span class="header-section-number">7.1</span> Step 1: Identify Your Data Type</h2>
-<p>Data can be quantiative or qualitative. Quantitative data is either continuous (numerical data like height and weight), or discrete (constrained values, such as the number of children in a family). Qualitative data can be ordered (categories that have a relationship but no meaningful distance between them, such as movie star ratings), or nominal (categories that have no meaningful order, such as gender).</p>
+<div id="types-of-statistical-graphics" class="section level1 hasAnchor" number="7">
+<h1><span class="header-section-number">7</span> Types of Statistical Graphics<a href="types-of-statistical-graphics.html#types-of-statistical-graphics" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<p>You are now ready to make your plot! You can combine marks and channels to
+create nearly any plot type, and there are many established types of
+statistical graphics that you can choose from to showcase your data. Each type
+has its benefits, and drawbacks, based on how it encodes your data. <em>Match the
+chart type to your data - and what you want it to show - and not the other way
+around.</em></p>
+<div id="step-1-identify-your-data-type" class="section level2 hasAnchor" number="7.1">
+<h2><span class="header-section-number">7.1</span> Step 1: Identify Your Data Type<a href="types-of-statistical-graphics.html#step-1-identify-your-data-type" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Data can be quantitative or qualitative. Quantitative data is either continuous
+(numerical data like height and weight), or discrete (constrained values, such
+as the number of children in a family). Qualitative data can be ordered
+(categories that have a relationship but no meaningful distance between them,
+such as movie star ratings), or nominal (categories that have no meaningful
+order, such as gender).</p>
 </div>
-<div id="step-2-determine-your-functional-approach" class="section level2">
-<h2><span class="header-section-number">7.2</span> Step 2: Determine Your Functional Approach</h2>
+<div id="step-2-determine-your-functional-approach" class="section level2 hasAnchor" number="7.2">
+<h2><span class="header-section-number">7.2</span> Step 2: Determine Your Functional Approach<a href="types-of-statistical-graphics.html#step-2-determine-your-functional-approach" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>Ask ask yourself:</p>
 <ul>
 <li>What are the tasks you want the visual to support?
 <ul>
-<li>Showing how values compare to each other? How the data are distributed? How they are composed? How values relate?</li>
+<li>Showing how values compare to each other? How the data are distributed?
+How they are composed? How values relate?</li>
 </ul></li>
 <li>What specific visual best supports those tasks?</li>
-<li>What do you expect people to naturally do in their “visual queries” as they explore the plot?</li>
-<li>How can you modify the graphical marks and channels to support faster queries?</li>
+<li>What do you expect people to naturally do in their “visual queries” as they
+explore the plot?</li>
+<li>How can you modify the graphical marks and channels to support faster
+queries?</li>
 </ul>
 </div>
-<div id="step-3-select-a-plot-type" class="section level2">
-<h2><span class="header-section-number">7.3</span> Step 3: Select a Plot Type</h2>
-<p>Now that you’ve identified your data types and what you need your visualization to show, explore your different chart type options! Start with this nifty tool by <a href="https://www.data-to-viz.com/">from Data to Viz</a>. Select your data type(s) and click through for the pros, cons, and alternate options for a bevy of charts.</p>
+<div id="step-3-select-a-plot-type" class="section level2 hasAnchor" number="7.3">
+<h2><span class="header-section-number">7.3</span> Step 3: Select a Plot Type<a href="types-of-statistical-graphics.html#step-3-select-a-plot-type" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Now that you’ve identified your data types and what you need your visualization
+to show, explore your different chart type options! Start with this nifty tool
+by <a href="https://www.data-to-viz.com/">from Data to Viz</a>. Select your data type(s)
+and click through for the pros, cons, and alternate options for a bevy of
+charts.</p>
 <p><img src="img/from_data_to_viz_screengrab.PNG" /></p>
-<p>For example, if you want to enable acurate comparisons of individual quantitative values and their relationships, try a scatterplot or a chart with lines or bars sitting aligned on a single axis.</p>
-<div id="common-plot-types" class="section level3">
-<h3><span class="header-section-number">7.3.1</span> Common Plot Types</h3>
-<p>The following list contains an overview of some of the most common plot types you may encounter:</p>
-<p><strong>Single quantitative variables</strong> are plotted to show the frequency distribution of the data. While <strong>histograms</strong> are the most common density plots, a single quantiative variable can also be plotted using a rug plot/strip chart, boxplot, or violin plot (described below, where they’re most commonly employed).</p>
+<p>For example, if you want to enable acurate comparisons of individual
+quantitative values and their relationships, try a scatterplot or a chart with
+lines or bars sitting aligned on a single axis.</p>
+<div id="common-plot-types" class="section level3 hasAnchor" number="7.3.1">
+<h3><span class="header-section-number">7.3.1</span> Common Plot Types<a href="types-of-statistical-graphics.html#common-plot-types" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>The following list contains an overview of some of the most common plot types
+you may encounter:</p>
+<p><strong>Single quantitative variables</strong> are plotted to show the frequency
+distribution of the data. While <strong>histograms</strong> are the most common density
+plots, a single quantiative variable can also be plotted using a rug plot/strip
+chart, boxplot, or violin plot (described below, where they’re most commonly
+employed).</p>
 <p><strong>Two quantiative variables</strong> can be plotted using a:</p>
 <ul>
-<li><strong>Scatterplot</strong> - each axis encodes the values of a different quantitative variable, and individual data are represented as points (or dots) on the chart.</li>
-<li><strong>Line plot</strong> - data points are connected by straight lines. Line-scatter plots are are common for time series or trend data.</li>
+<li><strong>Scatterplot</strong> - each axis encodes the values of a different quantitative
+variable, and individual data are represented as points (or dots) on the
+chart.</li>
+<li><strong>Line plot</strong> - data points are connected by straight lines. Line-scatter
+plots are are common for time series or trend data.</li>
 </ul>
 <p><strong>One quantitative + one qualitative variable</strong> are suitable for a:</p>
 <ul>
-<li><strong>Bar chart</strong> - bars represent the amount of data in different categories of a variable. One axis encodes the frequencies of the quantitative data, and the other axis the categories of the qualitative data.</li>
+<li><strong>Bar chart</strong> - bars represent the amount of data in different categories of
+a variable. One axis encodes the frequencies of the quantitative data, and
+the other axis the categories of the qualitative data.</li>
 <li><strong>Boxplot</strong> - shows the median, quartiles, and bounds of your data.</li>
-<li><strong>Violin plot</strong> - in essence, a boxplot that also shows the distribution of your quantiative variable.</li>
-<li><strong>Word cloud</strong> - these eye-catching visualizations display a list of words with their font size corresponding to their importance. But, they require huge sample sizes and are not very useful as they often distort reality. For example, long words will look more prominent just because they have more letters and cover more area - our eyes don’t intuitively parse out word height from length.</li>
-<li><strong>Pie chart</strong> - uses relative frequencies to show how large each category is in relation to the whole.
-<em>Pie charts are grudgingly listed here because you will see them in the wild, but resist the temptation to use them!</em> Based on our visual perception, pie charts are inherently problematic because they encode values as visual attributes. Pie charts encode data as the area of each slice, as well as the angle that it forms in the center of the pie, making it difficult to easily perceive and compare differences. Over <a href="https://viz.wtf/archive/tagged/piechart">492 posts on WTF Visualizations are tagged as pie charts.</a> Almost any other chart type is better than a pie chart.</li>
+<li><strong>Violin plot</strong> - in essence, a boxplot that also shows the distribution of
+your quantitative variable.</li>
+<li><strong>Word cloud</strong> - these eye-catching visualizations display a list of words
+with their font size corresponding to their importance. But they require
+huge sample sizes and are not very useful as they often distort reality. For
+example, long words will look more prominent just because they have more
+letters and cover more area - our eyes don’t intuitively parse out word
+height from length.</li>
+<li><strong>Pie chart</strong> - uses relative frequencies to show how large each category is
+in relation to the whole.
+<em>Pie charts are grudgingly listed here because you will see them in the wild,
+but resist the temptation to use them!</em> Based on our visual perception, pie
+charts are inherently problematic because they encode values as visual
+attributes. Pie charts encode data as the area of each slice, as well as the
+angle that it forms in the center of the pie, making it difficult to easily
+perceive and compare differences. Over <a href="https://viz.wtf/archive/tagged/piechart">492 posts on WTF Visualizations are
+tagged as pie charts.</a> Almost any
+other chart type is better than a pie chart.</li>
 </ul>
-<p>Other complex plot types you may encounter that layer additional marks and channels on the above chart types are:</p>
+<p>Other complex plot types you may encounter that layer additional marks and
+channels on the above chart types are:</p>
 <ul>
-<li><strong>Lollipop chart</strong> - a dot chart where the dots are connected by lines to an axis.</li>
-<li><strong>Moasic plot</strong> - also called a treemap, these plots display hierarchical data as sets of nested rectangles sized proportionately to their values.</li>
-<li><strong>Bubble plots</strong> - scatterplots where the size of a dot corresponds to a third numerical or ordered categorical value.</li>
-<li><strong>Radar plots / star chart</strong> - line plots where each variable has its own axis and all axes are joined at the center of the figure.</li>
-<li><strong>Network diagrams</strong> - also called graphs, these plots show connections (edges) between entities (nodes). To learn more about network diagrams, check out DataLab’s <a href="https://datalab.ucdavis.edu/networks/">network toolkit</a> and <a href="https://www.youtube.com/watch?v=H6IkFnykX1s&amp;feature=youtu.be">network analysis workshop</a>.</li>
+<li><strong>Lollipop chart</strong> - a dot chart where the dots are connected by lines to an
+axis.</li>
+<li><strong>Moasic plot</strong> - also called a treemap, these plots display hierarchical
+data as sets of nested rectangles sized proportionately to their values.</li>
+<li><strong>Bubble plots</strong> - scatterplots where the size of a dot corresponds to a
+third numerical or ordered categorical value.</li>
+<li><strong>Radar plots / star chart</strong> - line plots where each variable has its own
+axis and all axes are joined at the center of the figure.</li>
+<li><strong>Network diagrams</strong> - also called graphs, these plots show connections
+(edges) between entities (nodes). To learn more about network diagrams, check
+out DataLab’s <a href="https://datalab.ucdavis.edu/networks/">network toolkit</a> and
+<a href="https://www.youtube.com/watch?v=H6IkFnykX1s&amp;feature=youtu.be">network analysis
+workshop</a>.</li>
 </ul>
-<p>Google also has an <a href="https://developers.google.com/chart/interactive/docs/gallery?csw=1">interactive plot gallery</a>. And <a href="https://stats.stackexchange.com/questions/78844/a-gallery-of-charts-diagrams-and-plot-types">this Stack Exchange post</a> has even more chart type resources.</p>
-<p>But remember, some encodings are more difficult to accurately decode. When in doubt, stick to simple figures with points and lines.</p>
+<p>Google also has an <a href="https://developers.google.com/chart/interactive/docs/gallery?csw=1">interactive plot
+gallery</a>.
+And <a href="https://stats.stackexchange.com/questions/78844/a-gallery-of-charts-diagrams-and-plot-types">this Stack Exchange
+post</a>
+has even more chart type resources.</p>
+<p>But remember, some encodings are more difficult to accurately decode. When in
+doubt, stick to simple figures with points and lines.</p>
 </div>
-<div id="aside---what-about-maps" class="section level3">
-<h3><span class="header-section-number">7.3.2</span> Aside - What About Maps?!</h3>
-<p>Geospatial data visualization by nature is complex and encodes a lot of attributes - and <a href="https://datalab.ucdavis.edu/eventscalendar/dsi-workshop-geospatial-data-visualization/">it has its own workshop.</a></p>
+<div id="aside---what-about-maps" class="section level3 hasAnchor" number="7.3.2">
+<h3><span class="header-section-number">7.3.2</span> Aside - What About Maps?!<a href="types-of-statistical-graphics.html#aside---what-about-maps" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>Geospatial data visualization by nature is complex and encodes a lot of
+attributes - and <a href="https://datalab.ucdavis.edu/eventscalendar/dsi-workshop-geospatial-data-visualization/">it has its own
+workshop.</a></p>
 </div>
 </div>
-<div id="step-4-iterate" class="section level2">
-<h2><span class="header-section-number">7.4</span> Step 4: Iterate</h2>
-<p>Create your visual, and run through step 2 again keeping in mind the principles of visual perception, effectiveness and efficiency. Does it meet your needs? If not, try a different type. <strong>Graphing, like writing, requires continuous editing.</strong></p>
+<div id="step-4-iterate" class="section level2 hasAnchor" number="7.4">
+<h2><span class="header-section-number">7.4</span> Step 4: Iterate<a href="types-of-statistical-graphics.html#step-4-iterate" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Create your visual, and run through step 2 again keeping in mind the principles
+of visual perception, effectiveness and efficiency. Does it meet your needs? If
+not, try a different type. <strong>Graphing, like writing, requires continuous
+editing.</strong></p>
 
 </div>
 </div>
@@ -222,7 +298,6 @@
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
-<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
 <script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
 <script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
 <script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
@@ -240,7 +315,7 @@ gitbook.start({
 "size": 2
 },
 "edit": {
-"link": "https://github.com/ucdavisdatalab/workshop_data_viz_principles/edit/master/07_plot_types.Rmd",
+"link": "https://github.com/ucdavisdatalab/workshop_data_viz_principles/edit/main/07_plot_types.Rmd",
 "text": "Edit"
 },
 "history": {
@@ -248,10 +323,14 @@ gitbook.start({
 "text": null
 },
 "view": {
-"link": "https://github.com/ucdavisdatalab/workshop_data_viz_principles/blob/master/07_plot_types.Rmd",
+"link": "https://github.com/ucdavisdatalab/workshop_data_viz_principles/blob/main/07_plot_types.Rmd",
 "text": null
 },
 "download": null,
+"search": {
+"engine": "fuse",
+"options": null
+},
 "toc": {
 "collapse": "section"
 }
