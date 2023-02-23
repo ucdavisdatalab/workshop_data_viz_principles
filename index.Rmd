@@ -43,20 +43,26 @@ Prerequisites
 -------------
 
 This workshop is intended for researchers who are actively working with data.
-The material herein is designed to be tool-agnostic so you can apply these tips
-and theory to improve your data visualizations regardless of the software
-you’re using. While we will not be covering how to use specific computational
-tools for making plots, if you want to learn more about plotting sofware, check
-out the [DataLab workshop archive](https://datalab.ucdavis.edu/archive/) for
-topics including ggplot for graphics in R, and our [research
-toolkits](https://datalab.ucdavis.edu/technologies/) for visualization library
-suggestions in Python and other programming languages.
+It covers material in a tool-agnostic way, with the intent that researchers may
+use it to improve their visualizations regardless of the software they use.
+While we will not be covering how to create plots with graphical software, the
+DataLab offers other workshops on this topic:
 
+* [Data Visualization in R][dvr]
+* [Dynamic Data Visualization][ddv]
 
-About this Tutorial
--------------------
+[dvr]: https://ucdavisdatalab.github.io/workshop_r_data_viz
+[ddv]: https://ucdavisdatalab.github.io/workshop_dynamic_data_viz/chapters/index.html
 
-This online workshop "reader" provides additional background information as a
-reference for learners to better understand and practice the concepts
-introduced during the live workshop session. This reader will persist at this
-URL after the workshop. 
+Additionally, our [research toolkits][] offer other suggestions for creating
+visualizations in the data science domain.
+
+[research toolkits]: https://datalab.ucdavis.edu/research-toolkits/
+
+About This Reader
+-----------------
+
+This reader provides additional background information as a reference for
+learners to better understand and practice the concepts that instructors will
+introduce during the live workshop session. To that end, the reader will
+persist at this URL after the workshop.
