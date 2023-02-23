@@ -1,15 +1,21 @@
 Quick Tips for Better Plots
-=============
+===========================
 
-If the “story” is simple, keep it simple. 
-If the “story” is complex, make it look simple. 
-Tell the truth – don’t distort the data.
-
+* If the “story” is simple, keep it simple. 
+* If the “story” is complex, make it look simple. 
+* Tell the truth – don’t distort the data.
 
 Get Rid of Chartjunk
 --------------------
 
-An easy way to instantly improve your plots is to eliminate superfluous material. Extra tick marks and grid lines; unnecessary text and arrows; decimal places beyond the measurement error of the level of difference; cute little butterfly clipart: this **chartjunk** has no meaning and it clutters up a chart, making it hard for your viewer to see what's most important - your data. The amount of 'ink' on your figure should directly correspond with the amount of data you present. If it doesn't, you have a lot of chartjunk. (Evidence #10298 that pie charts are never a good choice.)
+An easy way to instantly improve your plots is to eliminate superfluous
+material. Extra tick marks and grid lines; unnecessary text and arrows; decimal
+places beyond the measurement error of the level of difference; cute little
+butterfly clipart: this **chartjunk** has no meaning and it clutters up a
+chart, making it hard for your viewer to see what's most important - your data.
+The amount of 'ink' on your figure should directly correspond with the amount
+of data you present. If it doesn't, you have a lot of chartjunk. (Evidence
+#10298 that pie charts are never a good choice.)
 
 Try these de-cluttering steps to improve your charts:
 
@@ -25,8 +31,8 @@ Try these de-cluttering steps to improve your charts:
 * Label the data directly using the principle of proximity
 * Leverage consistent color and other aesthetics 
 
-Creating visual order and reducing chartjunk will dramatically improve your graphic by helping your data stand out. 
-
+Creating visual order and reducing chartjunk will dramatically improve your
+graphic by helping your data stand out. 
 
 Facilitate Comparisons
 -------------------------
@@ -41,22 +47,29 @@ Facilitate Comparisons
 * Avoid jiggling the baseline
 * Don't distort the data; take care when selecting the encodings
 
-A common mistake is to use more encodings than there are dimensions of the data. If you data only has two dimensions (say number of students in STEM by gender identity), your figure could reasonably use points, rarely area, and never volume. (I'm looking at you, 3D pie chart.)
-
+A common mistake is to use more encodings than there are dimensions of the
+data. If you data only has two dimensions (say number of students in STEM by
+gender identity), your figure could reasonably use points, rarely area, and
+never volume. (I'm looking at you, 3D pie chart.)
 
 Create Information-Rich Plots
----------------------------
+-----------------------------
 
-Data visualizations cannot exist without text. They require context to infer meaning. Ask yourself:
+Data visualizations cannot exist without text. They require context to infer
+meaning. Ask yourself:
 
-* Does the caption describe what has been graphed? Does it draw attention to the imporant features? Describe the conclusions drawn by the graph?
+* Does the caption describe what has been graphed? Does it draw attention to
+  the imporant features? Describe the conclusions drawn by the graph?
 * Are the legends and labels clear and intuitive?
 * Are important reference lines and points labeled?
 
-
 Practice
--------------------------
+--------
 
-Just as an author edits before publishing the novel, and an artist sketches before making the masterpiece, plotting is an iterative process. Proofread for clarity and consistency. Check whether your plots pass the expressiveness and effectiveness tests. Does a viewer draw the same conclusions from the figure that you do?
+Just as an author edits before publishing the novel, and an artist sketches
+before making the masterpiece, plotting is an iterative process. Proofread for
+clarity and consistency. Check whether your plots pass the expressiveness and
+effectiveness tests. Does a viewer draw the same conclusions from the figure
+that you do?
 
 Here's a [cheatsheet checklist from this reader](https://docs.google.com/document/d/1rwoa8XPgvTKHE5Weh9RhrO8igfJ6E8bqyZtddZpwomc/edit?usp=sharing] to help you design and improve your data visualizations. Happy plotting!
