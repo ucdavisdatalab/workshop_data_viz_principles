@@ -1,6 +1,8 @@
 Introduction
 =============
 
+TEST
+
 Data visualization is the graphical display of abstract information to help us
 make sense of phenomena and to communicate these findings. It is a powerful
 tool to help us uncover and share the stories of our data. Visualizations help
