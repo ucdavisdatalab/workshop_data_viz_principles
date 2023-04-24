@@ -1,6 +1,6 @@
 on:
   push:
-    branches: master
+    branches: main
 
 name: Render site
 
@@ -15,7 +15,7 @@ jobs:
       - name: Install bookdown
         run: Rscript -e 'install.packages("bookdown")'
       - name: Render site
-        run: Rscript knit.R
+        run: Rscript ./knit.R
       - name: Add new site files
         run: git add docs
       - name: Commit results
