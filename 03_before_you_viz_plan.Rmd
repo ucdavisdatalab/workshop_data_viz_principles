@@ -161,7 +161,10 @@ take home points for your viewer. How might others focus on a different
 message? If you can’t articulate what the plot is about then you probably
 should rethink what you are choosing to display and how you are showing it.
 
-For some inspiration, check out [Hans Rosling's famous TED talk](http://ted.com/talks/hans_rosling_the_best_stats_you_ve_ever_seen) on socio-economic metrics across the "developing world" for an example of how data visualization can tell complex and impactful data stories.
+For some inspiration, check out [Hans Rosling's famous TED
+talk](http://ted.com/talks/hans_rosling_the_best_stats_you_ve_ever_seen) on
+socio-economic metrics across the "developing world" for an example of how data
+visualization can tell complex and impactful data stories.
 
 Critical Approaches
 -------------------
