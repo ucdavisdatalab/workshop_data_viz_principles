@@ -2,12 +2,12 @@
 # Graphics
 
 _[UC Davis DataLab](https://datalab.ucdavis.edu/)_  
-_Spring 2022_  
+_Spring 2023_  
 _Instructors: Dr. Pamela Reynolds <<plreynolds@ucdavis.edu>>, Tyler Shoemaker
 <<tshoemaker@ucdavis.edu>>_
 
 * [Reader](https://ucdavisdatalab.github.io/workshop_data_viz_principles/)
-* [Event Page](https://datalab.ucdavis.edu/eventscalendar)
+* [Event Page](https://datalab.ucdavis.edu/eventscalendar/principles-of-data-visualization-from-perception-to-statistical-graphics/)
 
 Data visualization is a powerful tool for exploring and communicating our
 research findings. A good plot helps us uncover and share the patterns in our
