@@ -1,6 +1,6 @@
 objectives
 prerequisites
-about-this-tutorial
+about-this-reader
 introduction
 a-brief-history-of-data-visualization
 famous-data-viz
